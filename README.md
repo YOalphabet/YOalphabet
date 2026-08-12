@@ -1,39 +1,57 @@
-# 🟦 YOecosystem: 4-Bit Isomorphic Featural Script YOalphabet & Logical YOconlang
+# 🟦 YOalphabet 4-Bit Isomorphic Featural Script & Logical YOconlang
 
-> **"A self-balancing 4-bit isomorphic YOalphabet encoding and logical YOconlang designed for human-machine communication over extreme low-power channels."**
+> **"A self-balancing 4-bit isomorphic YOalphabet encoding and logical YOconlang designed for human-machine, human-human communication"**
 
-The **YOalphabet** introduces a completely synthesized, a priori communication environment. Every single character (glyph) in this system is a strict, one-to-one isomorphic fusion of four distinct domains:
-`Binary Code (4-bit) ── Decimal Index (0-15) ── IPA Acoustic Sound ── Rigid Geometry`
-
+The **YOalphabet** introduces a completely synthesized, a priori communication environment. Every single character (glyph) in this system is a strict, one-to-one isomorphic fusion of four distinct domains:`Binary Code (4-bit) ── Decimal Index (0-15) ── IPA Acoustic Sound ── Rigid Geometry`
 By positioning itself precisely between human cognitive perception and computational logic, it slashes data bandwidth by up to 90%, enabling robust communication over extreme, low-power, or degraded channels.
-
----
 
 ## 🧠 Dual-Layer Architecture: For Humans & Machines
 
 Unlike historical logical languages that force the human brain to calculate data like a computer chip during live speech, YOecosystem features a unique **dual-layer interface**:
 1. **The Human Layer (UX):** For regular communication, it functions as an ultra-regular, exception-free language with fixed first-syllable stress. Humans instantly recognize glyphs via intuitive, built-in visual metaphors.
-2. **The Machine Layer (Dev):** For computers, routers, or AI, every word automatically decomposes into raw 4-bit hardware registers (`AND`, `OR`, `XOR` bitwise operations) without the need for resource-heavy text-to-vector embeddings.
+2. **The Machine Layer (Dev):** For computers, routers, or AI, every word automatically decomposes into raw 4-bit hardware registers  without the need for resource-heavy text-to-vector embeddings.
 
----
+## 🔤 1. YOalphabet: Graphic Specification
+YOalphabet is a fully determined, generative writing system based on a 4-bit full isomorphism. Every glyph represents an unbreakable, one-to-one correspondence between four elements: a geometric symbol, a unique International Phonetic Alphabet (IPA) sound, a decimal number (0–15), and a 4-bit binary code.
+Each character is inscribed within an invariant square bounding box consisting of two independent structural layers:
 
-## 🔤 1. YOalphabet: Bitwise Graphic Specification
+   1. Outer Contour (Bit Registers): The four external edges of the square act as physical data registers. They are activated strictly clockwise, starting from the right vertical line. Each side is mathematically bound to a specific binary position corresponding to powers of two (2⁰, 2¹, 2², 2³).
+   2. The glyph is strictly bounded within an invariant square placeholder. The four outer edges of the square function as **physical bitwise data registers**. The activation of these edges occurs sequentially clockwise, starting from the right vertical line.
+   * Bit 0 (weight 1 = 2⁰): Right vertical line.
+      * Bit 1 (weight 2 = 2¹): Bottom horizontal line.
+      * Bit 2 (weight 4 = 2²): Left vertical line.
+      * Bit 3 (weight 8 = 2³): Top horizontal line.
+      * Rule: If a bit is "1", the line is drawn; if "0", it remains empty. The decimal index equals the sum of the active weights.
+   2. Internal Filling (Visual Balance Diagonals): Internal diagonals are used to balance the stroke density and optimize optical readability:
+      * Low Density (0–1 active bits): Balanced by internal lines up to a fixed density of 2 lines. Absolute zero (0000) has no outer   contour and is balanced by a full internal cross [X].
+      * Medium Density (2 active bits): Supplemented by exactly one internal diagonal (/ or \) to reach a fixed density of 3 lines.
+      * High Density (3–4 active bits): Completely inner-empty, retaining their natural outer density of 3 or 4 lines.
+   
+## The 4x4 Identity YOalphabet Matrix (The Script Passport)
+On physical and digital media, the complete code table is strictly displayed as a monolithic 4x4 matrix, filling sequentially from left to right, top to bottom by increasing decimal index. This matrix serves as the identification and calibration passport of the system. 
+[ROW 1: INDEXES 0–3]
+* Dec: 0 | Bin: 0000 | Contour: None | Internal: X | IPA: [o]
+* Dec: 1 | Bin: 0001 | Contour: Right | Internal: / | IPA: [a]
+* Dec: 2 | Bin: 0010 | Contour: Bottom | Internal: / | IPA: [e]
+* Dec: 3 | Bin: 0011 | Contour: Bottom + Right | Internal: / | IPA: [t]
+[ROW 2: INDEXES 4–7]
+* Dec: 4 | Bin: 0100 | Contour: Left | Internal: / | IPA: [u]
+* Dec: 5 | Bin: 0101 | Contour: Left + Right | Internal: \ | IPA: [n]
+* Dec: 6 | Bin: 0110 | Contour: Left + Bottom | Internal: \ | IPA: [l]
+* Dec: 7 | Bin: 0111 | Contour: Left + Bottom + Right | Internal: None | IPA: [v]
+[ROW 3: INDEXES 8–11]
+* Dec: 8 | Bin: 1000 | Contour: Top | Internal: / | IPA: [i]
+* Dec: 9 | Bin: 1001 | Contour: Top + Right | Internal: \ | IPA: [b]
+* Dec: 10 | Bin: 1010 | Contour: Top + Bottom | Internal: \ | IPA: [s]
+* Dec: 11 | Bin: 1011 | Contour: Top + Bottom + Right | Internal: None | IPA: [h]
+[ROW 4: INDEXES 12–15]
+* Dec: 12 | Bin: 1100 | Contour: Top + Left | Internal: / | IPA: [p]
+* Dec: 13 | Bin: 1101 | Contour: Top + Left + Right | Internal: None | IPA: [m]
+* Dec: 14 | Bin: 1110 | Contour: Top + Left + Bottom | Internal: None | IPA: [k]
+* Dec: 15 | Bin: 1111 | Contour: Top + Left + Bottom + Right | Internal: None | IPA: [j]
 
-The glyph is strictly bounded within an invariant square placeholder. The four outer edges of the square function as **physical bitwise data registers**. The activation of these edges occurs sequentially clockwise, starting from the right vertical line.
 
-### Mathematical Weight of Registers:
-* **Bit 0 (weight $2^0 = 1$):** Right vertical line `[ |]`
-* **Bit 1 (weight $2^1 = 2$):** Bottom horizontal line `[_]`
-* **Bit 2 (weight $2^2 = 4$):** Left vertical line `[| ]`
-* **Bit 3 (weight $2^3 = 8$):** Top horizontal line `[¯]`
 
-### The Contour Density Rule (Self-Balancing Logic):
-Standard 4-bit mapping leaves low-density codes (0-bit and 1-bit states) visually empty and fragile. To maintain typographic consistency, prevent data loss, and optimize computer vision scanning, a compensatory rule was engineered:
-* **High-Density Contours (3–4 active bits):** Retain their natural outer form and contain **no internal diagonals**.
-* **Medium-Density Contours (2 active bits):** Complemented by exactly **one internal diagonal** (`/` or `\`) to balance the total line weight to exactly 3 lines.
-* **Low-Density Contours (0–1 active bits):** Complemented by an internal diagonal (`/`) to fix the visual weight to 2 lines. Absolute zero (`0000`) contains no outer edges and is balanced by a **full internal cross** (`X`).
-
----
 
 ## 👁️ 2. Visual-Semantic Metaphors: Shape Defines Meaning
 
@@ -61,12 +79,6 @@ Consonants activate boundary lines and internal walls, mapping the structural co
 * **`[h]` (Logic / Processor):** A computational contour pushing an execution pipeline forward.
 * **`[j]` (Society / Collective):** **A fully closed, solid square block.** Represents maximum systemic density, strict hierarchies, infrastructure, and all-encompassing social matrices.
 
----
-
-## 📊 3. System Calibration Passport (4x4 Matrix)
-
-The system fills the calibration passport matrix sequentially from left to right, top to bottom, strictly matching the decimal index (0–15):
-[ROW 1: INDEXES 0–3]Dec: 0  | Bin: 0000 | Contour: None          | Internal: X    | IPA: [o] (Vowel)Dec: 1  | Bin: 0001 | Contour: Right         | Internal: /    | IPA: [a] (Vowel)Dec: 2  | Bin: 0010 | Contour: Bottom        | Internal: /    | IPA: [e] (Vowel)Dec: 3  | Bin: 0011 | Contour: Bottom+Right  | Internal: /    | IPA: [t] (Consonant)[ROW 2: INDEXES 4–7]Dec: 4  | Bin: 0100 | Contour: Left          | Internal: /    | IPA: [u] (Vowel)Dec: 5  | Bin: 0101 | Contour: Left+Right    | Internal: \    | IPA: [n] (Consonant)Dec: 6  | Bin: 0110 | Contour: Left+Bottom   | Internal: \    | IPA: [l] (Consonant)Dec: 7  | Bin: 0111 | Contour: L+B+R         | Internal: None | IPA: [v] (Consonant)[ROW 3: INDEXES 8–11]Dec: 8  | Bin: 1000 | Contour: Top           | Internal: /    | IPA: [i] (Vowel)Dec: 9  | Bin: 1001 | Contour: Top+Right     | Internal: \    | IPA: [b] (Consonant)Dec: 10 | Bin: 1010 | Contour: Top+Bottom    | Internal: \    | IPA: [s] (Consonant)Dec: 11 | Bin: 1011 | Contour: T+B+R         | Internal: None | IPA: [h] (Consonant)[ROW 4: INDEXES 12–15]Dec: 12 | Bin: 1100 | Contour: Top+Left      | Internal: /    | IPA: [p] (Consonant)Dec: 13 | Bin: 1101 | Contour: T+L+R         | Internal: None | IPA: [m] (Consonant)Dec: 14 | Bin: 1110 | Contour: T+L+B         | Internal: None | IPA: [k] (Consonant)Dec: 15 | Bin: 1111 | Contour: All 4 Edges   | Internal: None | IPA: [j] (Consonant)
 ## 🗣️ 4. YOconlang: Semantic Grammar & Scalability
 
 Roots are entirely uninflected. Advanced scalability is achieved through logical postpositions and an expansive syllable matrix.
