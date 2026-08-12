@@ -124,6 +124,7 @@ The C₂ consonant maps symmetrically to the exact type of destination entity or
     The translation strictly adheres to the unchangeable root axiom, SVO linear syntax,
     and fixed first-syllable stress phonotactics.
 ------------------------------
+
 ## 📄 Sentence 1: On Birth, Freedom, and Equality of All Human Beings
 
 * Original (American English): "All human beings are born free and equal in dignity and rights."
