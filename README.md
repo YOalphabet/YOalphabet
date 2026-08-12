@@ -33,15 +33,7 @@ Each character is inscribed within an invariant square bounding box consisting o
    * **Low Density (0–1 active bits):** Balanced by internal lines up to a fixed density of 2 lines. Absolute zero (`0000`) has no outer contour and is balanced by a full internal cross `[X]`.
    * **Medium Density (2 active bits):** Supplemented by exactly one internal diagonal (`/` or `\`) to reach a fixed density of 3 lines.
    * **High Density (3–4 active bits):** Completely inner-empty, retaining their natural outer density of 3 or 4 lines.
-
-## The 4x4 Identity YOalphabet Matrix (The Script Passport)
-On physical and digital media, the complete code table is strictly displayed as a monolithic 4x4 matrix, filling sequentially from left to right, top to bottom by increasing decimal index. This matrix serves as the identification and calibration passport of the system. 
-
-<p align="center">
-  <img src="YOalphabetMatrix2.jpeg" alt="YOalphabet" width="450"/>
-</p>
-
-
+     
 * Dec: 0 | Bin: 0000 | Contour: None | Internal: X | IPA: [o]
 * Dec: 1 | Bin: 0001 | Contour: Right | Internal: / | IPA: [a]
 * Dec: 2 | Bin: 0010 | Contour: Bottom | Internal: / | IPA: [e]
@@ -60,6 +52,15 @@ On physical and digital media, the complete code table is strictly displayed as 
 * Dec: 15 | Bin: 1111 | Contour: Top + Left + Bottom + Right | Internal: None | IPA: [j]
 ----------------------------------------------------------------------------
 
+
+## The 4x4 Identity YOalphabet Matrix (The Script Passport)
+On physical and digital media, the complete code table is strictly displayed as a monolithic 4x4 matrix, filling sequentially from left to right, top to bottom by increasing decimal index. This matrix serves as the identification and calibration passport of the system. Also, this image can be used to promote the YOalphabet.
+
+<p align="center">
+  <img src="YOalphabetMatrix2.jpeg" alt="YOalphabet" width="450"/>
+</p>
+
+---------------------------------------------------------------------------
 ## PART 2: YOconlang CORE SPECIFICATION## Core Architecture and Word Immutability
 YOconlang is an a priori engineered language optimized for unambiguous, frictionless communication. A foundational axiom of the language is the absolute immutability of roots. There are no inflections, suffixes, declensions, or internal conjugations. Grammatical categories, temporal shifts, and modalities are expressed exclusively via external grammatical particles.
 The phonotactics are strictly anchored in the International Phonetic Alphabet (IPA), using 5 core vowels and 11 stable consonants to eliminate all articulatory barriers. Stress is fixed invariantly on the first syllable of every separate word.
