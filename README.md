@@ -112,8 +112,77 @@ The C₂ consonant maps symmetrically to the exact type of destination entity or
 * K — Message / Text: Connected block of information, letter, archived dataset, code line.
 * H — Rule / Algorithm: Explicit code, legal or moral norm, regulation, mathematical calculation.
 * J — Collective / Network Graph: Social group, community, structured network of human or system relations.
+----------------------------------------------------------------------------------------------------------
 
+## 🟦 YOconlang Translation Specification: Universal Declaration of Human Rights (Article 1)
+This section provides a complete, granular, word-by-word morphemic breakdown and phonetical transcription of the First Article of the Universal Declaration of Human Rights translated into YOconlang. The translation strictly adheres to the unchangeable root axiom, SVO linear syntax, and fixed first-syllable stress phonotactics.
+------------------------------
+## 📄 Sentence 1: On Birth, Freedom, and Equality of All Human Beings
 
+* Original (American English): "All human beings are born free and equal in dignity and rights."
+* YOconlang Orthography: OS TO SIS MA LIS KE MA JOJ HA NONO KE HA HOHO.
+* IPA Phonetic Transcription: [ˈos ˈto ˈsis ˈma ˈlis ˈke ˈma ˈjoj ˈha ˈno.no ˈke ˈha ˈho.ho]
+
+## 🔍 Word-by-Word Breakdown:
+
+* OS — [os] : Universality pronoun from the approved Block O. Semantics: "All people / All human beings". Functions as the syntactic Subject (S).
+* TO — [to] : Grammatical tense particle from Block T. Marks the past perfective tense (Preterite).
+* SIS — [sis] : Immutable verbal root from Block 5 (Biosphere & Life). Core semantics: "To release new living organisms outward / To give birth / To reproduce" (Mode I — Outbound/Output Flow).
+* MA — [ma] : Functional grammatical marker from Block 8 (Semiotics) that transforms the subsequent root into the Adjective class.
+* LIS — [lis] : Immutable three-letter root from Block 1 (Space). Acts as an adjective due to the preceding MA marker. Core semantics: "To release a living organism outside / To liberate the physical body / To grant freedom" (Mode I — Outbound Flow). MA LIS translates directly to "free".
+* KE — [ke] : Logical conjunction operator "AND" from Block 9 (Data & Memory).
+* MA — [ma] : Repeated functional adjective marker preceding the second quality.
+* JOJ — [joj] : Immutable three-letter root from Block 11 (Sociosphere) acting as an adjective. Core semantics: "To preserve an internal network of connections / To be identical to oneself / Equal in status" (Mode O — Statics/Parity). MA JOJ translates directly to "equal".
+* HA — [ha] : Procedural operator particle meaning "Regarding / Concerning / In relation to" from Block 10 (Logic). Defines the semantic scope or plane where the qualities manifest.
+* NONO — [ˈno.no] : Four-letter Noun structured as C₁V₁C₂V₂. Derived from the mental root NON (self-reflection, tranquility of mind, consciousness) and the final functional vowel O (Substance/Rest). Semantics: "Personal dignity / The inner mental 'Self' of a subject".
+* KE — [ke] : Logical conjunction operator "AND".
+* HA — [ha] : Repeated procedural operator particle "Regarding / In relation to".
+* HOHO — [ˈho.ho] : Four-letter Noun structured as C₁V₁C₂V₂. Derived from the logical root HOH (to execute a pure algorithm) and the final functional vowel O (Substance). Semantics: "Abstract law / Legal right / Unalterable systemic norm".
+
+------------------------------
+## 📄 Sentence 2: On Endowment with Reason and Conscience
+
+* Original (American English): "They are endowed with reason and conscience"
+* YOconlang Orthography: OJ TO KEL HOHI KE NONO.
+* IPA Phonetic Transcription: [ˈoj ˈto ˈkel ˈho.hi ˈke ˈno.no]
+
+## 🔍 Word-by-Word Breakdown:
+
+* OJ — [oj] : Collective universality pronoun from Block O. Semantics: "The entire society / They as a collective group / Human collective". Functions as the syntactic Subject (S) in the SVO structure.
+* TO — [to] : Past tense particle (Preterite). Verifies the historical fact of being endowed.
+* KEL — [kel] : Immutable verbal root from Block 9 (Data & Memory). Core semantics: "To receive external texts / To import data archives / To absorb and capture information at the circuit input" (Mode E — Import/Input). Syntactically maps to "to receive / to absorb / to be endowed with".
+* HOHI — [ˈho.hi] : Four-letter Noun structured as C₁V₁C₂V₂. Derived from the root HOH (logic) and the final functional vowel I (Projection/Output). Semantics: "The processed outbound logical output of computations / Intellect / Reason". Functions as the primary direct Object (O₁).
+* KE — [ke] : Logical conjunction operator "AND".
+* NONO — [ˈno.no] : Four-letter Noun structured as C₁V₁C₂V₂ (Root NON + Vowel O). Semantics within this specific syntactic position: "Internal moral peace of mind / Moral self-awareness / Conscience". Functions as the secondary direct Object (O₂).
+
+------------------------------
+## 📄 Sentence 3: On the Obligation to Act in a Spirit of Brotherhood
+
+* Original (American English): "and should act towards one another in a spirit of brotherhood."
+* YOconlang Orthography: KE NU BA BAB MO JA JOJO.
+* IPA Phonetic Transcription: [ˈke ˈnu ˈba ˈbab ˈmo ˈja ˈjo.jo]
+
+## 🔍 Word-by-Word Breakdown:
+
+* KE — [ke] : Logical conjunction operator "AND", initiating a new coordinate clause in the speech stream.
+* NU — [nu] : Modal particle of absolute duty and rigid obligation from Block 6 (Psychology). Semantics: "Must / Should / Is obliged to" (modifies the subsequent action).
+* BA — [ba] : Reciprocal voice particle from Block 4 (Energy & Forces). Directs the subsequent kinetic impulse of the verb symmetrically towards each participant ("mutually / towards one another").
+* BAB — [bab] : Immutable verbal root from Block 4 (Energy & Forces). Core semantics: "To modify a physical or systemic impulse / To direct a stream of force / To act / To exert influence" (Mode A — Action). NU BA BAB translates directly to "are obliged to mutually act".
+* MO — [mo] : Functional grammatical marker from Block 8 (Semiotics) that transforms the subsequent root into the Adverb class.
+* JA — [ja] : Immutable three-letter root from Block 11 (Sociosphere) acting as an adverb due to the MO marker. Core semantics: "To direct an action for the benefit of the collective / solidarily" (Mode A — Social System Target). MO JA translates to "collectively / solidarily / in a spirit of cooperation".
+* JOJO — [ˈjo.jo] : Four-letter Noun structured as C₁V₁C₂V₂. Derived from the root JOJ (preservation of an internal network of connections) and the final functional vowel O (Substance/Rest). Semantics: "An unbreakable, stable internal network of collective ties / Family / Community / Brotherhood".
+
+------------------------------
+## 🎼 Complete Monolithic Phonetic Stream
+The complete unbroken stream of text is ready for phonetic compilation and synthesis:
+[ˈos ˈto ˈsis ˈma ˈlis ˈke ˈma ˈjoj ˈha ˈno.no ˈke ˈha ˈho.ho ˈoj ˈto ˈkel ˈho.hi ˈke ˈno.no ˈke ˈnu ˈba ˈbab ˈmo ˈja ˈjo.jo]
+## 🛠 Syntax & Phonotactic Compliance Notes:
+
+   1. All word order arrays are strictly restricted to the linear SVO framework.
+   2. Phonetic reduction or vowel slurring is completely absent (0%).
+   3. Stress assignment is invariantly locked onto the first syllable of every single word unit.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🛠️ Practical High-Impact Applications
 
 1. **Inclusive Human-Hardware (Assistive Tech):** The high-contrast, self-balancing grid of YOalphabet makes tactile character recognition for the visually impaired vastly superior to complex braille layouts.
