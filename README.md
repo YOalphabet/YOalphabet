@@ -118,9 +118,11 @@ The C₂ consonant maps symmetrically to the exact type of destination entity or
 <p align="center">
   <img src="YOalphabetText.jpg" alt="YOalphabet Matrix" width="450"/>
 </p>
-    
+   
     YOconlang Translation Specification: Universal Declaration of Human Rights (Article 1) 
-    This section provides a complete, granular, word-by-word morphemic breakdown and phonetical transcription of the First Article of the Universal Declaration of Human Rights translated into YOconlang. The translation strictly adheres to the unchangeable root axiom, SVO linear syntax, and fixed first-syllable stress phonotactics.
+    This section provides a complete, granular, word-by-word morphemic breakdown and phonetical transcription 
+    of the First Article of the Universal Declaration of Human Rights translated into YOconlang. 
+    The translation strictly adheres to the unchangeable root axiom, SVO linear syntax, and fixed first-syllable stress phonotactics.
 ------------------------------
 ## 📄 Sentence 1: On Birth, Freedom, and Equality of All Human Beings
 
