@@ -1,4 +1,4 @@
-# 🟦 YOalphabet 4-Bit Isomorphic Featural Script & Logical YOconlang
+# 🟦 YOalphabet 4-Bit Isomorphic Script & Logical YOconlang
 
 > **"A self-balancing 4-bit isomorphic YOalphabet encoding and logical YOconlang designed for human-machine, human-human communication"**
 
@@ -11,91 +11,97 @@ Unlike historical logical languages that force the human brain to calculate data
 1. **The Human Layer (UX):** For regular communication, it functions as an ultra-regular, exception-free language with fixed first-syllable stress. Humans instantly recognize glyphs via intuitive, built-in visual metaphors.
 2. **The Machine Layer (Dev):** For computers, routers, or AI, every word automatically decomposes into raw 4-bit hardware registers  without the need for resource-heavy text-to-vector embeddings.
 
-## 🔤 1. YOalphabet: Graphic Specification
-YOalphabet is a fully determined, generative writing system based on a 4-bit full isomorphism. Every glyph represents an unbreakable, one-to-one correspondence between four elements: a geometric symbol, a unique International Phonetic Alphabet (IPA) sound, a decimal number (0–15), and a 4-bit binary code.
+## PART 1: YOalphabet Script Specification
+
+YOalphabet is a fully determined, generative writing system based on a 4-bit full isomorphism. Every glyph represents an unbreakable, one-to-one correspondence between a geometric symbol, a unique International Phonetic Alphabet (IPA) sound, a decimal number (0–15), and a 4-bit binary code.
+
 Each character is inscribed within an invariant square bounding box consisting of two independent structural layers:
 
-   1. Outer Contour (Bit Registers): The four external edges of the square act as physical data registers. They are activated strictly clockwise, starting from the right vertical line. Each side is mathematically bound to a specific binary position corresponding to powers of two (2⁰, 2¹, 2², 2³).
-   2. The glyph is strictly bounded within an invariant square placeholder. The four outer edges of the square function as **physical bitwise data registers**. The activation of these edges occurs sequentially clockwise, starting from the right vertical line.
-   * Bit 0 (weight 1 = 2⁰): Right vertical line.
-      * Bit 1 (weight 2 = 2¹): Bottom horizontal line.
-      * Bit 2 (weight 4 = 2²): Left vertical line.
-      * Bit 3 (weight 8 = 2³): Top horizontal line.
-      * Rule: If a bit is "1", the line is drawn; if "0", it remains empty. The decimal index equals the sum of the active weights.
-   2. Internal Filling (Visual Balance Diagonals): Internal diagonals are used to balance the stroke density and optimize optical readability:
-      * Low Density (0–1 active bits): Balanced by internal lines up to a fixed density of 2 lines. Absolute zero (0000) has no outer   contour and is balanced by a full internal cross [X].
-      * Medium Density (2 active bits): Supplemented by exactly one internal diagonal (/ or \) to reach a fixed density of 3 lines.
-      * High Density (3–4 active bits): Completely inner-empty, retaining their natural outer density of 3 or 4 lines.
-   
+1. **Outer Contour (Bit Registers):** The four external edges of the square act as physical data registers. They are activated strictly clockwise, starting from the right vertical line:
+   * Bit 0 (weight 1 = 2⁰): Right vertical line `[ |]`
+   * Bit 1 (weight 2 = 2¹): Bottom horizontal line `[_]`
+   * Bit 2 (weight 4 = 2²): Left vertical line `[| ]`
+   * Bit 3 (weight 8 = 2³): Top horizontal line `[¯]`
+   * *Rule:* If a bit is "1", the line is drawn; if "0", it remains empty.
+
+2. **Internal Filling (Visual Balance Diagonals):** Internal diagonals are used to balance the stroke density and optimize optical readability:
+   * **Low Density (0–1 active bits):** Balanced by internal lines up to a fixed density of 2 lines. Absolute zero (`0000`) has no outer contour and is balanced by a full internal cross `[X]`.
+   * **Medium Density (2 active bits):** Supplemented by exactly one internal diagonal (`/` or `\`) to reach a fixed density of 3 lines.
+   * **High Density (3–4 active bits):** Completely inner-empty, retaining their natural outer density of 3 or 4 lines.
+
 ## The 4x4 Identity YOalphabet Matrix (The Script Passport)
 On physical and digital media, the complete code table is strictly displayed as a monolithic 4x4 matrix, filling sequentially from left to right, top to bottom by increasing decimal index. This matrix serves as the identification and calibration passport of the system. 
-[ROW 1: INDEXES 0–3]
+
 * Dec: 0 | Bin: 0000 | Contour: None | Internal: X | IPA: [o]
 * Dec: 1 | Bin: 0001 | Contour: Right | Internal: / | IPA: [a]
 * Dec: 2 | Bin: 0010 | Contour: Bottom | Internal: / | IPA: [e]
 * Dec: 3 | Bin: 0011 | Contour: Bottom + Right | Internal: / | IPA: [t]
-[ROW 2: INDEXES 4–7]
 * Dec: 4 | Bin: 0100 | Contour: Left | Internal: / | IPA: [u]
 * Dec: 5 | Bin: 0101 | Contour: Left + Right | Internal: \ | IPA: [n]
 * Dec: 6 | Bin: 0110 | Contour: Left + Bottom | Internal: \ | IPA: [l]
 * Dec: 7 | Bin: 0111 | Contour: Left + Bottom + Right | Internal: None | IPA: [v]
-[ROW 3: INDEXES 8–11]
 * Dec: 8 | Bin: 1000 | Contour: Top | Internal: / | IPA: [i]
 * Dec: 9 | Bin: 1001 | Contour: Top + Right | Internal: \ | IPA: [b]
 * Dec: 10 | Bin: 1010 | Contour: Top + Bottom | Internal: \ | IPA: [s]
 * Dec: 11 | Bin: 1011 | Contour: Top + Bottom + Right | Internal: None | IPA: [h]
-[ROW 4: INDEXES 12–15]
 * Dec: 12 | Bin: 1100 | Contour: Top + Left | Internal: / | IPA: [p]
 * Dec: 13 | Bin: 1101 | Contour: Top + Left + Right | Internal: None | IPA: [m]
 * Dec: 14 | Bin: 1110 | Contour: Top + Left + Bottom | Internal: None | IPA: [k]
 * Dec: 15 | Bin: 1111 | Contour: Top + Left + Bottom + Right | Internal: None | IPA: [j]
+----------------------------------------------------------------------------
 
+## PART 2: YOconlang CORE SPECIFICATION## Core Architecture and Word Immutability
+YOconlang is an a priori engineered language optimized for unambiguous, frictionless communication. A foundational axiom of the language is the absolute immutability of roots. There are no inflections, suffixes, declensions, or internal conjugations. Grammatical categories, temporal shifts, and modalities are expressed exclusively via external grammatical particles.
+The phonotactics are strictly anchored in the International Phonetic Alphabet (IPA), using 5 core vowels and 11 stable consonants to eliminate all articulatory barriers. Stress is fixed invariantly on the first syllable of every separate word.
+The language utilizes strict morphological word templates:
 
+* Verbs, Adjectives, Adverbs: Rigid three-letter roots following the C₁VC₂ structure.
+* Nouns: Rigid four-letter roots following the C₁V₁C₂V₂ structure.
+* Pronouns and Structural Particles: Two-letter combinations following VC or CV templates.
 
+## Strict SVO Word Order and Linear Syntax
+The language enforces a rigid, unalterable linear SVO (Subject — Verb — Object) word order. Any form of inversion, omission, or displacement of components is strictly forbidden. 
+Since the core roots are completely uninflected, grammatical and syntactic roles are determined solely by their fixed geometric position within the sentence flow.
 
-## 👁️ 2. Visual-Semantic Metaphors: Shape Defines Meaning
+## The Semantic Core Matrix (The YOconlang Kernel)
+All lexical meanings and roots are generated systematically through a 3-axis orthogonal matrix based on the Core Kernel.
+## Axis 1: C₁ — Domain of Origin (Source Environment)
 
-The geometry of the lines isn't random; it leverages deep cognitive archetypes, allowing humans to decode the core meaning intuitively.
+* L — Space / Physical Geometry: Coordinates, three-dimensional volume, distance, location.
+* T — Time / Chronology: Chronological scale, duration of processes, phases, natural cycles.
+* P — Inanimate Matter: Substances, inorganic materials, artificial objects, tools.
+* B — Energy and Forces: Physical phenomena, vectors, directional energy fields.
+* S — Biosphere and Life: Organic carbon life, flora, fauna, tissues, cells, human physical body.
+* N — Psyche and Will: Internal mental world, consciousness, emotions, intent, focus of attention.
+* V — Primary Perception / Sensory: Raw incoming signals of sense organs before logical analysis.
+* M — Language and Coding / Semiotics: Interfaces and means of transmitting meaning — signs, tokens, words, syntax.
+* K — Data and Memory / Statics: Fixed archived information, datasets, blocks of knowledge, files.
+* H — Thinking and Algorithms / Dynamics: Data processing, logical analysis, computations, runtime code.
+* J — Social sphere: Family, communities, social hierarchies, institutions, economy, network graphs.
 
-### The Vowel Triad & Flow Vectors (Modes of Process)
-Vowels function as pure mathematical powers of two ($2^0, 2^1, 2^2, 2^3$) and absolute zero, governing the dynamics of the language:
-* **`[a]` (Creation / Action):** The angle points **strictly upwards**. It represents a rising vector, growth, fire, and outward expansion.
-* **`[u]` (Destruction / Entropy):** The angle points **strictly downwards**. It represents collapse, falling, gravity, decay, and loss of stability.
-* **`[o]` (Stasis / Peace / Absolute Zero):** No external angles, completely self-contained internal cross (`X`). Represents a status-quo, total stillness where nothing passes through.
-* **`[e]` (Import / Input):** An open cup configuration facing upwards and rightwards. It visualizes receiving, absorbing external data/signals.
-* **`[i]` (Export / Output):** An upward directing awning pushing vectors from inside out. Represents broadcasting, transmitting data.
+## Axis 2: V₁ — Process Vector (Operational Mode)
 
-### The Consonant Grids (Spheres of Being)
-Consonants activate boundary lines and internal walls, mapping the structural coordinates of reality:
-* **`[t]` (Time / Event):** A physical hourglass shape capturing a specific phase or milestone.
-* **`[l]` (Space / Geometry):** Pure $X$ and $Y$ spatial axes, a bracket bounding physical volume.
-* **`[p]` (Matter / Object):** A heavy, grounded top-left enclosure representing a dense inanimate object.
-* **`[b]` (Force / Impulse):** A sharp downward-striking lightning vector representing a sudden energetic discharge.
-* **`[n]` (Psyche / Mind):** Two parallel vertical walls connected by a diagonal bridge — mapping the internal consciousness interacting with the outside world.
-* **`[s]` (Biosphere / Life):** A flexible wave/zigzag resembling DNA or metabolic organic movement.
-* **`[v]` (Sensory / Input Data):** An open raw radar cup waiting to catch unsorted external frequencies.
-* **`[m]` (Language / Interface):** An archway or communications portal translating meanings into tokens.
-* **`[k]` (Data / Archive):** A vault enclosure open only on the right, visualizing a locked database block or book.
-* **`[h]` (Logic / Processor):** A computational contour pushing an execution pipeline forward.
-* **`[j]` (Society / Collective):** **A fully closed, solid square block.** Represents maximum systemic density, strict hierarchies, infrastructure, and all-encompassing social matrices.
+* O — Statics / Being: State of rest, parameter locking, preservation of status quo, immutability.
+* A — Action / Modification: Active change, generation of a new quality, assembly, creation, work.
+* U — Counteraction / Destruction: Quality degradation, entropy, structural breakdown, deletion.
+* E — Import / Perception (Input): Inbound system flow, absorption of external environment, data reading.
+* I — Export / Expression (Output): Outbound system flow, emission of energy, data writing, transmission.
 
-## 🗣️ 4. YOconlang: Semantic Grammar & Scalability
+## Axis 3: C₂ — Target Node of Impact (Objective Destination)
+The C₂ consonant maps symmetrically to the exact type of destination entity or environment being impacted by the vector flow:
 
-Roots are entirely uninflected. Advanced scalability is achieved through logical postpositions and an expansive syllable matrix.
+* L — Location / Point: Final spatial target, physical landmark, memory coordinate address.
+* T — Term / Event: Fixed time interval, deadline, timestamp, chronological phase.
+* P — Object / Instrument: Inanimate material thing, tool, raw physical substance.
+* B — Element / Directed Force: Directional wave, physical impulse, pressure vector.
+* S — Bio-object / Organism: Living individual, biological structure, human body node.
+* N — Personality / Mental State: Individual consciousness, cognitive target, focus trigger, belief.
+* V — Primary Sensation: Raw sensory stimulus, physical receptor excitation.
+* M — Word / Concept: Explicit linguistic token, entity name, interface identifier, label.
+* K — Message / Text: Connected block of information, letter, archived dataset, code line.
+* H — Rule / Algorithm: Explicit code, legal or moral norm, regulation, mathematical calculation.
+* J — Collective / Network Graph: Social group, community, structured network of human or system relations.
 
-### Rigid Linear Syntax (SVO):
-The pipeline order is mathematically fixed: `(MA + Adj) + [Subject] ──> (MO + Adv) + [Verb] ──> (MA + Adj) + [Object]`. 
-
-### The Syllabic Expansion Pools:
-To expand vocabulary without adding heavy byte footprints, the language unlocks four combinatoric structural reserve tracks (utilizing 11 Consonants and 5 Vowels):
-* **Base Verbs ($C_1 V_1 C_2$):** $11 \times 5 \times 11 = \mathbf{605}$ roots. *e.g., KIK (Data + Export + Data = To log/write data).*
-* **Reserve A ($CVV$):** $\mathbf{275}$ roots.
-* **Reserve B ($VCC$):** $\mathbf{605}$ roots.
-* **Reserve C ($CCV$):** $\mathbf{605}$ roots.
-* **Reserve D ($VVC$):** $\mathbf{275}$ roots.
-* **Ontological States ($C_1 V_1 C_2 V_2$):** Extensions define the object's operational phase (e.g., `KIK-O` = File, `KIK-A` = Programmer, `KIK-E` = Keyboard).
-
----
 
 ## 🛠️ Practical High-Impact Applications
 
