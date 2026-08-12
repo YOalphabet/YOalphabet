@@ -1,6 +1,9 @@
 # 🟦 YOalphabet 4-Bit Isomorphic Script & Logical YOconlang
 
 > **"A self-balancing 4-bit isomorphic YOalphabet encoding and logical YOconlang designed for human-machine, human-human communication"**
+<p align="center">
+  <img src="YOalphabetMatrix.jpg" alt="YOalphabet Matrix" width="450"/>
+</p>
 
 The **YOalphabet** introduces a completely synthesized, a priori communication environment. Every single character (glyph) in this system is a strict, one-to-one isomorphic fusion of four distinct domains:`Binary Code (4-bit) ── Decimal Index (0-15) ── IPA Acoustic Sound ── Rigid Geometry`
 By positioning itself precisely between human cognitive perception and computational logic, it slashes data bandwidth by up to 90%, enabling robust communication over extreme, low-power, or degraded channels.
