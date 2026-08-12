@@ -36,11 +36,9 @@ Each character is inscribed within an invariant square bounding box consisting o
 
 ## The 4x4 Identity YOalphabet Matrix (The Script Passport)
 On physical and digital media, the complete code table is strictly displayed as a monolithic 4x4 matrix, filling sequentially from left to right, top to bottom by increasing decimal index. This matrix serves as the identification and calibration passport of the system. 
-
 <p align="center">
-  <img src="YOalphabetMatrix2.jpg" alt="YOalphabet Matrix" width="450"/>
+  <img src="YOalphabetMatrix2.jpg" alt="YOalphabet" width="450"/>
 </p>
-
 * Dec: 0 | Bin: 0000 | Contour: None | Internal: X | IPA: [o]
 * Dec: 1 | Bin: 0001 | Contour: Right | Internal: / | IPA: [a]
 * Dec: 2 | Bin: 0010 | Contour: Bottom | Internal: / | IPA: [e]
