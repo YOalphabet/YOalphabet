@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>YOalphabet Hand-drawn Text Converter</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            max-width: 600px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 16px;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        canvas {
+            border: 1px solid #ccc;
+            background-color: #ffffff;
+            display: block;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>ipa oaetunlvibshpmkj > YOalphabet</h2>
+        <p> </p>
+        <textarea id="textInput" placeholder=".">oaet unlv ibsh pmkj</textarea>
+        <br>
+        <button id="downloadBtn">save jpeg</button>
+        <canvas id="outputCanvas"></canvas>
+    </div>
+
+    <script>
+        const textInput = document.getElementById('textInput');
+        const canvas = document.getElementById('outputCanvas');
+        const ctx = canvas.getContext('2d');
+
+        const charToId = {
+            'o': 0, 'a': 1, 'e': 2, 't': 3,
+            'u': 4, 'n': 5, 'l': 6, 'v': 7,
+            'i': 8, 'b': 9, 's': 10, 'h': 11,
+            'p': 12, 'm': 13, 'k': 14, 'j': 15
+        };
+
+        const size = 16;
+        const gap = 4;
+        const lineGap = 4;
+        const padding = 14; 
+
+        // Генерация небольшого псевдослучайного смещения для имитации руки
+        function rng(max) {
+            return (Math.random() - 0.5) * max;
+        }
+
+        // Функция отрисовки «живой» линии с легким изгибом и двойным проходом кисти
+        function drawHandDrawnLine(x1, y1, x2, y2) {
+            const intensity = 0.6; // Степень кривизны линий
+            
+            for (let i = 0; i < 2; i++) { 
+                ctx.beginPath();
+                ctx.moveTo(x1 + rng(0.4), y1 + rng(0.4));
+                
+                // Вычисление средней точки сегмента для создания изгиба
+                const midX = (x1 + x2) / 2 + rng(intensity);
+                const midY = (y1 + y2) / 2 + rng(intensity);
+                
+                ctx.quadraticCurveTo(midX, midY, x2 + rng(0.4), y2 + rng(0.4));
+                ctx.stroke();
+            }
+        }
+
+        function renderText() {
+            const text = textInput.value;
+            const lines = text.split('\n');
+
+            let maxChars = 0;
+            lines.forEach(line => {
+                if (line.length > maxChars) maxChars = line.length;
+            });
+            if (maxChars === 0) maxChars = 1;
+
+            const canvasWidth = padding * 2 + maxChars * size + Math.max(0, maxChars - 1) * gap;
+            const canvasHeight = padding * 2 + lines.length * size + Math.max(0, lines.length - 1) * lineGap;
+
+            canvas.width = canvasWidth;
+            canvas.height = canvasHeight;
+
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // Настройка мягкой кисти со скруглениями под рукописный стиль
+            ctx.strokeStyle = '#000000';
+            ctx.lineWidth = 1.8; 
+            ctx.lineCap = 'round';
+            ctx.lineJoin = 'round';
+
+            lines.forEach((line, rowIndex) => {
+                for (let colIndex = 0; colIndex < line.length; colIndex++) {
+                    const char = line[colIndex].toLowerCase();
+                    if (!(char in charToId)) continue; 
+
+                    const id = charToId[char];
+
+                    // Базовые координаты
+                    const x = padding + colIndex * (size + gap);
+                    const y = padding + rowIndex * (size + lineGap);
+
+                    // Добавление легкой неровности к углам каждого символа
+                    const tlX = x + rng(0.3),          tlY = y + rng(0.3);
+                    const trX = x + size + rng(0.3),   trY = y + rng(0.3);
+                    const blX = x + rng(0.3),          blY = y + size + rng(0.3);
+                    const brX = x + size + rng(0.3),   brY = y + size + rng(0.3);
+
+                    // 1. Стороны квадрата
+                    if ((id & 1) !== 0) drawHandDrawnLine(trX, trY, brX, brY); // RIGHT
+                    if ((id & 2) !== 0) drawHandDrawnLine(blX, blY, brX, brY); // BOTTOM
+                    if ((id & 4) !== 0) drawHandDrawnLine(tlX, tlY, blX, blY); // LEFT
+                    if ((id & 8) !== 0) drawHandDrawnLine(tlX, tlY, trX, trY); // TOP
+
+                    // 2. Диагонали квадрата
+                    if (id === 0) {
+                        drawHandDrawnLine(tlX, tlY, brX, brY);
+                        drawHandDrawnLine(blX, blY, trX, trY);
+                    } 
+                    else if ([1, 2, 3, 4, 8, 12].includes(id)) {
+                        drawHandDrawnLine(blX, blY, trX, trY);
+                    } 
+                    else if ([5, 6, 9, 10].includes(id)) {
+                        drawHandDrawnLine(tlX, tlY, brX, brY);
+                    }
+                }
+            });
+        }
+
+        textInput.addEventListener('input', renderText);
+        renderText();
+
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            const dataURL = canvas.toDataURL('image/jpeg', 1.0);
+            const link = document.createElement('a');
+            link.download = 'yoalphabet_handwritten.jpg';
+            link.href = dataURL;
+            link.click();
+        });
+    </script>
+
+</body>
+</html>

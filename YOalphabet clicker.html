@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>YOalphabet Clicker</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            font-family: monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        canvas {
+            border: 1px solid #e0e0e0;
+            cursor: pointer;
+            background-color: #ffffff;
+        }
+        .controls {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 14px;
+            font-family: inherit;
+            border: 1px solid #000;
+            background: #fff;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }
+        button:hover {
+            background: #000;
+            color: #fff;
+        }
+        #info-panel {
+            margin-top: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: #000000;
+            min-height: 38px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <canvas id="yoCanvas" width="512" height="512"></canvas>
+    
+    <div id="info-panel">&nbsp;</div>
+
+    <div class="controls">
+        <button id="btnDownload">save jpeg</button>
+        <button id="btnReset">restart</button>
+    </div>
+</div>
+
+<script>
+const canvas = document.getElementById('yoCanvas');
+const ctx = canvas.getContext('2d');
+const infoPanel = document.getElementById('info-panel');
+
+const size = 96;
+const gap = 24;
+const padding = 28;
+
+// Паспорт системы YOalphabet
+const ipaSymbols = ['o', 'a', 'e', 't', 'u', 'n', 'l', 'v', 'i', 'b', 's', 'h', 'p', 'm', 'k', 'j'];
+
+// Инициализация цветов (по умолчанию черные)
+let symbolColors = Array(16).fill('#000000');
+
+// Пул ярких цветов для кликера
+const vibrantColors = [
+    '#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', 
+    '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', 
+    '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3'
+];
+
+// Функция рендеринга матрицы
+function drawMatrix() {
+    ctx.fillStyle = '#ffffff';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    ctx.lineWidth = 8;
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+
+    for (let id = 0; id < 16; id++) {
+        const row = Math.floor(id / 4);
+        const col = id % 4;
+
+        const x = padding + col * (size + gap);
+        const y = padding + row * (size + gap);
+
+        ctx.strokeStyle = symbolColors[id];
+
+        // 1. Посегментный рендеринг внешних сторон контура
+        if ((id & 1) !== 0) { // RIGHT
+            ctx.beginPath();
+            ctx.moveTo(x + size, y);
+            ctx.lineTo(x + size, y + size);
+            ctx.stroke();
+        }
+        if ((id & 2) !== 0) { // BOTTOM
+            ctx.beginPath();
+            ctx.moveTo(x, y + size);
+            ctx.lineTo(x + size, y + size);
+            ctx.stroke();
+        }
+        if ((id & 4) !== 0) { // LEFT
+            ctx.beginPath();
+            ctx.moveTo(x, y);
+            ctx.lineTo(x, y + size);
+            ctx.stroke();
+        }
+        if ((id & 8) !== 0) { // TOP
+            ctx.beginPath();
+            ctx.moveTo(x, y);
+            ctx.lineTo(x + size, y);
+            ctx.stroke();
+        }
+
+        // 2. Рендеринг внутренних диагоналей по строгим топологическим правилам
+        if (id === 0) {
+            ctx.beginPath();
+            ctx.moveTo(x, y); ctx.lineTo(x + size, y + size);
+            ctx.moveTo(x + size, y); ctx.lineTo(x, y + size);
+            ctx.stroke();
+        } else if ([1, 2, 3, 4, 8, 12].includes(id)) {
+            ctx.beginPath();
+            ctx.moveTo(x, y + size);
+            ctx.lineTo(x + size, y);
+            ctx.stroke();
+        } else if ([5, 6, 9, 10].includes(id)) {
+            ctx.beginPath();
+            ctx.moveTo(x, y);
+            ctx.lineTo(x + size, y + size);
+            ctx.stroke();
+        }
+    }
+}
+
+// Инициализация аудио-контекста
+let audioCtx = null;
+function initAudio() {
+    if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+}
+
+// Генератор белого шума для согласных звуков
+function createNoiseBuffer() {
+    const bufferSize = audioCtx.sampleRate * 0.4;
+    const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+    const data = buffer.getChannelData(0);
+    for (let i = 0; i < bufferSize; i++) {
+        data[i] = Math.random() * 2 - 1;
+    }
+    return buffer;
+}
+
+// Формантный фильтр для гласных [o, a, e, u, i]
+function applyFormants(source, f1, f2, duration) {
+    const filter1 = audioCtx.createBiquadFilter();
+    filter1.type = 'bandpass';
+    filter1.Q.setValueAtTime(12, audioCtx.currentTime);
+    filter1.frequency.setValueAtTime(f1, audioCtx.currentTime);
+
+    const filter2 = audioCtx.createBiquadFilter();
+    filter2.type = 'bandpass';
+    filter2.Q.setValueAtTime(12, audioCtx.currentTime);
+    filter2.frequency.setValueAtTime(f2, audioCtx.currentTime);
+
+    const gainNode = audioCtx.createGain();
+    gainNode.gain.setValueAtTime(0.15, audioCtx.currentTime);
+    gainNode.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + duration);
+
+    source.connect(filter1);
+    source.connect(filter2);
+    filter1.connect(gainNode);
+    filter2.connect(gainNode);
+    gainNode.connect(audioCtx.destination);
+}
+
+// Математический синтез звуков IPA системного паспорта
+function playIPASound(id) {
+    initAudio();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+
+    const now = audioCtx.currentTime;
+    const symbol = ipaSymbols[id];
+
+    // --- СИНТЕЗ ГЛАСНЫХ ЗВУКОВ (Гармоники + формантные фильтры) ---
+    if (['o', 'a', 'e', 'u', 'i'].includes(symbol)) {
+        const osc = audioCtx.createOscillator();
+        osc.type = 'sawtooth'; 
+        osc.frequency.setValueAtTime(110, now); // Базовый мужской тон F0
+
+        let f1 = 500, f2 = 1000;
+        if (symbol === 'a') { f1 = 730; f2 = 1090; }
+        if (symbol === 'e') { f1 = 530; f2 = 1840; }
+        if (symbol === 'i') { f1 = 270; f2 = 2290; }
+        if (symbol === 'o') { f1 = 570; f2 = 840; }
+        if (symbol === 'u') { f1 = 300; f2 = 870; }
+
+        applyFormants(osc, f1, f2, 0.4);
+        osc.start(now);
+        osc.stop(now + 0.4);
+    }
+    // --- СИНТЕЗ ВЗРЫВНЫХ СОГЛАСНЫХ (Щелчки и импульсы шума) ---
+    else if (['t', 'p', 'k'].includes(symbol)) {
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = createNoiseBuffer();
+
+        const filter = audioCtx.createBiquadFilter();
+        filter.type = 'bandpass';
+        
+        let freq = 1000, duration = 0.05;
+        if (symbol === 't') { freq = 5000; duration = 0.04; }
+        if (symbol === 'p') { freq = 300; duration = 0.06; }
+        if (symbol === 'k') { freq = 2000; duration = 0.05; }
+
+        filter.frequency.setValueAtTime(freq, now);
+        filter.Q.setValueAtTime(8, now);
+
+        const gain = audioCtx.createGain();
+        gain.gain.setValueAtTime(0.4, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + duration);
+
+        noise.connect(filter);
+        filter.connect(gain);
+        gain.connect(audioCtx.destination);
+        noise.start(now);
+        noise.stop(now + duration);
+    }
+    // --- СИНТЕЗ ШУМНЫХ И ФРИКАТИВНЫХ ЗВУКОВ ---
+    else if (symbol === 's') { 
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = createNoiseBuffer();
+        const filter = audioCtx.createBiquadFilter();
+        filter.type = 'highpass';
+        filter.frequency.setValueAtTime(5000, now);
+        const gain = audioCtx.createGain();
+        gain.gain.setValueAtTime(0.2, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+        noise.connect(filter); filter.connect(gain); gain.connect(audioCtx.destination);
+        noise.start(now); noise.stop(now + 0.3);
+    }
+    else if (symbol === 'h') { 
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = createNoiseBuffer();
+        const filter = audioCtx.createBiquadFilter();
+        filter.type = 'bandpass';
+        filter.frequency.setValueAtTime(1500, now);
+        filter.Q.setValueAtTime(2, now);
+        const gain = audioCtx.createGain();
+        gain.gain.setValueAtTime(0.25, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+        noise.connect(filter); filter.connect(gain); gain.connect(audioCtx.destination);
+        noise.start(now); noise.stop(now + 0.25);
+    }
+    else if (symbol === 'v') { 
+        const osc = audioCtx.createOscillator();
+        osc.type = 'sine'; osc.frequency.setValueAtTime(85, now);
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = createNoiseBuffer();
+        const nFilter = audioCtx.createBiquadFilter();
+        nFilter.type = 'lowpass'; nFilter.frequency.setValueAtTime(800, now);
+        const gain = audioCtx.createGain();
+        gain.gain.setValueAtTime(0.2, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+        osc.connect(gain); noise.connect(nFilter); nFilter.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start(now); noise.start(now); osc.stop(now + 0.3); noise.stop(now + 0.3);
+    }
+    // --- СИНТЕЗ НОСОВЫХ И СОНОРНЫХ ЗВУКОВ ---
+    else if (['n', 'm'].includes(symbol)) { 
+        const osc = audioCtx.createOscillator();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(symbol === 'n' ? 140 : 110, now);
+        const filter = audioCtx.createBiquadFilter();
+        filter.type = 'lowpass';
+        filter.frequency.setValueAtTime(250, now);
+        const gain = audioCtx.createGain();
+        gain.gain.setValueAtTime(0.3, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+        osc.connect(filter); filter.connect(gain); gain.connect(audioCtx.destination);
+        osc.start(now); osc.stop(now + 0.35);
+    }
+    else if (symbol === 'l') { 
+        const osc = audioCtx.createOscillator();
+        osc.type = 'sine'; osc.frequency.setValueAtTime(130, now);
+        const gain = audioCtx.createGain();
+        gain.gain.setValueAtTime(0.3, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+        osc.connect(gain); gain.connect(audioCtx.destination);
+        osc.start(now); osc.stop(now + 0.3);
+    }
+    else if (symbol === 'j') { 
+        const osc = audioCtx.createOscillator();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(150, now);
+        osc.frequency.exponentialRampToValueAtTime(280, now + 0.15);
+        const gain = audioCtx.createGain();
+        gain.gain.setValueAtTime(0.25, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+        osc.connect(gain); gain.connect(audioCtx.destination);
+        osc.start(now); osc.stop(now + 0.25);
+    }
+    else if (symbol === 'b') { 
+        const osc = audioCtx.createOscillator();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(100, now);
+        osc.frequency.exponentialRampToValueAtTime(60, now + 0.08);
+        const gain = audioCtx.createGain();
+        gain.gain.setValueAtTime(0.4, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.08);
+        osc.connect(gain); gain.connect(audioCtx.destination);
+        osc.start(now); osc.stop(now + 0.08);
+    }
+}
+
+// Обработчик события клика по холсту
+canvas.addEventListener('click', function(event) {
+    const rect = canvas.getBoundingClientRect();
+    const mouseX = event.clientX - rect.left;
+    const mouseY = event.clientY - rect.top;
+
+    for (let id = 0; id < 16; id++) {
+        const row = Math.floor(id / 4);
+        const col = id % 4;
+
+        const x = padding + col * (size + gap);
+        const y = padding + row * (size + gap);
+
+        // Попадание внутрь символа 96x96
+        if (mouseX >= x && mouseX <= x + size && mouseY >= y && mouseY <= y + size) {
+            
+            const randomColor = vibrantColors[Math.floor(Math.random() * vibrantColors.length)];
+            symbolColors[id] = randomColor;
+            drawMatrix();
+
+            playIPASound(id);
+
+            // Вывод строки: ИНДЕКС БИНАРНЫЙ_КОД [ЗВУК]
+            const binaryCode = id.toString(2).padStart(4, '0');
+            infoPanel.innerHTML = `${id} ${binaryCode} [${ipaSymbols[id]}]`;
+            break;
+        }
+    }
+});
+
+// Кнопка скачивания JPEG (качество 1.0)
+document.getElementById('btnDownload').addEventListener('click', function() {
+    const link = document.createElement('a');
+    link.download = 'yoalphabet_clicker.jpg';
+    link.href = canvas.toDataURL('image/jpeg', 1.0);
+    link.click();
+});
+
+// Кнопка сброса всех цветов
+document.getElementById('btnReset').addEventListener('click', function() {
+    symbolColors = Array(16).fill('#000000');
+    drawMatrix();
+    infoPanel.innerHTML = "&nbsp;";
+});
+
+// Стартовый рендеринг при загрузке страницы
+drawMatrix();
+</script>
+
+</body>
+</html>
