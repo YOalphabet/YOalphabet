@@ -1,4 +1,6 @@
-![YOconlang Kernel](YOalphabet color cvc.jpg)
+<p align="center">
+  <img src="YOalphabet color cvc.jpg" alt="YOalphabet" width="450"/>
+</p>
 
 # THE YOconlang KERNEL: PARAMETRIC ARCHITECTURE
 
