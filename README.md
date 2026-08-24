@@ -5,6 +5,17 @@
   <img src="YOalphabetMatrix.jpg" alt="YOalphabet Matrix" width="450"/>
 </p>
 
+## 💎 Thank you for your support the YOalphabet&YOvonlang development via cryptocurrency. 
+
+* **USDT (Network: TRON / TRC-20):** 
+  `TFwggRZUB9BBNHwyXgZBGkd2EycSz9umGJ`
+
+* **USDT / USDC / ETH (Network: Ethereum / ERC-20):** 
+  `0x1102BbE0c8aeF5D2e44059fb951671CfC2047255`
+
+* **TON / NOT / DOGS (Network: TON):** 
+  `UQAaXGP24eJgyfbdLC2j5R5lOicvSSPo8PGJIEnJvxjQxAsc`
+
 The **YOalphabet** introduces a completely synthesized, a priori communication environment. Every single character (glyph) in this system is a strict, one-to-one isomorphic fusion of four distinct domains:`Binary Code (4-bit) ── Decimal Index (0-15) ── IPA Acoustic Sound ── Rigid Geometry`
 By positioning itself precisely between human cognitive perception and computational logic, it slashes data bandwidth by up to 90%, enabling robust communication over extreme, low-power, or degraded channels.
 
