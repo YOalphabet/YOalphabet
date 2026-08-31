@@ -2,7 +2,7 @@
 
 > **"A self-balancing 4-bit isomorphic YOalphabet encoding and logical YOconlang designed for human-machine, human-human communication"**
 <p align="center">
-  <img src="YOalphabetMatrix.jpg" alt="YOalphabet Matrix" width="450"/>
+  <img src="YOalphabet archaeologist.png" alt="YOalphabet Matrix" width="450"/>
 </p>
 
 ## 💎 Thank you for your support the YOalphabet&YOconlang development via cryptocurrency. 
