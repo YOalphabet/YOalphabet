@@ -66,6 +66,26 @@ Each character is inscribed within an invariant square bounding box consisting o
 -------------------------------------------------------------------------------------------
 
 
+| Dec | Bin | Contour | Internal | IPA |
+| :---: | :---: | :--- | :---: | :---: |
+| **0** | `0000` | None | X | `[o]` |
+| **1** | `0001` | Right | / | `[a]` |
+| **2** | `0010` | Bottom | / | `[e]` |
+| **3** | `0011` | Bottom + Right | / | `[t]` |
+| **4** | `0100` | Left | / | `[u]` |
+| **5** | `0101` | Left + Right | \ | `[n]` |
+| **6** | `0110` | Left + Bottom | \ | `[l]` |
+| **7** | `0111` | Left + Bottom + Right | None | `[v]` |
+| **8** | `1000` | Top | / | `[i]` |
+| **9** | `1001` | Top + Right | \ | `[b]` |
+| **10** | `1010` | Top + Bottom | \ | `[s]` |
+| **11** | `1011` | Top + Bottom + Right | None | `[h]` |
+| **12** | `1100` | Top + Left | / | `[p]` |
+| **13** | `1101` | Top + Left + Right | None | `[m]` |
+| **14** | `1110` | Top + Left + Bottom | None | `[k]` |
+| **15** | `1111` | Top + Left + Bottom + Right | None | `[j]` |
+
+
 ## The 4x4 Identity YOalphabet Matrix (The Script Passport)
 On physical and digital media, the complete code table is strictly displayed as a monolithic 4x4 matrix, filling sequentially from left to right, top to bottom by increasing decimal index. This matrix serves as the identification and calibration passport of the system. Also, this image can be used to promote the YOalphabet.
 
