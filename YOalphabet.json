@@ -1,0 +1,156 @@
+{
+  "project": "YOalphabet",
+  "architecture": "4-Bit Full Isomorphism",
+  "bit_registers": {
+    "bit_0": {"weight": 1, "element": "Right vertical line"},
+    "bit_1": {"weight": 2, "element": "Bottom horizontal line"},
+    "bit_2": {"weight": 4, "element": "Left vertical line"},
+    "bit_3": {"weight": 8, "element": "Top horizontal line"}
+  },
+  "matrix": [
+    {
+      "dec": 0,
+      "bin": "0000",
+      "contour": "None",
+      "internal": "X",
+      "ipa": "[o]",
+      "phoneme_type": "vowel",
+      "line_density": 2
+    },
+    {
+      "dec": 1,
+      "bin": "0001",
+      "contour": "Right",
+      "internal": "/",
+      "ipa": "[a]",
+      "phoneme_type": "vowel",
+      "line_density": 2
+    },
+    {
+      "dec": 2,
+      "bin": "0010",
+      "contour": "Bottom",
+      "internal": "/",
+      "ipa": "[e]",
+      "phoneme_type": "vowel",
+      "line_density": 2
+    },
+    {
+      "dec": 3,
+      "bin": "0011",
+      "contour": "Bottom + Right",
+      "internal": "/",
+      "ipa": "[t]",
+      "phoneme_type": "consonant",
+      "line_density": 3
+    },
+    {
+      "dec": 4,
+      "bin": "0100",
+      "contour": "Left",
+      "internal": "/",
+      "ipa": "[u]",
+      "phoneme_type": "vowel",
+      "line_density": 2
+    },
+    {
+      "dec": 5,
+      "bin": "0101",
+      "contour": "Left + Right",
+      "internal": "\\",
+      "ipa": "[n]",
+      "phoneme_type": "consonant",
+      "line_density": 3
+    },
+    {
+      "dec": 6,
+      "bin": "0110",
+      "contour": "Left + Bottom",
+      "internal": "\\",
+      "ipa": "[l]",
+      "phoneme_type": "consonant",
+      "line_density": 3
+    },
+    {
+      "dec": 7,
+      "bin": "0111",
+      "contour": "Left + Bottom + Right",
+      "internal": "None",
+      "ipa": "[v]",
+      "phoneme_type": "consonant",
+      "line_density": 3
+    },
+    {
+      "dec": 8,
+      "bin": "1000",
+      "contour": "Top",
+      "internal": "/",
+      "ipa": "[i]",
+      "phoneme_type": "vowel",
+      "line_density": 2
+    },
+    {
+      "dec": 9,
+      "bin": "1001",
+      "contour": "Top + Right",
+      "internal": "\\",
+      "ipa": "[b]",
+      "phoneme_type": "consonant",
+      "line_density": 3
+    },
+    {
+      "dec": 10,
+      "bin": "1010",
+      "contour": "Top + Bottom",
+      "internal": "\\",
+      "ipa": "[s]",
+      "phoneme_type": "consonant",
+      "line_density": 3
+    },
+    {
+      "dec": 11,
+      "bin": "1011",
+      "contour": "Top + Bottom + Right",
+      "internal": "None",
+      "ipa": "[h]",
+      "phoneme_type": "consonant",
+      "line_density": 3
+    },
+    {
+      "dec": 12,
+      "bin": "1100",
+      "contour": "Top + Left",
+      "internal": "/",
+      "ipa": "[p]",
+      "phoneme_type": "consonant",
+      "line_density": 3
+    },
+    {
+      "dec": 13,
+      "bin": "1101",
+      "contour": "Top + Left + Right",
+      "internal": "None",
+      "ipa": "[m]",
+      "phoneme_type": "consonant",
+      "line_density": 3
+    },
+    {
+      "dec": 14,
+      "bin": "1110",
+      "contour": "Top + Left + Bottom",
+      "internal": "None",
+      "ipa": "[k]",
+      "phoneme_type": "consonant",
+      "line_density": 3
+    },
+    {
+      "dec": 15,
+      "bin": "1111",
+      "contour": "Top + Left + Bottom + Right",
+      "internal": "None",
+      "ipa": "[j]",
+      "phoneme_type": "consonant",
+      "line_density": 4
+    }
+  ]
+}
