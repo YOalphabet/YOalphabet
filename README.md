@@ -35,7 +35,8 @@ YOalphabet is a fully determined, generative writing system based on a 4-bit ful
 </p>
 Each character is inscribed within an invariant square bounding box consisting of two independent structural layers:
 
-1. **Outer Contour (Bit Registers):** The four external edges of the square act as physical data registers. They are activated strictly clockwise, starting from the right vertical line:
+1. **Outer Contour (Bit Registers):** The four external edges of the square act as physical data registers. Rule: If a bit is "1", the line is drawn; if "0", it remains empty.
+   They are activated strictly clockwise, starting from the right vertical line:
 
 | Bit | Weight | Shape Element |
 | :---: | :---: | :--- |
@@ -43,6 +44,8 @@ Each character is inscribed within an invariant square bounding box consisting o
 | **Bit 1** | $2^1 = 2$ | Bottom horizontal line |
 | **Bit 2** | $2^2 = 4$ | Left vertical line |
 | **Bit 3** | $2^3 = 8$ | Top horizontal line |
+
+2. **Internal Filling (Visual Balance Diagonals):** Internal diagonals are used to balance the stroke density and optimize optical readability:
 
 | Density Class | Active Bits | Balancing Element | Target Total Density |
 | :--- | :---: | :--- | :--- |
