@@ -80,6 +80,18 @@ Each character is inscribed within an invariant square bounding box consisting o
 | **15** | `1111` | Top + Left + Bottom + Right | None | `[j]` |
 
 
+To finalize the alphabet, I selected **16 of the most common IPA sounds** across global languages:
+* **Vowels:** `[o]`, `[a]`, `[e]`, `[u]`, `[i]`
+* **Consonants:** `[t]`, `[n]`, `[l]`, `[v]`, `[b]`, `[s]`, `[h]`, `[p]`, `[m]`, `[k]`, `[j]`
+
+By doing so, I ensured that the script remains **culturally and historically neutral**, making it instantly easy to pronounce for anyone on the planet.
+
+> 💡 **Vowel Encoding Rule**
+> All 5 basic vowel sounds of the language (`[o]`, `[a]`, `[e]`, `[u]`, `[i]`) are encoded with **0 or 1 active bits**. 
+> Graphically, each consists of exactly **2 lines** (including compensatory diagonals) and features a diagonal running from the bottom-left corner.
+
+
+
 ## The 4x4 Identity YOalphabet Matrix (The Script Passport)
 On physical and digital media, the complete code table is strictly displayed as a monolithic 4x4 matrix, filling sequentially from left to right, top to bottom by increasing decimal index. This matrix serves as the identification and calibration passport of the system. Also, this image can be used to promote the YOalphabet.
 
