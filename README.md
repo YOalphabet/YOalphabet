@@ -46,25 +46,14 @@ Each character is inscribed within an invariant square bounding box consisting o
    * **Low Density (0–1 active bits):** Balanced by internal lines up to a fixed density of 2 lines. Absolute zero (`0000`) has no outer contour and is balanced by a full internal cross `[X]`.
    * **Medium Density (2 active bits):** Supplemented by exactly one internal diagonal (`/` or `\`) to reach a fixed density of 3 lines.
    * **High Density (3–4 active bits):** Completely inner-empty, retaining their natural outer density of 3 or 4 lines.
-     
-* Dec: 0  | Bin: 0000 | Contour: None                        | Internal: X      | IPA: [o]
-* Dec: 1  | Bin: 0001 | Contour: Right                       | Internal: /      | IPA: [a]
-* Dec: 2  | Bin: 0010 | Contour: Bottom                      | Internal: /      | IPA: [e]
-* Dec: 3  | Bin: 0011 | Contour: Bottom + Right              | Internal: /      | IPA: [t]
-* Dec: 4  | Bin: 0100 | Contour: Left                        | Internal: /      | IPA: [u]
-* Dec: 5  | Bin: 0101 | Contour: Left + Right                | Internal: \      | IPA: [n]
-* Dec: 6  | Bin: 0110 | Contour: Left + Bottom               | Internal: \      | IPA: [l]
-* Dec: 7  | Bin: 0111 | Contour: Left + Bottom + Right       | Internal: None   | IPA: [v]
-* Dec: 8  | Bin: 1000 | Contour: Top                         | Internal: /      | IPA: [i]
-* Dec: 9  | Bin: 1001 | Contour: Top + Right                 | Internal: \      | IPA: [b]
-* Dec: 10 | Bin: 1010 | Contour: Top + Bottom                | Internal: \      | IPA: [s]
-* Dec: 11 | Bin: 1011 | Contour: Top + Bottom + Right        | Internal: None   | IPA: [h]
-* Dec: 12 | Bin: 1100 | Contour: Top + Left                  | Internal: /      | IPA: [p]
-* Dec: 13 | Bin: 1101 | Contour: Top + Left + Right          | Internal: None   | IPA: [m]
-* Dec: 14 | Bin: 1110 | Contour: Top + Left + Bottom         | Internal: None   | IPA: [k]
-* Dec: 15 | Bin: 1111 | Contour: Top + Left + Bottom + Right | Internal: None   | IPA: [j]
--------------------------------------------------------------------------------------------
 
+
+| Density Class | Active Bits | Balancing Element | Target Total Density |
+| :--- | :---: | :--- | :--- |
+| **Zero Density** | `0` | Two internal diagonals (`/` and `\`) | Fixed density of **2 lines** |
+| **Low Density** | `1` | One internal diagonal (`/`) | Fixed density of **2 lines** |
+| **Medium Density** | `2` | One internal diagonal (`/` or `\`) | Fixed density of **3 lines** |
+| **High Density** | `3–4` | Completely inner-empty | Natural outer density of **3 or 4 lines** |
 
 | Dec | Bin | Contour | Internal | IPA |
 | :---: | :---: | :--- | :---: | :---: |
