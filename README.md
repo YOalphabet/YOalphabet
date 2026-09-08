@@ -29,14 +29,20 @@ Unlike historical logical languages that force the human brain to calculate data
 
 ## PART 1: YOalphabet Script Specification
 
-YOalphabet is a fully determined, generative writing system based on a 4-bit full isomorphism. Every glyph represents an unbreakable, one-to-one correspondence between a geometric symbol, a unique International Phonetic Alphabet (IPA) sound, a decimal number (0–15), and a 4-bit binary code.
+YOalphabet is a fully determined, generative writing system based on a 4-bit full isomorphism. 
+Every glyph represents an unbreakable, one-to-one correspondence between a geometric symbol, a unique International Phonetic Alphabet (IPA) sound, a decimal number (0–15), and a 4-bit binary code.
+
+Binary Code ⟺ Decimal Index  ⟺ Spatial Geometry ⟺ IPA Phoneme
+
 <p align="center">
   <img src="YOalphabetColor.jpg" alt="YOalphabet" width="450"/>
 </p>
 Each character is inscribed within an invariant square bounding box consisting of two independent structural layers:
 
+
 1. **Outer Contour (Bit Registers):** The four external edges of the square act as physical data registers. Rule: If a bit is "1", the line is drawn; if "0", it remains empty.
    They are activated strictly clockwise, starting from the right vertical line:
+
 
 | Bit | Weight | Shape Element |
 | :---: | :---: | :--- |
