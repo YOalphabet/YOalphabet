@@ -96,9 +96,21 @@ All 5 basic vowel sounds of the language (`[o]`, `[a]`, `[e]`, `[u]`, `[i]`) are
 Graphically, each consists of exactly **2 lines** (including compensatory diagonals) and features a diagonal running from the bottom-left corner.
 
 
+## 📐 Spatial Layout Specification & The 4x4 Script Passport
 
-## The 4x4 Identity YOalphabet Matrix (The Script Passport)
-On physical and digital media, the complete code table is strictly displayed as a monolithic 4x4 matrix, filling sequentially from left to right, top to bottom by increasing decimal index. This matrix serves as the identification and calibration passport of the system. Also, this image can be used to promote the YOalphabet.
+Every document, digital interface, or isolated text asset within the YOecosystem must conform to a strict spatial, geometric, and calibration protocol to guarantee deterministic parsing by both human eyes and computer vision systems:
+
+### 1. The 4x4 Identity Matrix (System Passport)
+On physical and digital media, the complete code table is strictly displayed as a monolithic 4x4 matrix, filling sequentially from left to right, top to bottom by increasing decimal index. 
+* **Calibration Requirement:** This 4×4 master calibration marker must be permanently rendered in the top-left corner of every document or data block to serve as the system's identification and calibration passport. 
+* **Promotional Asset:** This standard matrix layout also serves as the official visual identity to promote the YOalphabet.
+
+### 2. Rigid Spatial Typography Regulations
+The layout engine completely eliminates variable tracking and kerning, relying on a deterministic, isotropic matrix grid:
+* **Strict Directionality:** The text flow is absolute, running exclusively from left to right and from top to bottom.
+* **Isotropic Word Spacing:** A space between words is represented by an empty geometric region exactly equal to the physical bounding box of a single character.
+* **Proportional Grid:** The inter-character spacing and inter-line leading must be perfectly identical, maintaining a rigid, predictable square grid across the entire canvas.
+
 
 <p align="center">
   <img src="YOalphabetMatrix2.jpeg" alt="YOalphabet" width="450"/>
