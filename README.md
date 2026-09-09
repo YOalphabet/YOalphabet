@@ -114,6 +114,25 @@ The language utilizes strict morphological word templates:
 * Nouns: Rigid four-letter roots following the C₁V₁C₂V₂ structure.
 * Pronouns and Structural Particles: Two-letter combinations following VC or CV templates.
 
+Current development status YOconlang
+  
+| Pattern / Structure Type | Total Possible | Occupied | Free | Comments and Status |
+| :--- | :---: | :---: | :---: | :--- |
+| **VV** | 25 | 24 | 1 | System markers. |
+| **CV** | 55 | 55 | 0 | Relational markers and basic numbers. |
+| **VC** | 55 | 55 | 0 | Pronominal quantifiers. |
+| **CVC** | 605 | 605 | 0 | Verbs, adverbs, and adjectives. |
+| **CVV** | 275 | 0 | 275 | Reserve zone. |
+| **CCV** | 605 | 0 | 605 | Reserve zone. |
+| **VVC** | 275 | 0 | 275 | Reserve zone. |
+| **VCV** | 275 | 0 | 275 | Reserve zone. |
+| **VCC** | 605 | 0 | 605 | Reserve zone. |
+| **All 4-character combinations** | 65,536 | 3,025 | 62,511 | Only the noun class is occupied. |
+| **All 5-character combinations** | 1,048,576 | 0 | 1,048,576 | Reserve zone. |
+
+
+  
+
 ## Strict SVO Word Order and Linear Syntax
 The language enforces a rigid, unalterable linear SVO (Subject — Verb — Object) word order. Any form of inversion, omission, or displacement of components is strictly forbidden. 
 Since the core roots are completely uninflected, grammatical and syntactic roles are determined solely by their fixed geometric position within the sentence flow.
