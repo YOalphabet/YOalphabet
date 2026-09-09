@@ -117,11 +117,11 @@ The language utilizes strict morphological word templates:
 * Nouns: Rigid four-letter roots following the C₁V₁C₂V₂ structure.
 * Pronouns and Structural Particles: Two-letter combinations following VC or CV templates.
 
-Current development status YOconlang
+### Current development status YOconlang
   
 | Pattern / Structure Type | Total Possible | Occupied | Free | Comments and Status |
 | :--- | :---: | :---: | :---: | :--- |
-| **VV** | 25 | 24 | 1 | System markers. |
+| **VV** | 25 | 25 | 0 | System markers. |
 | **CV** | 55 | 55 | 0 | Relational markers and basic numbers. |
 | **VC** | 55 | 55 | 0 | Pronominal quantifiers. |
 | **CVC** | 605 | 605 | 0 | Verbs, adverbs, and adjectives. |
