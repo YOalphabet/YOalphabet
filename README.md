@@ -87,9 +87,13 @@ To finalize the alphabet, I selected **16 of the most common IPA sounds** across
 
 By doing so, I ensured that the script remains **culturally and historically neutral**, making it instantly easy to pronounce for anyone on the planet.
 
-> 💡 **Vowel Encoding Rule**
-> All 5 basic vowel sounds of the language (`[o]`, `[a]`, `[e]`, `[u]`, `[i]`) are encoded with **0 or 1 active bits**. 
-> Graphically, each consists of exactly **2 lines** (including compensatory diagonals) and features a diagonal running from the bottom-left corner.
+<p align="center">
+  <img src="YOalphabet_matrix_vowels_consonants.jpg" 
+    alt="YOalphabet IPA vowels & consonants" width="450"/>
+</p>
+
+All 5 basic vowel sounds of the language (`[o]`, `[a]`, `[e]`, `[u]`, `[i]`) are encoded with **0 or 1 active bits**. 
+Graphically, each consists of exactly **2 lines** (including compensatory diagonals) and features a diagonal running from the bottom-left corner.
 
 
 
