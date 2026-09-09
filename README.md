@@ -145,6 +145,7 @@ The language utilizes strict morphological word templates:
 | **All 4-character combinations** | 65,536 | 3,025 | 62,511 | Only the noun class is occupied. |
 | **All 5-character combinations** | 1,048,576 | 0 | 1,048,576 | Reserve zone. |
 
+> 📂 **Implementation Note:** The complete, exhaustive listings and coordinate maps for the **VV** (System Markers), **CV** (Relational Particles), **VC** (Pronominal Quantifiers), and the **Numeric Blocks** have been extracted into standalone, production-ready specification files located directly in the root of this repository for clean modular access.
 
   
 
