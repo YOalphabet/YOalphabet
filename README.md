@@ -1,6 +1,7 @@
 # 🟦 YOalphabet 4-Bit Isomorphic Script & Logical YOconlang
 
-> **"A self-balancing 4-bit isomorphic YOalphabet encoding and logical YOconlang designed for human-machine, human-human communication"**
+> **"A self-balancing 4-bit isomorphic script and logical conlang engineered as a zero-ambiguity, MECE ontological interface for Human-AI symbiosis."**
+
 <p align="center">
   <img src="YOalphabet_HumanAI_VisualBridge.png" alt="YOalphabet Matrix" width="450"/>
 </p>
@@ -25,7 +26,7 @@ By positioning itself precisely between human cognitive perception and computati
 
 Unlike historical logical languages that force the human brain to calculate data like a computer chip during live speech, YOecosystem features a unique **dual-layer interface**:
 1. **The Human Layer (UX):** For regular communication, it functions as an ultra-regular, exception-free language with fixed first-syllable stress. Humans instantly recognize glyphs via intuitive, built-in visual metaphors.
-2. **The Machine Layer (Dev):** For computers, routers, or AI, every word automatically decomposes into raw 4-bit hardware registers  without the need for resource-heavy text-to-vector embeddings.
+2. **The AI Layer (Dev):** For computers, routers, or AI, every word automatically decomposes into raw 4-bit hardware registers  without the need for resource-heavy text-to-vector embeddings.
 
 ## PART 1: YOalphabet Script Specification
 
