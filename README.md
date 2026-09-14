@@ -123,11 +123,9 @@ The phonotactics are strictly anchored in the International Phonetic Alphabet (I
 
 The entire semantic and structural architecture of YOconlang is engineered strictly in accordance with the **MECE (Mutually Exclusive, Collectively Exhaustive)** principle. Every root, grammatical category, and operational mode occupies a unique, non-overlapping coordinate in the semantic space, ensuring zero ambiguity, while the matrix completely covers the entire spectrum of objective and subjective reality without systemic gaps. All future lexical expansions and core developments will strictly maintain this MECE framework.
 
-```text
-Binary Code ⟺ Decimal Index ⟺ Spatial Geometry ⟺ IPA Phoneme ⟺ MECE Ontological Core ⟺ Human-AI Interface
-```
-
-
+<p align="center" style="font-size: 1.4em;">
+  <strong>Binary Code ⟺ Decimal Index ⟺ Spatial Geometry ⟺ IPA Phoneme ⟺ MECE Ontological Core ⟺ Human-AI Interface</strong>
+</p>
 
 The language utilizes strict morphological word templates:
 
