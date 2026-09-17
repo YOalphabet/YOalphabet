@@ -1,4 +1,4 @@
-# YOalphabet/Yoconlang: Human Towards AI. 4-Bit Isomorphic Script & Logical Conlang.
+# YOalphabet/YOconlang: Human Towards AI. 4-Bit Isomorphic Script & Logical Conlang.
 
 > **"A self-balancing 4-bit isomorphic script and logical conlang engineered as a zero-ambiguity, MECE ontological interface for Human-AI symbiosis."**
 
@@ -12,7 +12,7 @@
 > * **Engineered for Edge IoT, M2M & BCI:** Low-power execution and zero-latency physical register / neural mapping.
 > * **0% LLM Hallucinations:** Immutable SVO syntax anchored in a 3-axis MECE semantic matrix.
 
-## 💎 Thank you for your support the YOalphabet&YOconlang development via cryptocurrency. 
+## 💎 Thank you for your support the YOalphabet&YOconlang development via cryptocurrency. Now 0$.
 
 * **USDT (Network: TRON / TRC-20):** 
   `TFwggRZUB9BBNHwyXgZBGkd2EycSz9umGJ`
@@ -20,7 +20,7 @@
 * **USDT / USDC / ETH (Network: Ethereum / ERC-20):** 
   `0x1102BbE0c8aeF5D2e44059fb951671CfC2047255`
 
-* **TON / NOT / DOGS (Network: TON):** 
+* **TON / NOT (Network: TON):** 
   `UQAaXGP24eJgyfbdLC2j5R5lOicvSSPo8PGJIEnJvxjQxAsc`
 
 
