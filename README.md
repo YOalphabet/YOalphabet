@@ -1,5 +1,4 @@
-# YOalphabet: 4-Bit Isomorphic Script & Logical YOconlang
-# YOalphabet: Replacing Text Embeddings in Post-LLM Systems via Zero-Inference 4-Bit Geometry
+# YOalphabet/Yoconlang: Human Towards AI. 4-Bit Isomorphic Script & Logical Conlang.
 
 > **"A self-balancing 4-bit isomorphic script and logical conlang engineered as a zero-ambiguity, MECE ontological interface for Human-AI symbiosis."**
 
