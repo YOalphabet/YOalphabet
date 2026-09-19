@@ -1,4 +1,4 @@
-# YOalphabet/YOconlang: Human Towards AI. 4-Bit Isomorphic Script & Logical Conlang.
+# YOalphabet/YOconlang: Humanity towards AI. 4-bit isomorphic Script & logical Conlang.
 
 > **"A self-balancing 4-bit isomorphic script and logical conlang engineered as a zero-ambiguity, MECE ontological interface for Human-AI symbiosis."**
 
