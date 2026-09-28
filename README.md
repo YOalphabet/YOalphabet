@@ -197,8 +197,10 @@ Beyond standard embedded systems and microcontroller displays, the 4-bit full is
 
 ---
 
+[![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
----------------------------------------------------------------------------
+
+---
 ## PART 2: YOconlang CORE SPECIFICATION## Core Architecture and Word Immutability
 YOconlang is an a priori engineered language optimized for unambiguous, frictionless communication. A foundational axiom of the language is the absolute immutability of roots. There are no inflections, suffixes, declensions, or internal conjugations. Grammatical categories, temporal shifts, and modalities are expressed exclusively via external grammatical particles.
 The phonotactics are strictly anchored in the International Phonetic Alphabet (IPA), using 5 core vowels and 11 stable consonants to eliminate all articulatory barriers. Stress is fixed invariantly on the first syllable of every separate word.
