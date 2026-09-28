@@ -394,7 +394,9 @@ The complete unbroken stream of text is ready for phonetic compilation and synth
 * **👁️ Edge Computer Vision Optimization** — Recognition pipelines bypass heavy Convolutional Neural Networks (CNNs). Low-power microcontrollers can parse the 4-bit byte instantly via raw pixel-intensity checks on 4 fixed coordinates.
 * **🤖 Direct LLM/AI Processing (No Embeddings)** — AI agents and large language models can ingest, parse, and compile YOconlang streams directly into 4-bit hardware registers, completely bypassing resource-heavy token-to-vector embeddings and vector database lookups.
 * **🏁 Rigid Spatial Typography Regulations** — The layout engine completely eliminates tracking and variable kerning, relying on a deterministic, isotropic matrix grid initiated by a mandatory 4×4 master calibration marker.
+---
 
+[![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
 ---
 **License:** MIT License. Fork, experiment, and build the future of unified computing communication!
