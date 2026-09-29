@@ -5,7 +5,7 @@
 > **"A self-balancing 4-bit isomorphic script and logical conlang engineered as a zero-ambiguity, MECE ontological interface for Human-AI symbiosis."**
 
 <p align="center">
-  <img src="YOalphabet_HumanAI_VisualBridge.png" alt="YOalphabet Matrix" width="450"/>
+  <img src="YOalphabet_HumanAI_VisualBridge.png" alt="YOalphabet Matrix" width="100%"/>
 </p>
 
 > ⚡ **Zero-Inference 4-Bit Hardware Geometry & Hallucination-Free Logical Conlang**
@@ -183,7 +183,7 @@ Beyond standard embedded systems and microcontroller displays, the 4-bit full is
 * **Deterministic In-Game Bytecode:** Serves as a fully functional, mathematically real language protocol for cyberpunk HUDs, sci-fi games, and worldbuilding—readable by both human players and in-game AI logic engines.
 
 ---
-## 🇺🇸 Adaptation of YOalphabet to the American (English) Alphabet
+##   Adaptation of YOalphabet to the American (English) Alphabet
 
 To extend the baseline **YOalphabet** (16 core glyphs) to the full 26-letter American alphabet while preserving its compact 4-bit geometric architecture, a **two-register system** is implemented [1]:
 
