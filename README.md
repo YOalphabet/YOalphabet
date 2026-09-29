@@ -193,7 +193,7 @@ To extend the baseline **YOalphabet** (16 core glyphs) to the full 26-letter Ame
 The mapping transitions are constructed strictly on **phonetic** and **graphic** principles [2]:
 
 <p align="center">
-  <img src="YOalphabet_americanEN.jpg" alt="YOalphabet 4x4 American Matrix" width="480"/>
+  <img src="YOalphabet_americanEN.jpeg" alt="YOalphabet 4x4 American Matrix" width="480"/>
 </p>
 
 ### 📊 Two-Register Mapping Matrix
