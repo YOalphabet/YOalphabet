@@ -187,8 +187,10 @@ Beyond standard embedded systems and microcontroller displays, the 4-bit full is
 
 To extend the baseline **YOalphabet** (16 core glyphs) to the full 26-letter American alphabet while preserving its compact 4-bit geometric architecture, a **two-register system** is implemented [1]:
 
-* **Register 1 (Base):** The 16 original letters encoded by clean geometric glyphs [1].
-* **Register 2 (Modified):** The 10 remaining letters encoded using Register 1 donor glyphs with an **internal diacritic dot** placed inside the bounding box [1].
+
+* **Register 1 (Base):** The 16 original letters encoded by clean geometric glyphs. Accounts for **~82%** of letter frequency in standard English.
+* **Register 2 (Modified):** The 10 remaining letters encoded using Register 1 donor glyphs with an **internal diacritic dot** placed inside the bounding box. Accounts for **~18%** of letter occurrences in standard English.
+
 
 The mapping transitions are constructed strictly on **phonetic** and **graphic** principles [2]:
 
@@ -218,11 +220,29 @@ The mapping transitions are constructed strictly on **phonetic** and **graphic**
 | **`[j]`** | **J** | *Reserved* | — | Free symbol [2, 3]. |
 
 ---
+##### 📊 Two-Register Mapping Matrix
 
-### 🛠 Reserved Symbols & Extension Slots
-The 6 modified Register 2 symbols (**`[e], [n], [b], [p], [m], [j]`** with an internal dot) remain unallocated [3]. They provide flexible slots for numbers, punctuation, or parser syntax control tokens [3].
+| Donor Glyph | Register 1 (Base) | Register 2 (+ Internal Dot) | Pair Type | Phonetic / Graphic Rationale |
+| :---: | :---: | :---: | :---: | :--- |
+| **[o]** | **O** | **X** | Graphic | Visual shape match (X-cross inside bounding box). |
+| **[a]** | **A** | **Q** | Phonetic | *QU* (/kw/) combination linked to open back vowel **A**. |
+| **[e]** | **E** | | — | — |
+| **[t]** | **T** | **D** | Phonetic | Voiced pair for unvoiced stop /t/. |
+| **[u]** | **U** | **W** | Phonetic | Labialized pair: vowel /u/ transitions to semivowel /w/. |
+| **[n]** | **N** | | — | — |
+| **[l]** | **L** | **R** | Phonetic | Pair of liquid sonorants (/l/ and /r/). |
+| **[v]** | **V** | **F** | Phonetic | Unvoiced pair for voiced fricative /v/. |
+| **[i]** | **I** | **Y** | Phonetic | Vowel pair: Y reads as /i/ in most English syllables. |
+| **[b]** | **B** | | — | — |
+| **[s]** | **S** | **Z** | Phonetic | Voiced pair for unvoiced fricative /s/. |
+| **[h]** | **H** | **G** | Phonetic | Velar/glottal pair (shared place of articulation). |
+| **[p]** | **P** | | — | — |
+| **[m]** | **M** | | — | — |
+| **[k]** | **K** | **C** | Phonetic | Hard /k/ sound mapped to letter **C**. |
+| **[j]** | **J** | | — | — |
 
 ---
+
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
