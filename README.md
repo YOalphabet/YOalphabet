@@ -191,36 +191,11 @@ To extend the baseline **YOalphabet** (16 core glyphs) to the full 26-letter Ame
 * **Register 1 (Base):** The 16 original letters encoded by clean geometric glyphs. Accounts for **~82%** of letter frequency in standard English.
 * **Register 2 (Modified):** The 10 remaining letters encoded using Register 1 donor glyphs with an **internal diacritic dot** placed inside the bounding box. Accounts for **~18%** of letter occurrences in standard English.
 
-
-The mapping transitions are constructed strictly on **phonetic** and **graphic** principles [2]:
-
 <p align="center">
   <img src="YOalphabet_americanEN.jpeg" alt="YOalphabet 4x4 American Matrix" width="480"/>
 </p>
 
 ### 📊 Two-Register Mapping Matrix
-
-| Donor Glyph | Register 1 (Base) | Register 2 (+ Internal Dot) | Pair Type | Phonetic / Graphic Rationale |
-| :---: | :---: | :---: | :---: | :--- |
-| **`[o]`** | **O** | **X** | Graphic | Visual shape match (X-cross inside bounding box) [2]. |
-| **`[a]`** | **A** | **Q** | Phonetic | *QU* (/kw/) combination linked to open back vowel **A** [2]. |
-| **`[e]`** | **E** | *Reserved* | — | Free symbol (recommended for space/punctuation) [2, 3]. |
-| **`[t]`** | **T** | **D** | Phonetic | Voiced pair for unvoiced stop /t/ [2]. |
-| **`[u]`** | **U** | **W** | Phonetic | Labialized pair: vowel /u/ transitions to semivowel /w/ [2]. |
-| **`[n]`** | **N** | *Reserved* | — | Free symbol [2, 3]. |
-| **`[l]`** | **L** | **R** | Phonetic | Pair of liquid sonorants (/l/ and /r/) [2]. |
-| **`[v]`** | **V** | **F** | Phonetic | Unvoiced pair for voiced fricative /v/ [2]. |
-| **`[i]`** | **I** | **Y** | Phonetic | Vowel pair: Y reads as /i/ in most English syllables [2]. |
-| **`[b]`** | **B** | *Reserved* | — | Free symbol [2, 3]. |
-| **`[s]`** | **S** | **Z** | Phonetic | Voiced pair for unvoiced fricative /s/ [2]. |
-| **`[h]`** | **H** | **G** | Phonetic | Velar/glottal pair (shared place of articulation) [2]. |
-| **`[p]`** | **P** | *Reserved* | — | Free symbol [2, 3]. |
-| **`[m]`** | **M** | *Reserved* | — | Free symbol [2, 3]. |
-| **`[k]`** | **K** | **C** | Phonetic | Hard /k/ sound mapped to letter **C** [2]. |
-| **`[j]`** | **J** | *Reserved* | — | Free symbol [2, 3]. |
-
----
-##### 📊 Two-Register Mapping Matrix
 
 | Donor Glyph | Register 1 (Base) | Register 2 (+ Internal Dot) | Pair Type | Phonetic / Graphic Rationale |
 | :---: | :---: | :---: | :---: | :--- |
