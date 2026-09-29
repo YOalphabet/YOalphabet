@@ -19,7 +19,7 @@ By positioning itself precisely between human cognitive perception and computati
 
 ## 🧠 Dual-Layer Architecture: For Humans & Machines
 
-Unlike historical logical languages that force the human brain to calculate data like a computer chip during live speech, YOecosystem features a unique **dual-layer interface**:
+Unlike historical logical languages that force the human brain to calculate data like a computer chip during live speech, YOalphabet features a unique **dual-layer interface**:
 1. **The Human Layer (UX):** For regular communication, it functions as an ultra-regular, exception-free language with fixed first-syllable stress. Humans instantly recognize glyphs via intuitive, built-in visual metaphors.
 2. **The AI & Machine Layer (Dev):** For computers, routers, or AI, every word automatically decomposes into raw 4-bit hardware registers  without the need for resource-heavy text-to-vector embeddings.
 
@@ -94,7 +94,7 @@ Graphically, each consists of exactly **2 lines** (including compensatory diagon
 
 ## 📐 Spatial Layout Specification & The 4x4 Script Passport
 
-Every document, digital interface, or isolated text asset within the YOecosystem must conform to a strict spatial, geometric, and calibration protocol to guarantee deterministic parsing by both human eyes and computer vision systems:
+Every document, digital interface, or isolated text asset within the YOalphabet must conform to a strict spatial, geometric, and calibration protocol to guarantee deterministic parsing by both human eyes and computer vision systems:
 
 ### 1. The 4x4 Identity Matrix (System Passport)
 On physical and digital media, the complete code table is strictly displayed as a monolithic 4x4 matrix, filling sequentially from left to right, top to bottom by increasing decimal index. 
