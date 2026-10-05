@@ -30,13 +30,8 @@ Every glyph represents an unbreakable, one-to-one correspondence between a geome
 
 # **Binary Code ⟺ Decimal Index ⟺ Spatial Geometry ⟺ IPA Phoneme**
 
-
 <p align="center">
-  <img src="YOalphabetColor.jpg" alt="YOalphabet" width="450"/>
-</p>
-
-<p align="center">
-  <img src="YOalphabet_color.jpg" alt="YOalphabet" width="100%"/>
+  <img src="YOalphabet_color.jpg" alt="YOalphabet" width="450"/>
 </p>
 
 
@@ -224,11 +219,11 @@ To extend the baseline **YOalphabet** (16 core glyphs) to the full 26-letter Ame
 
 ---
 
-### 🖐️ Tactile & Braille Alternative Interface (YOtactile / 4-Dot & 5-Dot Matrix)
+### 🖐️ Tactile & Braille Interface YOalphabet
 
-Due to the strict 4-bit full isomorphism of **YOalphabet**, the writing system naturally expands into a highly efficient tactile Braille alternative for the visually impaired, micro-relief printing, and low-resolution haptic displays [5, 6].
+The 4-bit full isomorphism of **YOalphabet** extends naturally beyond visual rendering and computer vision into a high-efficiency tactile writing system. **YOalphabet** is designed for refreshable Braille displays, micro-relief paper embossing, tactile packaging markers, and haptic feedback devices.
 
-Unlike traditional 6-dot or 8-dot Braille systems that require arbitrary memorization of non-isomorphic dot combinations, **YOtactile** maintains a direct 1-to-1 physical mapping between raised tactile points, binary hardware registers (\\(2^0, 2^1, 2^2, 2^3\\)), and IPA phonetic sounds [1, 2].
+Unlike legacy 6-dot or 8-dot Braille systems that require arbitrary memorization of non-isomorphic patterns, **YOalphabet** maintains a direct 1-to-1 physical mapping between raised tactile points, binary hardware registers, and universal IPA phonetic sounds.
 
 <p align="center">
   <img src="YOalphabet_4dot.jpg" alt="YOalphabet 4-Dot Tactile Matrix" width="45%"/>
