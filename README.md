@@ -34,6 +34,12 @@ Every glyph represents an unbreakable, one-to-one correspondence between a geome
 <p align="center">
   <img src="YOalphabetColor.jpg" alt="YOalphabet" width="450"/>
 </p>
+
+<p align="center">
+  <img src="YOalphabet_color.jpg" alt="YOalphabet" width="100%"/>
+</p>
+
+
 Each character is inscribed within an invariant square bounding box consisting of two independent structural layers:
 
 
