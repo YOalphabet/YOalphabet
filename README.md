@@ -8,6 +8,14 @@
   <img src="YOalphabet_HumanAI_VisualBridge.png" alt="YOalphabet Matrix" width="100%"/>
 </p>
 
+
+<p align="center">
+  <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="100%"/>
+  <br>
+  <sub><b>Figure:</b> Dynamic 4-bit wave visualization and isomorphic glyph transformations in YOalphabet.</sub>
+</p>
+
+
 > ⚡ **Zero-Inference 4-Bit Hardware Geometry & Hallucination-Free Logical Conlang**
 > 
 > * **Bypassing CNNs & Embeddings:** Direct 4-bit hardware register parsing without resource-heavy models or vector lookups.
