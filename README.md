@@ -5,12 +5,12 @@
 > **"A self-balancing 4-bit isomorphic script and logical conlang engineered as a zero-ambiguity, MECE ontological interface for Human-AI symbiosis."**
 
 <p align="center">
-  <img src="YOalphabet_HumanAI_VisualBridge.png" alt="YOalphabet Matrix" width="100%"/>
+  <img src="YOalphabet_HumanAI_VisualBridge.png" alt="YOalphabet Matrix" width="60%"/>
 </p>
 
 
 <p align="center">
-  <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="100%"/>
+  <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="60%"/>
   <br>
   <sub><b>Figure:</b> Dynamic 4-bit wave visualization and isomorphic glyph transformations in YOalphabet.</sub>
 </p>
@@ -159,7 +159,7 @@ The 4-bit geometric topology of **YOalphabet** scales seamlessly into discrete, 
 The 4-bit full isomorphism of **YOalphabet** naturally extends beyond visual glyphs and digital displays into a **physical 4-bit sign language**. By utilizing just **two fingers on each hand**, anyone can encode and transmit the entire 16-character alphabet in real time without voice, cameras, or digital hardware [1, 2].
 
 <p align="center">
-  <img src="YOalphabet_sign.jpg" alt="YOalphabet 4-Bit Kinetic Sign Language" width="85%"/>
+  <img src="YOalphabet_sign.jpg" alt="YOalphabet 4-Bit Kinetic Sign Language" width="60%"/>
   <br>
   <sub><b>Figure:</b> 4-Bit Hand Gesture Mapping using 2 fingers per hand for tactile and non-verbal communication.</sub>
 </p>
