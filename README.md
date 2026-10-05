@@ -129,10 +129,24 @@ Developers and UI designers can re-render the script across diverse visual theme
 
 > **UI/UX Core Principle:** The aesthetic rendering is purely cosmetic. Whether displayed as a glowing neon HUD or a minimalist vector outline, the 4 outer edge registers ($2^0, 2^1, 2^2, 2^3$) maintain an exact, zero-overhead hardware mapping.
 
+---
 
+##### 🔴 Dot-Matrix & Circle-Grid Rendering (LED, Flip-Dot & Tactile Pin Arrays)
 
+The 4-bit geometric topology of **YOalphabet** scales seamlessly into discrete, low-resolution dot-matrix hardware without losing zero-overhead register mapping. Each 4-bit glyph is mapped onto a minimalist circle-grid (dot matrix), making it natively compatible with low-cost LED matrices, flip-dot displays, e-paper micro-arrays, and physical tactile pin actuators.
 
-### 🖐️ 4-Bit Kinetic Sign Language & Emergency Tactile Interface (YOgestures)
+<p align="center">
+  <img src="YOalphabet_33.jpg" alt="YOalphabet 4x4 Dot-Matrix Representation" width="450"/>
+  <br>
+  <sub><b>Figure:</b> Discrete Circle-Grid / Dot-Matrix rendering of the 16 core YOalphabet glyphs (Indices #0–#15).</sub>
+</p>
+
+* **Hardware Parity:** Directly executable on $5 \times 5$ or $7 \times 7$ LED / flip-dot driver chips with zero pixel interpolation.
+* **Tactile Readability:** Provides an immediate physical bridge for micro-pin haptic displays and relief embossing.
+
+---
+
+### 🖐️ 4-Bit Kinetic Sign Language & Emergency Tactile Interface YOalphabet
 
 The 4-bit full isomorphism of **YOalphabet** naturally extends beyond visual glyphs and digital displays into a **physical 4-bit sign language**. By utilizing just **two fingers on each hand**, anyone can encode and transmit the entire 16-character alphabet in real time without voice, cameras, or digital hardware [1, 2].
 
