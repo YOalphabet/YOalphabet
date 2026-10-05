@@ -31,7 +31,7 @@ Every glyph represents an unbreakable, one-to-one correspondence between a geome
 # **Binary Code ⟺ Decimal Index ⟺ Spatial Geometry ⟺ IPA Phoneme**
 
 <p align="center">
-  <img src="YOalphabet_color.jpg" alt="YOalphabet" width="450"/>
+  <img src="YOalphabet_color.jpg" alt="YOalphabet" width="60%"/>
 </p>
 
 
@@ -233,6 +233,19 @@ Unlike legacy 6-dot or 8-dot Braille systems that require arbitrary memorization
 <p align="center">
   <sub><b>Figure:</b> Standard 4-Dot Pure Binary Matrix (Left) vs. Self-Anchoring 5-Dot Matrix with Central Reference Point (Right).</sub>
 </p>
+
+#### 🔄 Architecture Comparison: 4-Dot vs. 5-Dot Matrix
+
+##### 1. Pure 4-Dot Matrix 
+* **Structure:** Minimalist 4-point diamond layout (Top, Right, Bottom, Left).
+* **Zero Symbol (`0000` / `[o]`):** Rendered as an empty cell (0 raised dots).
+* **Best Used For:** Refreshable digital Braille displays, haptic arrays with fixed physical cell frames, and high-density micro-embossing.
+
+##### 2. Self-Anchoring 5-Dot Matrix 
+* **Structure:** 4-point diamond layout + **1 Permanent Center Anchor Dot**.
+* **Zero Symbol (`0000` / `[o]`):** Rendered with **only the center dot raised**.
+* **Tactile Ergonomics:** The central anchor acts as an instantaneous spatial reference. When sweeping fingertips across embossed paper, the reader immediately locates the cell center without needing external physical bounding boxes or grid lines.
+* **Best Used For:** Embossed paper, packaging, tactile signage, and blind reading in rimless environments.
 
 ---
 
