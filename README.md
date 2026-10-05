@@ -224,6 +224,22 @@ To extend the baseline **YOalphabet** (16 core glyphs) to the full 26-letter Ame
 
 ---
 
+### 🖐️ Tactile & Braille Alternative Interface (YOtactile / 4-Dot & 5-Dot Matrix)
+
+Due to the strict 4-bit full isomorphism of **YOalphabet**, the writing system naturally expands into a highly efficient tactile Braille alternative for the visually impaired, micro-relief printing, and low-resolution haptic displays [5, 6].
+
+Unlike traditional 6-dot or 8-dot Braille systems that require arbitrary memorization of non-isomorphic dot combinations, **YOtactile** maintains a direct 1-to-1 physical mapping between raised tactile points, binary hardware registers (\\(2^0, 2^1, 2^2, 2^3\\)), and IPA phonetic sounds [1, 2].
+
+<p align="center">
+  <img src="YOalphabet_4dot.jpg" alt="YOalphabet 4-Dot Tactile Matrix" width="45%"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="YOalphabet_5dot.jpg" alt="YOalphabet 5-Dot Anchored Tactile Matrix" width="45%"/>
+</p>
+<p align="center">
+  <sub><b>Figure:</b> Standard 4-Dot Pure Binary Matrix (Left) vs. Self-Anchoring 5-Dot Matrix with Central Reference Point (Right).</sub>
+</p>
+
+---
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
