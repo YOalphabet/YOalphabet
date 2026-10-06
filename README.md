@@ -77,6 +77,11 @@ $$
 | **Medium Density** | `2` | One internal diagonal (`/` or `\`) | Fixed density of **3 lines** |
 | **High Density** | `3–4` | Completely inner-empty | Natural outer density of **3 or 4 lines** |
 
+The entire YOalphabet is constructed from 44 total lines: 32 outer square edges and 12 internal diagonals.
+
+<p align="center">
+  <img src="YOalphabet_diagonal.png" alt="YOalphabet" width="70%"/>
+</p>
 
 ---
 3. To finalize the alphabet, I selected **16 of the most common IPA sounds** across global languages:
