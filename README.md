@@ -43,7 +43,6 @@ Every glyph represents an unbreakable, one-to-one correspondence between a geome
 # **Binary Code ⟺ Decimal Index ⟺ Spatial Geometry ⟺ IPA Phoneme**
 
 
-
 <p align="center">
   <img src="YOalphabet_glif_edge.png" alt="4-Bit YOalphabet Register & Decimal Value Mapping" width="60%"/>
   <br>
@@ -52,6 +51,7 @@ Every glyph represents an unbreakable, one-to-one correspondence between a geome
 
 Each character is inscribed within an invariant square bounding box consisting of two independent structural layers:
 
+---
 1. **Outer Contour (Bit Registers):** The four external edges of the square act as physical data registers. Rule: If a bit is "1", the line is drawn; if "0", it remains empty. They are activated strictly clockwise, starting from the right vertical line:
 
 | Bit | Weight | Binary | Shape Element |
@@ -61,11 +61,12 @@ Each character is inscribed within an invariant square bounding box consisting o
 | **Bit 2** |  $2^2 = 4$ | `0100` | Left vertical line |
 | **Bit 3** |  $2^3 = 8$ | `1000` | Top horizontal line |
 
-
+The integer decimal value of any glyph is calculated directly from its active edge bits:
 $$
 \text{Value} = B_3 \cdot 2^3 + B_2 \cdot 2^2 + B_1 \cdot 2^1 + B_0 \cdot 2^0
 $$
 
+---
 2. **Internal Filling (Visual Balance Diagonals):** Internal diagonals are used to balance the stroke density and optimize optical readability:
 
 | Density Class | Active Bits | Balancing Element | Target Total Density |
@@ -75,26 +76,8 @@ $$
 | **Medium Density** | `2` | One internal diagonal (`/` or `\`) | Fixed density of **3 lines** |
 | **High Density** | `3–4` | Completely inner-empty | Natural outer density of **3 or 4 lines** |
 
-| Dec | Bin | Contour | Internal | IPA |
-| :---: | :---: | :--- | :---: | :---: |
-| **0** | `0000` | None | X | `[o]` |
-| **1** | `0001` | Right | / | `[a]` |
-| **2** | `0010` | Bottom | / | `[e]` |
-| **3** | `0011` | Bottom + Right | / | `[t]` |
-| **4** | `0100` | Left | / | `[u]` |
-| **5** | `0101` | Left + Right | \ | `[n]` |
-| **6** | `0110` | Left + Bottom | \ | `[l]` |
-| **7** | `0111` | Left + Bottom + Right | None | `[v]` |
-| **8** | `1000` | Top | / | `[i]` |
-| **9** | `1001` | Top + Right | \ | `[b]` |
-| **10** | `1010` | Top + Bottom | \ | `[s]` |
-| **11** | `1011` | Top + Bottom + Right | None | `[h]` |
-| **12** | `1100` | Top + Left | / | `[p]` |
-| **13** | `1101` | Top + Left + Right | None | `[m]` |
-| **14** | `1110` | Top + Left + Bottom | None | `[k]` |
-| **15** | `1111` | Top + Left + Bottom + Right | None | `[j]` |
 
-
+---
 3. To finalize the alphabet, I selected **16 of the most common IPA sounds** across global languages:
    
 * **Vowels:** `[o]`, `[a]`, `[e]`, `[u]`, `[i]`
@@ -110,6 +93,7 @@ By doing so, I ensured that the script remains **culturally and historically neu
 All 5 basic vowel sounds of the language (`[o]`, `[a]`, `[e]`, `[u]`, `[i]`) are encoded with **0 or 1 active bits**. 
 Graphically, each consists of exactly **2 lines** (including compensatory diagonals) and features a diagonal running from the bottom-left corner.
 
+---
 4. Final
 
 
