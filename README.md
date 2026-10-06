@@ -38,10 +38,28 @@ Every glyph represents an unbreakable, one-to-one correspondence between a geome
 
 # **Binary Code ⟺ Decimal Index ⟺ Spatial Geometry ⟺ IPA Phoneme**
 
+
+
 <p align="center">
-  <img src="YOalphabet_color.jpg" alt="YOalphabet" width="60%"/>
+  <img src="YOalphabet_glif_edge.png" alt="4-Bit YOalphabet Register & Decimal Value Mapping" width="80%"/>
+  <br>
+  <sub><b>Figure 1:</b> Standard 4-bit positional register mapping, color-coded edge vectors, and decimal value calculation formula.</sub>
 </p>
 
+Each character is inscribed within an invariant square bounding box consisting of two independent structural layers:
+
+1. **Outer Contour (Bit Registers):** The four external edges of the square act as physical data registers. Rule: If a bit is "1", the line is drawn; if "0", it remains empty. They are activated strictly clockwise, starting from the right vertical line:
+
+| Bit | Weight | Binary | Shape Element |
+| :--- | :--- | :--- | :--- |
+| **Bit 0** | \\(2^0 = 1\\) | `0001` | Right vertical line |
+| **Bit 1** | \\(2^1 = 2\\) | `0010` | Bottom horizontal line |
+| **Bit 2** | \\(2^2 = 4\\) | `0100` | Left vertical line |
+| **Bit 3** | \\(2^3 = 8\\) | `1000` | Top horizontal line |
+
+The integer decimal value (\\(V \in [0, 15]\\)) of any glyph is calculated directly from its active edge bits:
+
+\\[\text{Value} = B_3 \cdot 2^3 + B_2 \cdot 2^2 + B_1 \cdot 2^1 + B_0 \cdot 2^0\\]
 
 Each character is inscribed within an invariant square bounding box consisting of two independent structural layers:
 
@@ -101,6 +119,11 @@ All 5 basic vowel sounds of the language (`[o]`, `[a]`, `[e]`, `[u]`, `[i]`) are
 Graphically, each consists of exactly **2 lines** (including compensatory diagonals) and features a diagonal running from the bottom-left corner.
 
 
+<p align="center">
+  <img src="YOalphabet_color.jpg" alt="YOalphabet" width="80%"/>
+</p>
+
+---
 ## 📐 Spatial Layout Specification & The 4x4 Script Passport
 
 Every document, digital interface, or isolated text asset within the YOalphabet must conform to a strict spatial, geometric, and calibration protocol to guarantee deterministic parsing by both human eyes and computer vision systems:
