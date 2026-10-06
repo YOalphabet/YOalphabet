@@ -62,6 +62,7 @@ Each character is inscribed within an invariant square bounding box consisting o
 | **Bit 3** |  $2^3 = 8$ | `1000` | Top horizontal line |
 
 The integer decimal value of any glyph is calculated directly from its active edge bits:
+
 $$
 \text{Value} = B_3 \cdot 2^3 + B_2 \cdot 2^2 + B_1 \cdot 2^1 + B_0 \cdot 2^0
 $$
