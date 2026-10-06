@@ -62,14 +62,9 @@ Each character is inscribed within an invariant square bounding box consisting o
 | **Bit 3** |  $2^3 = 8$ | `1000` | Top horizontal line |
 
 
-
-
-| Bit | Weight | Shape Element |
-| :---: | :---: | :--- |
-| **Bit 0** | $2^0 = 1$ | Right vertical line |
-| **Bit 1** | $2^1 = 2$ | Bottom horizontal line |
-| **Bit 2** | $2^2 = 4$ | Left vertical line |
-| **Bit 3** | $2^3 = 8$ | Top horizontal line |
+$$
+\text{Value} = B_3 \cdot 2^3 + B_2 \cdot 2^2 + B_1 \cdot 2^1 + B_0 \cdot 2^0
+$$
 
 2. **Internal Filling (Visual Balance Diagonals):** Internal diagonals are used to balance the stroke density and optimize optical readability:
 
@@ -100,7 +95,8 @@ Each character is inscribed within an invariant square bounding box consisting o
 | **15** | `1111` | Top + Left + Bottom + Right | None | `[j]` |
 
 
-To finalize the alphabet, I selected **16 of the most common IPA sounds** across global languages:
+3. To finalize the alphabet, I selected **16 of the most common IPA sounds** across global languages:
+   
 * **Vowels:** `[o]`, `[a]`, `[e]`, `[u]`, `[i]`
 * **Consonants:** `[t]`, `[n]`, `[l]`, `[v]`, `[b]`, `[s]`, `[h]`, `[p]`, `[m]`, `[k]`, `[j]`
 
@@ -114,7 +110,30 @@ By doing so, I ensured that the script remains **culturally and historically neu
 All 5 basic vowel sounds of the language (`[o]`, `[a]`, `[e]`, `[u]`, `[i]`) are encoded with **0 or 1 active bits**. 
 Graphically, each consists of exactly **2 lines** (including compensatory diagonals) and features a diagonal running from the bottom-left corner.
 
+4. Final
 
+
+| Dec | Bin | Contour | Internal | IPA |
+| :---: | :---: | :--- | :---: | :---: |
+| **0** | `0000` | None | X | `[o]` |
+| **1** | `0001` | Right | / | `[a]` |
+| **2** | `0010` | Bottom | / | `[e]` |
+| **3** | `0011` | Bottom + Right | / | `[t]` |
+| **4** | `0100` | Left | / | `[u]` |
+| **5** | `0101` | Left + Right | \ | `[n]` |
+| **6** | `0110` | Left + Bottom | \ | `[l]` |
+| **7** | `0111` | Left + Bottom + Right | None | `[v]` |
+| **8** | `1000` | Top | / | `[i]` |
+| **9** | `1001` | Top + Right | \ | `[b]` |
+| **10** | `1010` | Top + Bottom | \ | `[s]` |
+| **11** | `1011` | Top + Bottom + Right | None | `[h]` |
+| **12** | `1100` | Top + Left | / | `[p]` |
+| **13** | `1101` | Top + Left + Right | None | `[m]` |
+| **14** | `1110` | Top + Left + Bottom | None | `[k]` |
+| **15** | `1111` | Top + Left + Bottom + Right | None | `[j]` |
+
+
+   
 <p align="center">
   <img src="YOalphabet_color.jpg" alt="YOalphabet" width="70%"/>
 </p>
