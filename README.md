@@ -67,6 +67,11 @@ $$
 \text{Value} = B_3 \cdot 2^3 + B_2 \cdot 2^2 + B_1 \cdot 2^1 + B_0 \cdot 2^0
 $$
 
+<p align="center">
+  <img src="YOalphabet_digit.png" alt="YOalphabet Matrix" width="60%"/>
+</p>
+
+
 ---
 2. **Internal Filling (Visual Balance Diagonals):** Internal diagonals are used to balance the stroke density and optimize optical readability:
 
