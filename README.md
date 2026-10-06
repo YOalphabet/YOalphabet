@@ -42,6 +42,10 @@ Every glyph represents an unbreakable, one-to-one correspondence between a geome
 
 # **Binary Code ⟺ Decimal Index ⟺ Spatial Geometry ⟺ IPA Phoneme**
 
+Each character is inscribed within an invariant square bounding box consisting of two independent structural layers:
+
+---
+1. **Outer Contour (Bit Registers):** The four external edges of the square act as physical data registers. Rule: If a bit is "1", the line is drawn; if "0", it remains empty. They are activated strictly clockwise, starting from the right vertical line:
 
 <p align="center">
   <img src="YOalphabet_glif_edge.png" alt="4-Bit YOalphabet Register & Decimal Value Mapping" width="60%"/>
@@ -49,10 +53,6 @@ Every glyph represents an unbreakable, one-to-one correspondence between a geome
   <sub><b>Figure 1:</b> Standard 4-bit positional register mapping, color-coded edge vectors, and decimal value calculation formula.</sub>
 </p>
 
-Each character is inscribed within an invariant square bounding box consisting of two independent structural layers:
-
----
-1. **Outer Contour (Bit Registers):** The four external edges of the square act as physical data registers. Rule: If a bit is "1", the line is drawn; if "0", it remains empty. They are activated strictly clockwise, starting from the right vertical line:
 
 | Bit | Weight | Binary | Shape Element |
 | :--- | :--- | :--- | :--- |
