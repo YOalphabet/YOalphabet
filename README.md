@@ -31,6 +31,10 @@ Unlike historical logical languages that force the human brain to calculate data
 1. **The Human Layer (UX):** For regular communication, it functions as an ultra-regular, exception-free language with fixed first-syllable stress. Humans instantly recognize glyphs via intuitive, built-in visual metaphors.
 2. **The AI & Machine Layer (Dev):** For computers, routers, or AI, every word automatically decomposes into raw 4-bit hardware registers  without the need for resource-heavy text-to-vector embeddings.
 
+
+---
+
+
 ## PART 1: YOalphabet Script Specification
 
 YOalphabet is a fully determined, generative writing system based on a 4-bit full isomorphism. 
@@ -45,6 +49,22 @@ Every glyph represents an unbreakable, one-to-one correspondence between a geome
   <br>
   <sub><b>Figure 1:</b> Standard 4-bit positional register mapping, color-coded edge vectors, and decimal value calculation formula.</sub>
 </p>
+
+Each character is inscribed within an invariant square bounding box consisting of two independent structural layers:
+
+1. **Outer Contour (Bit Registers):** The four external edges of the square act as physical data registers. Rule: If a bit is "1", the line is drawn; if "0", it remains empty. They are activated strictly clockwise, starting from the right vertical line:
+
+| Bit | Weight | Binary | Shape Element |
+| :--- | :--- | :--- | :--- |
+| **Bit 0** | \\(2^0 = 1\\) | `0001` | Right vertical line |
+| **Bit 1** | \\(2^1 = 2\\) | `0010` | Bottom horizontal line |
+| **Bit 2** | \\(2^2 = 4\\) | `0100` | Left vertical line |
+| **Bit 3** | \\(2^3 = 8\\) | `1000` | Top horizontal line |
+
+The integer decimal value (\\(V\\)) of any glyph is calculated directly from its active edge bits:
+
+\\[V = B_3 \cdot 2^3 + B_2 \cdot 2^2 + B_1 \cdot 2^1 + B_0 \cdot 2^0\\]
+
 
 Each character is inscribed within an invariant square bounding box consisting of two independent structural layers:
 
