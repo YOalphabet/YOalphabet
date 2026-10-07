@@ -97,7 +97,7 @@ Rotational Mode: Provides perfect spatial isotropy, 2D/3D vector rotation, and a
 Both profiles remain 100% mathematically equivalent—preserving the exact 44-line budget, 4-bit register mapping, and vowel/consonant line density.
 
 <p align="center">
-  <img src="YOalphabet_alt_diagonals.jpg" alt="YOalphabet Matrix" width="80%"/>
+  <img src="YOalphabet_alt_diagonals.png" alt="YOalphabet Matrix" width="80%"/>
 </p>
 
 
