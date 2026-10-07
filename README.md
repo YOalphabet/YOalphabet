@@ -87,6 +87,19 @@ The entire YOalphabet is constructed from 44 total lines: 32 outer square edges 
 <p align="center">
   <img src="YOalphabet_diagonal.png" alt="YOalphabet" width="70%"/>
 </p>
+---
+#### 📐 Dual Geometric Profiles: Static vs. Rotational Symmetry
+
+By inverting the internal diagonals of just three symbols (#2, #5, and #8), we achieve complete rotational symmetry across all 1-bit characters. In this mode, a single basic corner shape rotates 90° as the active bit moves across the four edge registers (right, bottom, left, top).
+Both options are fully supported and valid:
+Canonical Mode: Maximizes code simplicity for bare-metal hardware decoders.
+Rotational Mode: Provides perfect spatial isotropy, 2D/3D vector rotation, and animation consistency.
+Both profiles remain 100% mathematically equivalent—preserving the exact 44-line budget, 4-bit register mapping, and vowel/consonant line density.
+
+<p align="center">
+  <img src="YOalphabet_alt_diagonals.jpg" alt="YOalphabet Matrix" width="80%"/>
+</p>
+
 
 ---
 3. To finalize the alphabet, I selected **16 of the most common IPA sounds** across global languages:
