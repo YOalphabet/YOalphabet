@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this specification, please cite it using these metadata."
+title: "YOalphabet & YOconlang: 4-Bit Hardware-Isomorphic Script and Language"
+authors:
+  - family-names: "Patoka"
+    given-names: "Yevhen"
+    # orcid: "https://orcid.org/0009-0009-0599-9486"
+version: "1.0.0"
+date-released: 2026-10-07
+repository-code: "https://github.com/YOalphabet/YOalphabet.git"
+keywords:
+  - "yoconlang"
+  - "4-bit-isomorphism"
+  - "hardware-font"
+  - "yoalphabet"
+notes: "Patent applications filed with UkrNOIVI for Useful Model and Industrial Design."
