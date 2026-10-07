@@ -2,7 +2,7 @@
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOconlang-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
-# YOalphabet/YOconlang: Humanity towards AI. 4-bit isomorphic Script & logical Conlang.
+# YOalphabet & YOconlang: 4-Bit Hardware-Isomorphic Script and Language.
 
 > **"A self-balancing 4-bit isomorphic script and logical conlang engineered as a zero-ambiguity, MECE ontological interface for Human-AI symbiosis."**
 
