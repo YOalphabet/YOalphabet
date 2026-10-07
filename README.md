@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1331302673.svg)](https://doi.org/10.5281/zenodo.23205572)
+
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOconlang-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
 # YOalphabet/YOconlang: Humanity towards AI. 4-bit isomorphic Script & logical Conlang.
