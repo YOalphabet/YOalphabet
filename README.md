@@ -12,9 +12,7 @@
 
 
 <p align="center">
-  <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="60%"/>
-  <br>
-  <sub><b>Figure:</b> Dynamic 4-bit wave visualization and isomorphic glyph transformations in YOalphabet.</sub>
+  <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="60%"/>  
 </p>
 
 The **YOalphabet** introduces a completely synthesized, a priori communication environment. Every single character (glyph) in this system is a strict, one-to-one isomorphic fusion of four distinct domains:`Binary Code (4-bit) ── Decimal Index (0-15) ── IPA Acoustic Sound ── Rigid Geometry`
@@ -183,6 +181,9 @@ Developers and UI designers can re-render the script across diverse visual theme
 
 > **UI/UX Core Principle:** The aesthetic rendering is purely cosmetic. Whether displayed as a glowing neon HUD or a minimalist vector outline, the 4 outer edge registers ($2^0, 2^1, 2^2, 2^3$) maintain an exact, zero-overhead hardware mapping.
 
+##### 🔤 Official Font Files
+The compiled production font assets (`.ttf`, `.otf`) are available directly in the root (`main`) folder of the repository for use in web applications, desktop publishing, and mobile interfaces.
+
 ---
 
 ##### 🔴 Dot-Matrix & Circle-Grid Rendering (LED, Flip-Dot & Tactile Pin Arrays)
@@ -320,7 +321,10 @@ Unlike legacy 6-dot or 8-dot Braille systems that require arbitrary memorization
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
 ---
-## PART 2: YOconlang CORE SPECIFICATION## Core Architecture and Word Immutability
+## PART 2: YOconlang CORE SPECIFICATION
+
+### Core Architecture and Word Immutability
+
 YOconlang is an a priori engineered language optimized for unambiguous, frictionless communication. A foundational axiom of the language is the absolute immutability of roots. There are no inflections, suffixes, declensions, or internal conjugations. Grammatical categories, temporal shifts, and modalities are expressed exclusively via external grammatical particles.
 The phonotactics are strictly anchored in the International Phonetic Alphabet (IPA), using 5 core vowels and 11 stable consonants to eliminate all articulatory barriers. Stress is fixed invariantly on the first syllable of every separate word.
 
