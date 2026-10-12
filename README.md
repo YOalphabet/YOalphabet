@@ -448,6 +448,9 @@ Mode Markers Function: The markers distinguish numeral notation from ordinary le
 
 Both modes utilize **positional notation**: a digit’s value is determined strictly by its position in the sequence.
 
+---
+
+[![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOconlang-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
 ---
 
