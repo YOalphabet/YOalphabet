@@ -442,7 +442,7 @@ The word forms follow a strict `CV` (Consonant-Vowel) pattern:
 
 The **YOconlang** numeral system supports two distinct notation modes:
 * **Word-form notation** ( mode marker **`OO`**)   oo punobujo oo    = 4590  
-* **Digit-form notation** (mode marker **`O`**)    o pnbo o          = 4590
+* **Digit-form notation** (mode marker **`O`**)    o unbo o          = 4590
   
 Mode Markers Function: The markers distinguish numeral notation from ordinary lexicon and grammatical text. 
 
@@ -452,7 +452,7 @@ Both modes utilize **positional notation**: a digit’s value is determined stri
 ---
 
 <p align="center">
-  <img src="YOalphabetText.jpg" alt="YOalphabet Matrix" width="450"/>
+  <img src="YOalphabetText.jpg" alt="YOalphabet Matrix" width="90%"/>
 </p>
    YOconlang Translation Specification: Universal Declaration of Human Rights (Article 1) 
     This section provides a complete, granular, word-by-word morphemic breakdown and phonetical transcription 
