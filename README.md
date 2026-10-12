@@ -408,7 +408,62 @@ The C₂ consonant maps symmetrically to the exact type of destination entity or
 * K — Message / Text: Connected block of information, letter, archived dataset, code line.
 * H — Rule / Algorithm: Explicit code, legal or moral norm, regulation, mathematical calculation.
 * J — Collective / Network Graph: Social group, community, structured network of human or system relations.
-----------------------------------------------------------------------------------------------------------
+
+---
+
+```markdown
+## Numeral System
+
+
+
+<p align="center">
+  <img src="YOalphabet_numeral09.jpg" alt="YOalphabet Matrix" width="450"/>
+</p>
+
+
+
+
+
+
+
+The YOconlang numeral system supports both word-form and digit-form notation. Word forms follow the `CV` pattern. The vowels cycle through `o-a-e-i-u` twice, while ten different consonants are each used once; `s` is not used.
+
+In each numeral name, one of the two letters—a vowel or a consonant—corresponds to that numeral’s position in the YOalphabet sequence. The other letter completes the `CV` syllable.
+
+| Numeral | Word form |
+|---:|:---:|
+| 0 | `jo` |
+| 1 | `ka` |
+| 2 | `me` |
+| 3 | `ti` |
+| 4 | `pu` |
+| 5 | `no` |
+| 6 | `la` |
+| 7 | `ve` |
+| 8 | `hi` |
+| 9 | `bu` |
+
+Multi-digit numbers use positional notation: each digit’s value depends on its position in the sequence.
+
+### Word-form notation
+
+In word-form notation, each digit is written using its full form. The numeral sequence is enclosed by `OO`.
+
+- `oo jo oo` — 0.
+- `oo punobujo oo` — 4590, written as the digit forms for 4590.
+
+### Digit-form notation
+
+Digit-form notation uses the marker `O`. For example, `o pnbo o` represents 4590.
+
+The markers `OO` and `O` identify the numeral format and separate it from ordinary text.
+```
+
+
+
+---
+
+
 
 
 <p align="center">
