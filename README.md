@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/1331302673.svg)](https://doi.org/10.5281/zenodo.23205572)
 
-[![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOconlang-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
+[![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
 # YOalphabet & YOconlang: 4-Bit Hardware-Isomorphic Script and Language.
 
@@ -425,7 +425,7 @@ The word forms follow a strict `CV` (Consonant-Vowel) pattern:
 * Ten distinct consonants are used, each exactly once.
 * In each digit name, one letter—either the consonant or the vowel—corresponds to that digit’s position in the **YOalphabet** sequence, while the second letter completes the `CV` syllable.
 
-| Value | Word Form | YOalphabet Phonetic Mapping |
+| Value | Word Form | YOalphabet IPA |
 | :---: | :-------: | :---------: |
 | **0** | `jo` | `[o]` |
 | **1** | `ka` | `[a]` |
@@ -450,7 +450,7 @@ Both modes utilize **positional notation**: a digit’s value is determined stri
 
 ---
 
-[![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOconlang-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
+[![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
 ---
 
