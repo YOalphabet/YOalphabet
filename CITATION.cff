@@ -5,8 +5,8 @@ authors:
   - family-names: "Patoka"
     given-names: "Yevhen"
     # orcid: "https://orcid.org/0009-0009-0599-9486"
-version: "1.0.0"
-date-released: 2026-10-07
+version: "1.0.1"
+date-released: 2026-10-12
 repository-code: "https://github.com/YOalphabet/YOalphabet.git"
 keywords:
   - "yoconlang"
