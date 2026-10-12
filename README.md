@@ -92,24 +92,25 @@ The entire YOalphabet is constructed from 44 total lines: 32 outer square edges 
 
 By inverting the internal diagonals of just three symbols (**#2**, **#5**, and **#8**), we achieve complete 90° rotational symmetry and spatial isotropy across all bit configurations:
 
-* **1-bit characters (#1, #2, #4, #8):** A single basic corner primitive rotates 90° sequentially as the active bit moves across the four edge registers (Right \\(2^0\\), Bottom \\(2^1\\), Left \\(2^2\\), Top \\(2^3\\)).
+* **1-bit characters (#1, #2, #4, #8):** A single basic corner primitive rotates 90° sequentially as the active bit moves across the four edge registers.
 * **2-bit characters:**
   * **Adjacent edges (#3, #6, #12, #9):** Form a continuous 4-fold rotational family (corner-triangle) that maps onto itself under 90° rotations.
   * **Opposite edges (#5, #10):** Inverting the diagonal of **#5** aligns its vector topology with **#10**, making the two parallel-line glyphs exact 90° spatial rotations of each other.
 * **3-bit characters (#7, #11, #14, #13):** Containing zero internal diagonals, these 3-sided open-box glyphs inherently possess 100% rotational symmetry across all four spatial orientations.
-* **0-bit (#0) & 4-bit (#15):** Feature full 4-fold isotropic symmetry (a central cross `X` and a complete outer square `□`).
+* **0-bit (#0) & 4-bit (#15):** Feature full 4-fold isotropic symmetry.
 
 ##### Mode Comparison & Hardware Equivalences
 * **Canonical Mode:** Maximizes code simplicity for bare-metal hardware decoders, fixed memory maps, and embedded decoders.
 * **Rotational Mode:** Provides perfect spatial isotropy, 2D/3D vector rotation, kinetic transformations, and animation consistency.
 
-> Both options are fully supported and valid.
-> Both profiles remain **100% mathematically equivalent**—preserving the exact 44-line budget, 4-bit register mapping, and vowel/consonant line density.
+* Both options are fully supported and valid.
+  
+* Both profiles remain **100% mathematically equivalent**—preserving the exact 44-line budget, 4-bit register mapping, and vowel/consonant line density.
 
 
 
 <p align="center">
-  <img src="YOalphabet_alt_diagonals.png" alt="YOalphabet Matrix" width="80%"/>
+  <img src="YOalphabet_alt_diagonals.png" alt="YOalphabet Matrix" width="90%"/>
 </p>
 
 
