@@ -413,56 +413,40 @@ The C₂ consonant maps symmetrically to the exact type of destination entity or
 
 
 
-## Numeral System
-
-The **YOconlang** numeral system supports two distinct notation modes:
-* **Word-form notation** (full syllable representation)
-* **Digit-form notation** (consonant-compressed representation)
-
-Both modes utilize **positional notation**: a digit’s value is determined strictly by its position in the sequence.
-
----
+### Numeral System
 
 <p align="center">
-  <img src="YOalphabet_numeral09.jpg" alt="YOalphabet Matrix" width="450"/>
+  <img src="YOalphabet_numeral09.jpg" alt="YOalphabet Matrix" width="60%"/>
 </p>
 
 ### Digit Names
 
 The word forms follow a strict `CV` (Consonant-Vowel) pattern:
-* Vowels repeat the 5-element cycle `o - a - e - i - u` twice across indices 0–9.
-* Ten distinct consonants are used, each exactly once (the consonant `s` is excluded from digit names).
+* Vowels repeat the 5-element cycle `oaeiu` twice across indices 0–9.
+* Ten distinct consonants are used, each exactly once.
 * In each digit name, one letter—either the consonant or the vowel—corresponds to that digit’s position in the **YOalphabet** sequence, while the second letter completes the `CV` syllable.
 
-| Value | Word Form | Consonant | Vowel | YOalphabet Phonetic Mapping |
-| :---: | :-------: | :-------: | :---: | :-------------------------- |
-| **0** | `jo` | `j` | `o` | Vowel `[o]` (Index 0) |
-| **1** | `ka` | `k` | `a` | Vowel `[a]` (Index 1) |
-| **2** | `me` | `m` | `e` | Vowel `[e]` (Index 2) |
-| **3** | `ti` | `t` | `i` | Consonant `[t]` (Index 3) |
-| **4** | `pu` | `p` | `u` | Vowel `[u]` (Index 4) |
-| **5** | `no` | `n` | `o` | Consonant `[n]` (Index 5) |
-| **6** | `la` | `l` | `a` | Consonant `[l]` (Index 6) |
-| **7** | `ve` | `v` | `e` | Consonant `[v]` (Index 7) |
-| **8** | `hi` | `h` | `i` | Vowel `[i]` (Index 8) |
-| **9** | `bu` | `b` | `u` | Consonant `[b]` (Index 9) |
-
----
+| Value | Word Form | YOalphabet Phonetic Mapping |
+| :---: | :-------: | :------------------: |
+| **0** | `jo` | `[o]` |
+| **1** | `ka` | `[a]` |
+| **2** | `me` | `[e]` |
+| **3** | `ti` | `[t]` |
+| **4** | `pu` | `[u]` |
+| **5** | `no` | `[n]` |
+| **6** | `la` | `[l]` |
+| **7** | `ve` | `[v]` |
+| **8** | `hi` | `[i]` |
+| **9** | `bu` | `[b]` |
 
 ### Word-Form Notation
 
-In **word-form notation**, each digit is written using its full `CV` form. The sequence is enclosed by the opening and closing mode marker **`OO`** (written as `oo` in lowercase text).
+The **YOconlang** numeral system supports two distinct notation modes:
+* **Word-form notation** ( mode marker **`OO`**)   oo punobujo oo    = 4590  
+* **Digit-form notation** (mode marker **`O`**)    o pnbo o          = 4590.
+Mode Markers Function: The markers distinguish numeral notation from ordinary lexicon and grammatical text. 
+Both modes utilize **positional notation**: a digit’s value is determined strictly by its position in the sequence.
 
-```text
-oo jo oo          = 0
-oo punobujo oo    = 4590  (pu + no + bu + jo)
-Digit-Form Notation
-In digit-form notation, the sequence uses only the consonant from each digit name. The sequence is enclosed by the opening and closing marker O (written as o in lowercase text).
-o j o             = 0
-o pn bj o         = 4590  (p + n + b + j)
-[!NOTE] Mode Markers Function: The markers distinguish numeral notation from ordinary lexicon and grammatical text in parsers:
-OO marks full word-form notation.
-O marks compressed digit-form notation.
 
 ---
 
