@@ -412,8 +412,7 @@ The C₂ consonant maps symmetrically to the exact type of destination entity or
 ---
 
 
-
-### Numeral System
+## Numeral System
 
 <p align="center">
   <img src="YOalphabet_numeral09.jpg" alt="YOalphabet Matrix" width="60%"/>
@@ -427,7 +426,7 @@ The word forms follow a strict `CV` (Consonant-Vowel) pattern:
 * In each digit name, one letter—either the consonant or the vowel—corresponds to that digit’s position in the **YOalphabet** sequence, while the second letter completes the `CV` syllable.
 
 | Value | Word Form | YOalphabet Phonetic Mapping |
-| :---: | :-------: | :------------------: |
+| :---: | :-------: | :---------: |
 | **0** | `jo` | `[o]` |
 | **1** | `ka` | `[a]` |
 | **2** | `me` | `[e]` |
@@ -443,8 +442,10 @@ The word forms follow a strict `CV` (Consonant-Vowel) pattern:
 
 The **YOconlang** numeral system supports two distinct notation modes:
 * **Word-form notation** ( mode marker **`OO`**)   oo punobujo oo    = 4590  
-* **Digit-form notation** (mode marker **`O`**)    o pnbo o          = 4590.
+* **Digit-form notation** (mode marker **`O`**)    o pnbo o          = 4590
+  
 Mode Markers Function: The markers distinguish numeral notation from ordinary lexicon and grammatical text. 
+
 Both modes utilize **positional notation**: a digit’s value is determined strictly by its position in the sequence.
 
 
