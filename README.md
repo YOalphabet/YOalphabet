@@ -307,10 +307,14 @@ Beyond standard embedded systems and microcontroller displays, the 4-bit full is
 * **Deterministic In-Game Bytecode:** Serves as a fully functional, mathematically real language protocol for cyberpunk HUDs, sci-fi games, and worldbuilding—readable by both human players and in-game AI logic engines.
 
 ---
-##   Adaptation of YOalphabet to the American (English) Alphabet
+## Adaptation of YOalphabet to the English Alphabet
+## Mapping the 26-Letter English Alphabet
+
+This extension retains the sixteen base glyph identifiers and adds a dot modifier to distinguish additional letters. The modifier carries information beyond the base four-bit identifier and must be represented explicitly in digital encoding.
+
+This is an orthographic mapping of English letters, not a phonemic transcription of English pronunciation.
 
 To extend the baseline **YOalphabet** (16 core glyphs) to the full 26-letter American alphabet while preserving its compact 4-bit geometric architecture, a **two-register system** is implemented:
-
 
 * **Register 1 (Base):** The 16 original letters encoded by clean geometric glyphs. Accounts for **~82%** of letter frequency in standard English.
 * **Register 2 (Modified):** The 10 remaining letters encoded using Register 1 donor glyphs with an **internal diacritic dot** placed inside the bounding box. Accounts for **~18%** of letter occurrences in standard English.
@@ -397,6 +401,7 @@ The language utilizes strict morphological word templates:
 * Verbs, Adjectives, Adverbs: Rigid three-letter roots following the C₁VC₂ structure.
 * Nouns: Rigid four-letter roots following the C₁V₁C₂V₂ structure.
 * Pronouns and Structural Particles: Two-letter combinations following VC or CV templates.
+* System markers: two-vowel forms following the VV pattern.
 
 ### Current development status YOconlang
   
@@ -574,7 +579,9 @@ Both modes utilize **positional notation**: a digit’s value is determined stri
 * BA — [ba] : Reciprocal voice particle from Block 4 (Energy & Forces). Directs the subsequent kinetic impulse of the verb symmetrically towards each participant ("mutually / towards one another").
 * BAB — [bab] : Immutable verbal root from Block 4 (Energy & Forces). Core semantics: "To modify a physical or systemic impulse / To direct a stream of force / To act / To exert influence" (Mode A — Action). NU BA BAB translates directly to "are obliged to mutually act".
 * MO — [mo] : Functional grammatical marker from Block 8 (Semiotics) that transforms the subsequent root into the Adverb class.
-* JA — [ja] : Immutable three-letter root from Block 11 (Sociosphere) acting as an adverb due to the MO marker. Core semantics: "To direct an action for the benefit of the collective / solidarily" (Mode A — Social System Target). MO JA translates to "collectively / solidarily / in a spirit of cooperation".
+* JA — [ja] : CV relational particle from Block 11 (Sociosphere).  
+Function: marks collective or reciprocal orientation of the following action.  
+With MO, MO JA functions as an adverbial phrase meaning “collectively / for the benefit of the group.”
 * JOJO — [ˈjo.jo] : Four-letter Noun structured as C₁V₁C₂V₂. Derived from the root JOJ (preservation of an internal network of connections) and the final functional vowel O (Substance/Rest). Semantics: "An unbreakable, stable internal network of collective ties / Family / Community / Brotherhood".
 
 ------------------------------
@@ -624,6 +631,21 @@ The complete unbroken stream of text is ready for phonetic compilation and synth
 * **👁️ Edge Computer Vision Optimization** — Recognition pipelines bypass heavy Convolutional Neural Networks (CNNs). Low-power microcontrollers can parse the 4-bit byte instantly via raw pixel-intensity checks on 4 fixed coordinates.
 * **🤖 Direct LLM/AI Processing (No Embeddings)** — AI agents and large language models can ingest, parse, and compile YOconlang streams directly into 4-bit hardware registers, completely bypassing resource-heavy token-to-vector embeddings and vector database lookups.
 * **🏁 Rigid Spatial Typography Regulations** — The layout engine completely eliminates tracking and variable kerning, relying on a deterministic, isotropic matrix grid initiated by a mandatory 4×4 master calibration marker.
+---
+
+## Potential Applications2
+
+The following are research directions, not validated deployments:
+
+- Creative writing systems, typography, games, and worldbuilding.
+- Educational demonstrations of binary encoding and geometric construction.
+- Glyph rendering and constrained visual-recognition experiments.
+- Compact symbol encoding for predefined messages and device states.
+- Experimental gesture and tactile representations.
+- Parsing and generation tools for YOconlang.
+
+Applications in assistive technology, industrial control, or medical communication require additional safety, usability, and reliability evaluation.
+
 ---
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
