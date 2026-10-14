@@ -540,6 +540,10 @@ Some hexadecimal digit names coincide with existing CV forms. Inside the numeral
 
 ---
 
+**Vowel-pair pronunciation mode:** Each four-bit glyph may be read as two vowels. The upper bit pair selects the first vowel and the lower bit pair selects the second vowel: `00=o`, `01=a`, `10=i`, and `11=u`. This produces the sixteen VV names `oo, oa, oi, ou, ao, aa, ai, au, io, ia, ii, iu, uo, ua, ui, uu`.
+
+---
+
 **Letter names:** When YOalphabet glyphs are used as letters, vowel glyphs receive vowel-initial names: `oj` (o), `ak` (a), `em` (e), `up` (u), and `ih` (i). Consonant glyphs retain consonant-initial names: `ti` (t), `no` (n), `la` (l), `ve` (v), `bu` (b), `so` (s), `ha` (h), `pe` (p), `mi` (m), `ku` (k), and `ja` (j). Thus, a letter name always begins with the sound of the letter itself: vowels follow the V+C pattern, while consonants follow the C+V pattern.
 
 The complete letter-name series is:
