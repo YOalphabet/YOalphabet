@@ -82,7 +82,7 @@ Every glyph represents an unbreakable, one-to-one correspondence between a geome
 Each character is inscribed within an invariant square bounding box consisting of two independent structural layers:
 
 ---
-1. **Outer Contour (Bit Registers):** The four external edges of the square act as physical data registers. Rule: If a bit is "1", the line is drawn; if "0", it remains empty. They are activated strictly clockwise, starting from the right vertical line:
+1. **Outer Contour (Bit Registers):** The four external edges of the square act as geometric representations of bit positions. Rule: If a bit is "1", the line is drawn; if "0", it remains empty. They are activated strictly clockwise, starting from the right vertical line:
 
 <p align="center">
   <img src="YOalphabet_glif_edge.png" alt="4-Bit YOalphabet Register & Decimal Value Mapping" width="80%"/>
@@ -110,7 +110,7 @@ $$
 
 
 ---
-2. **Internal Filling (Visual Balance Diagonals):** Internal diagonals are used to balance the stroke density and optimize optical readability:
+2. **Internal Filling (Visual Balance Diagonals):** Internal diagonals are used to balance the stroke density and provide a consistent distribution of line elements:
 
 | Density Class | Active Bits | Balancing Element | Target Total Density |
 | :--- | :---: | :--- | :--- |
@@ -159,7 +159,7 @@ By inverting the internal diagonals of just three symbols (**#2**, **#5**, and *
 * **Vowels:** `[o]`, `[a]`, `[e]`, `[u]`, `[i]`
 * **Consonants:** `[t]`, `[n]`, `[l]`, `[v]`, `[b]`, `[s]`, `[h]`, `[p]`, `[m]`, `[k]`, `[j]`
 
-By doing so, I ensured that the script remains **culturally and historically neutral**, making it instantly easy to pronounce for anyone on the planet.
+By doing so, I ensured that the script remains **culturally and historically neutral**, making it selected as the project's base phonetic inventory.
 
 <p align="center">
   <img src="YOalphabet_matrix_vowels_consonants.jpg" 
@@ -233,10 +233,10 @@ Developers and UI designers can re-render the script across diverse visual theme
   <sub><b>Figure:</b> Example of 10 distinct UI/UX visual skins applied to the same invariant 4-bit matrix (Styles #31–#40).</sub>
 </p>
 
-> **UI/UX Core Principle:** The aesthetic rendering is purely cosmetic. Whether displayed as a glowing neon HUD or a minimalist vector outline, the 4 outer edge registers ($2^0, 2^1, 2^2, 2^3$) maintain an exact, zero-overhead hardware mapping.
+> **UI/UX Core Principle:** The aesthetic rendering is purely cosmetic. Whether displayed as a glowing neon HUD or a minimalist vector outline, the 4 outer edge registers ($2^0, 2^1, 2^2, 2^3$) maintain an exact, a defined mapping between glyph identifiers and rendered forms.
 
 ##### 🔤 Official Font Files
-The compiled production font assets (`.ttf`, `.otf`) are available directly in the root (`main`) folder of the repository for use in web applications, desktop publishing, and mobile interfaces.
+The compiled font files (`.ttf`, `.otf`) are available directly in the root (`main`) folder of the repository for use in web applications, desktop publishing, and mobile interfaces.
 
 ---
 
@@ -376,6 +376,10 @@ Unlike legacy 6-dot or 8-dot Braille systems that require arbitrary memorization
 
 ---
 ## PART 2: YOconlang CORE SPECIFICATION
+
+YOconlang uses immutable roots and external grammatical particles. Its vocabulary is organized through a domain–process–target matrix inspired by the MECE principle.
+
+The matrix is intended to make lexical relationships explicit and reduce uncontrolled overlap. Unique coordinates do not, by themselves, guarantee unique interpretations or complete coverage of human experience. Definitions and examples remain necessary.
 
 ### Core Architecture and Word Immutability
 
