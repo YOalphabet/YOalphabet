@@ -5,15 +5,15 @@
 
 # YOalphabet & YOconlang: 4-Bit Hardware-Isomorphic Script and Language.
 
-> **"A self-balancing 4-bit isomorphic script and logical conlang engineered as a zero-ambiguity, MECE ontological interface for Human-AI symbiosis."**
+> **"A geometric script and logical constructed language, each with human-facing and machine-facing layers: expressive writing and structured meaning for people; 4-bit glyph encoding and formal language rules for software and AI."**
 
 <p align="center">
-  <img src="YOalphabet_HumanAI_VisualBridge.png" alt="YOalphabet Matrix" width="60%"/>
+  <img src="YOalphabet_HumanAI_VisualBridge.png" alt="YOalphabet Matrix" width="80%"/>
 </p>
 
 
 <p align="center">
-  <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="60%"/>  
+  <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>  
 </p>
 
 The **YOalphabet** introduces a completely synthesized, a priori communication environment. Every single character (glyph) in this system is a strict, one-to-one isomorphic fusion of four distinct domains:`Binary Code (4-bit) ── Decimal Index (0-15) ── IPA Acoustic Sound ── Rigid Geometry`
@@ -47,7 +47,7 @@ Each character is inscribed within an invariant square bounding box consisting o
 1. **Outer Contour (Bit Registers):** The four external edges of the square act as physical data registers. Rule: If a bit is "1", the line is drawn; if "0", it remains empty. They are activated strictly clockwise, starting from the right vertical line:
 
 <p align="center">
-  <img src="YOalphabet_glif_edge.png" alt="4-Bit YOalphabet Register & Decimal Value Mapping" width="60%"/>
+  <img src="YOalphabet_glif_edge.png" alt="4-Bit YOalphabet Register & Decimal Value Mapping" width="80%"/>
   <br>
   <sub><b>Figure 1:</b> Standard 4-bit positional register mapping, color-coded edge vectors, and decimal value calculation formula.</sub>
 </p>
@@ -67,7 +67,7 @@ $$
 $$
 
 <p align="center">
-  <img src="YOalphabet_digit.png" alt="YOalphabet Matrix" width="60%"/>
+  <img src="YOalphabet_digit.png" alt="YOalphabet Matrix" width="80%"/>
 </p>
 
 
@@ -111,7 +111,7 @@ By inverting the internal diagonals of just three symbols (**#2**, **#5**, and *
 
 
 <p align="center">
-  <img src="YOalphabet_alt_diagonals.png" alt="YOalphabet Matrix" width="90%"/>
+  <img src="YOalphabet_alt_diagonals.png" alt="YOalphabet Matrix" width="80%"/>
 </p>
 
 
@@ -125,7 +125,7 @@ By doing so, I ensured that the script remains **culturally and historically neu
 
 <p align="center">
   <img src="YOalphabet_matrix_vowels_consonants.jpg" 
-    alt="YOalphabet IPA vowels & consonants" width="450"/>
+    alt="YOalphabet IPA vowels & consonants" width="80%"/>
 </p>
 
 All 5 basic vowel sounds of the language (`[o]`, `[a]`, `[e]`, `[u]`, `[i]`) are encoded with **0 or 1 active bits**. 
@@ -157,7 +157,7 @@ Graphically, each consists of exactly **2 lines** (including compensatory diagon
 
    
 <p align="center">
-  <img src="YOalphabet_color.jpg" alt="YOalphabet" width="70%"/>
+  <img src="YOalphabet_color.jpg" alt="YOalphabet" width="80%"/>
 </p>
 
 ---
@@ -178,7 +178,7 @@ The layout engine completely eliminates variable tracking and kerning, relying o
 
 
 <p align="center">
-  <img src="YOalphabetMatrix2.jpeg" alt="YOalphabet" width="450"/>
+  <img src="YOalphabetMatrix2.jpeg" alt="YOalphabet" width="80%"/>
 </p>
 
 
@@ -190,7 +190,7 @@ While the underlying 4-bit hardware topology and mathematical matrix remain 100%
 Developers and UI designers can re-render the script across diverse visual themes—ranging from high-contrast HUDs and bioluminescent interfaces to retro-futuristic or cyberpunk styles—without breaking the deterministic machine readability.
 
 <p align="center">
-  <img src="YOalphabet_styles.png" alt="YOalphabet UI/UX Style Sample" width="100%"/>
+  <img src="YOalphabet_styles.png" alt="YOalphabet UI/UX Style Sample" width="80%"/>
   <br>
   <sub><b>Figure:</b> Example of 10 distinct UI/UX visual skins applied to the same invariant 4-bit matrix (Styles #31–#40).</sub>
 </p>
@@ -207,7 +207,7 @@ The compiled production font assets (`.ttf`, `.otf`) are available directly in t
 The 4-bit geometric topology of **YOalphabet** scales seamlessly into discrete, low-resolution dot-matrix hardware without losing zero-overhead register mapping. Each 4-bit glyph is mapped onto a minimalist circle-grid (dot matrix), making it natively compatible with low-cost LED matrices, flip-dot displays, e-paper micro-arrays, and physical tactile pin actuators.
 
 <p align="center">
-  <img src="YOalphabet_33.jpg" alt="YOalphabet 4x4 Dot-Matrix Representation" width="450"/>
+  <img src="YOalphabet_33.jpg" alt="YOalphabet 4x4 Dot-Matrix Representation" width="80%"/>
   <br>
   <sub><b>Figure:</b> Discrete Circle-Grid / Dot-Matrix rendering of the 16 core YOalphabet glyphs (Indices #0–#15).</sub>
 </p>
@@ -219,10 +219,10 @@ The 4-bit geometric topology of **YOalphabet** scales seamlessly into discrete, 
 
 ### 🖐️ 4-Bit Kinetic Sign Language & Emergency Tactile Interface YOalphabet
 
-The 4-bit full isomorphism of **YOalphabet** naturally extends beyond visual glyphs and digital displays into a **physical 4-bit sign language**. By utilizing just **two fingers on each hand**, anyone can encode and transmit the entire 16-character alphabet in real time without voice, cameras, or digital hardware [1, 2].
+The 4-bit full isomorphism of **YOalphabet** naturally extends beyond visual glyphs and digital displays into a **physical 4-bit sign language**. By utilizing just **two fingers on each hand**, anyone can encode and transmit the entire 16-character alphabet in real time without voice, cameras, or digital hardware.
 
 <p align="center">
-  <img src="YOalphabet_sign.jpg" alt="YOalphabet 4-Bit Kinetic Sign Language" width="60%"/>
+  <img src="YOalphabet_sign.jpg" alt="YOalphabet 4-Bit Kinetic Sign Language" width="80%"/>
   <br>
   <sub><b>Figure:</b> 4-Bit Hand Gesture Mapping using 2 fingers per hand for tactile and non-verbal communication.</sub>
 </p>
@@ -230,7 +230,7 @@ The 4-bit full isomorphism of **YOalphabet** naturally extends beyond visual gly
 #### 📐 Binary Hand Mapping (2 Fingers per Hand = 1 Nibble)
 * **Right Hand (Bits 0 & 1):** Controls the lower bits ($2^0 = 1$ and $2^1 = 2$).
 * **Left Hand (Bits 2 & 3):** Controls the higher bits ($2^2 = 4$ and $2^3 = 8$).
-* **Combined State (0000 to 1111):** 4 binary finger positions map 1-to-1 directly to the 16 decimal indices (0–15), their corresponding IPA phonetic sounds, and semantic core vectors [1, 3].
+* **Combined State (0000 to 1111):** 4 binary finger positions map 1-to-1 directly to the 16 decimal indices (0–15), their corresponding IPA phonetic sounds, and semantic core vectors.
 
 #### 🚨 Key Applications & Use Cases
 1. **Deaf & Hard-of-Hearing Accessibility:** Provides an ultra-simple, 16-state tactile interface for non-verbal communication that eliminates the steep learning curve of complex natural sign language alphabets.
@@ -271,14 +271,14 @@ Beyond standard embedded systems and microcontroller displays, the 4-bit full is
 ---
 ##   Adaptation of YOalphabet to the American (English) Alphabet
 
-To extend the baseline **YOalphabet** (16 core glyphs) to the full 26-letter American alphabet while preserving its compact 4-bit geometric architecture, a **two-register system** is implemented [1]:
+To extend the baseline **YOalphabet** (16 core glyphs) to the full 26-letter American alphabet while preserving its compact 4-bit geometric architecture, a **two-register system** is implemented:
 
 
 * **Register 1 (Base):** The 16 original letters encoded by clean geometric glyphs. Accounts for **~82%** of letter frequency in standard English.
 * **Register 2 (Modified):** The 10 remaining letters encoded using Register 1 donor glyphs with an **internal diacritic dot** placed inside the bounding box. Accounts for **~18%** of letter occurrences in standard English.
 
 <p align="center">
-  <img src="YOalphabet_americanEN.jpeg" alt="YOalphabet 4x4 American Matrix" width="480"/>
+  <img src="YOalphabet_americanEN.jpeg" alt="YOalphabet 4x4 American Matrix" width="80%"/>
 </p>
 
 ### 📊 Two-Register Mapping Matrix
@@ -383,7 +383,7 @@ Since the core roots are completely uninflected, grammatical and syntactic roles
 ## The Semantic Core Matrix (The YOconlang Kernel)
 
 <p align="center">
-  <img src="YOalphabet color cvc.jpg" alt="YOalphabet" width="450"/>
+  <img src="YOalphabet color cvc.jpg" alt="YOalphabet" width="80%"/>
 </p>
 
 All lexical meanings and roots are generated systematically through a 3-axis orthogonal matrix based on the Core Kernel.
@@ -431,7 +431,7 @@ The C₂ consonant maps symmetrically to the exact type of destination entity or
 ## Numeral System
 
 <p align="center">
-  <img src="YOalphabet_numeral09.jpg" alt="YOalphabet Matrix" width="60%"/>
+  <img src="YOalphabet_numeral09.jpg" alt="YOalphabet Matrix" width="80%"/>
 </p>
 
 ### Digit Names
@@ -583,7 +583,7 @@ The complete unbroken stream of text is ready for phonetic compilation and synth
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
 ---
-## 💎 Thank you for your support the YOalphabet&YOconlang development via cryptocurrency. Now 0$.
+## 💎 Thank you for your support the YOalphabet&YOconlang development via cryptocurrency. Now 2026october14  0 $.
 
 * **USDT ( TRC-20):** `TFwggRZUB9BBNHwyXgZBGkd2EycSz9umGJ`
 * **USDT / USDC / ETH (ERC-20):** `0x1102BbE0c8aeF5D2e44059fb951671CfC2047255`
