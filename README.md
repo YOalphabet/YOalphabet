@@ -44,18 +44,6 @@ The specifications describe the systems and their rules. Performance claims abou
 
 ---
 
-
-The **YOalphabet** introduces a completely synthesized, a priori communication environment. Every single character (glyph) in this system is a strict, one-to-one isomorphic fusion of four distinct domains:`Binary Code (4-bit) ── Decimal Index (0-15) ── IPA Acoustic Sound ── Rigid Geometry`
-By positioning itself precisely between human cognitive perception and computational logic, it slashes data bandwidth by up to 90%, enabling robust communication over extreme, low-power, or degraded channels.
-
-##  Dual-Layer Architecture: For Humans & Machines
-
-Unlike historical logical languages that force the human brain to calculate data like a computer chip during live speech, YOalphabet features a unique **dual-layer interface**:
-1. **The Human Layer (UX):** For regular communication, it functions as an ultra-regular, exception-free language with fixed first-syllable stress. Humans instantly recognize glyphs via intuitive, built-in visual metaphors.
-2. **The AI & Machine Layer (Dev):** For computers, routers, or AI, every word automatically decomposes into raw 4-bit hardware registers  without the need for resource-heavy text-to-vector embeddings.
-
----
-
 ### 🕊️ Global Mission & Philosophy
 Beyond its 4-bit hardware topology, **YOalphabet & YOconlang** serve as a culturally neutral, zero-ambiguity communication protocol. Built on 16 universal IPA phonemes and a rigid MECE logic, the system eliminates linguistic dominance and context errors to unite humans and AI.
 
@@ -96,6 +84,7 @@ YOalphabet defines how symbols are represented. YOconlang defines how words and 
 Four-bit glyph encoding specifies how symbols can be represented as data. It does not, by itself, provide visual recognition, grammatical parsing, or semantic understanding.
 
 Applications involving bandwidth reduction, low-power devices, degraded channels, or AI processing require task-specific implementations and reproducible comparisons with existing methods.
+
 ---
 
 ## PART 1: YOalphabet Script Specification
