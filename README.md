@@ -512,6 +512,33 @@ Mode Markers Function: The markers distinguish numeral notation from ordinary le
 Both modes utilize **positional notation**: a digit’s value is determined strictly by its position in the sequence.
 
 ---
+### Hexadecimal Digit Names (10–15)
+
+YOconlang extends this series with direct names for the hexadecimal digits 10–15.  
+Each name begins with the consonant sound of the corresponding YOalphabet glyph:
+
+| Value | YOalphabet glyph | Binary code | Name | IPA |
+|---:|---|---|---|---|
+| 10 | s | 1010 | **so** | [so] |
+| 11 | h | 1011 | **ha** | [ha] |
+| 12 | p | 1100 | **pe** | [pe] |
+| 13 | m | 1101 | **mi** | [mi] |
+| 14 | k | 1110 | **ku** | [ku] |
+| 15 | j | 1111 | **ja** | [ja] |
+
+The complete hexadecimal digit series is:
+
+```text
+jo ka me ti pu no la ve hi bu so ha pe mi ku ja
+0  1  2  3  4  5  6  7  8  9  10 11 12 13 14 15
+```
+
+For 10–14, the vowel follows the continuing `o–a–e–i–u` cycle.  
+For 15, **ja** is used instead of **jo** to avoid duplicating the name of zero.
+
+Some hexadecimal digit names coincide with existing CV forms. Inside the numeral markers `OO … OO` or `O … O`, they are read as digit values, not as grammatical particles.
+
+---
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
