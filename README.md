@@ -16,6 +16,35 @@
   <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>  
 </p>
 
+
+# YOalphabet & YOconlang — Geometric Writing System and Constructed Language
+
+YOalphabet is a geometric writing system with 16 core glyphs derived from a complete 4-bit code. It can be used as a neography, a phonetic script through defined language mappings, or a visual encoding system. Its glyphs support geometric, rounded, handwritten, and digital styles.
+
+YOconlang is a logical constructed language with fixed subject–verb–object (SVO) syntax, immutable roots, grammatical particles, and a semantic matrix for organizing vocabulary. It can be written in Latin letters or YOalphabet. YOalphabet defines the symbols and their encoding; YOconlang defines the words, grammar, and linguistic meaning.
+
+## Human-facing and machine-facing layers
+
+Both projects have human-facing and machine-facing layers. These layers describe how each project can be used, not a division between YOalphabet and YOconlang.
+
+- YOalphabet for people: visual glyphs, handwriting, calligraphy, and a distinctive script.
+- YOalphabet for machines: four-bit glyph identifiers and defined geometric construction rules.
+- YOconlang for people: pronounceable words, grammatical patterns, and a language for expression.
+- YOconlang for machines: explicit word forms, grammatical markers, and structured sentence rules.
+
+Users can explore the visual writing system without learning its binary structure, or study its encoding without adopting YOconlang. YOconlang is one language that uses YOalphabet, not a requirement for using the glyph system.
+
+## Explore the project
+
+- YOalphabet: glyph construction, binary mappings, phonetic assignments, and writing styles.
+- YOconlang: phonology, grammar, semantic categories, vocabulary, and sentence examples.
+- Research: potential applications in human–machine communication, visual recognition, and structured language processing.
+
+The specifications describe the systems and their rules. Performance claims about recognition, efficiency, or ambiguity require separate implementations and reproducible tests.
+
+---
+
+
 The **YOalphabet** introduces a completely synthesized, a priori communication environment. Every single character (glyph) in this system is a strict, one-to-one isomorphic fusion of four distinct domains:`Binary Code (4-bit) ── Decimal Index (0-15) ── IPA Acoustic Sound ── Rigid Geometry`
 By positioning itself precisely between human cognitive perception and computational logic, it slashes data bandwidth by up to 90%, enabling robust communication over extreme, low-power, or degraded channels.
 
