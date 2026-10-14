@@ -127,7 +127,7 @@ The entire YOalphabet is constructed from 44 total lines: 32 outer square edges 
 
 ---
 
-#### 📐 Dual Geometric Profiles: Static vs. Rotational Symmetry
+####  Dual Geometric Profiles: Static vs. Rotational Symmetry
 
 By inverting the internal diagonals of just three symbols (**#2**, **#5**, and **#8**), we achieve complete 90° rotational symmetry and spatial isotropy across all bit configurations:
 
@@ -199,7 +199,7 @@ Graphically, each consists of exactly **2 lines** (including compensatory diagon
 </p>
 
 ---
-## 📐 Spatial Layout Specification & The 4x4 Script Passport
+##  Spatial Layout Specification & The 4x4 Script Passport
 
 Every document, digital interface, or isolated text asset within the YOalphabet must conform to a strict spatial, geometric, and calibration protocol to guarantee deterministic parsing by both human eyes and computer vision systems:
 
@@ -221,7 +221,7 @@ The layout engine completely eliminates variable tracking and kerning, relying o
 
 
 
-### 🎨 UI/UX & Visual Style Adaptability (Skinning Example)
+###  UI/UX & Visual Style Adaptability (Skinning Example)
 
 While the underlying 4-bit hardware topology and mathematical matrix remain 100% invariant, the visual layer of **YOalphabet** acts as an adaptable UI/UX skin. 
 
@@ -235,12 +235,12 @@ Developers and UI designers can re-render the script across diverse visual theme
 
 > **UI/UX Core Principle:** The aesthetic rendering is purely cosmetic. Whether displayed as a glowing neon HUD or a minimalist vector outline, the 4 outer edge registers ($2^0, 2^1, 2^2, 2^3$) maintain an exact, a defined mapping between glyph identifiers and rendered forms.
 
-##### 🔤 Official Font Files
+#####  Official Font Files
 The compiled font files (`.ttf`, `.otf`) are available directly in the root (`main`) folder of the repository for use in web applications, desktop publishing, and mobile interfaces.
 
 ---
 
-##### 🔴 Dot-Matrix & Circle-Grid Rendering (LED, Flip-Dot & Tactile Pin Arrays)
+#####  Dot-Matrix & Circle-Grid Rendering (LED, Flip-Dot & Tactile Pin Arrays)
 
 The 4-bit geometric topology of **YOalphabet** scales seamlessly into discrete, low-resolution dot-matrix hardware without losing zero-overhead register mapping. Each 4-bit glyph is mapped onto a minimalist circle-grid (dot matrix), making it natively compatible with low-cost LED matrices, flip-dot displays, e-paper micro-arrays, and physical tactile pin actuators.
 
@@ -255,7 +255,7 @@ The 4-bit geometric topology of **YOalphabet** scales seamlessly into discrete, 
 
 ---
 
-### 🖐️ 4-Bit Kinetic Sign Language & Emergency Tactile Interface YOalphabet
+## Experimental Four-Bit Gesture Encoding & Emergency Tactile Interface YOalphabet
 
 The 4-bit full isomorphism of **YOalphabet** naturally extends beyond visual glyphs and digital displays into a **physical 4-bit sign language**. By utilizing just **two fingers on each hand**, anyone can encode and transmit the entire 16-character alphabet in real time without voice, cameras, or digital hardware.
 
@@ -265,12 +265,12 @@ The 4-bit full isomorphism of **YOalphabet** naturally extends beyond visual gly
   <sub><b>Figure:</b> 4-Bit Hand Gesture Mapping using 2 fingers per hand for tactile and non-verbal communication.</sub>
 </p>
 
-#### 📐 Binary Hand Mapping (2 Fingers per Hand = 1 Nibble)
+####  Binary Hand Mapping (2 Fingers per Hand = 1 Nibble)
 * **Right Hand (Bits 0 & 1):** Controls the lower bits ($2^0 = 1$ and $2^1 = 2$).
 * **Left Hand (Bits 2 & 3):** Controls the higher bits ($2^2 = 4$ and $2^3 = 8$).
 * **Combined State (0000 to 1111):** 4 binary finger positions map 1-to-1 directly to the 16 decimal indices (0–15), their corresponding IPA phonetic sounds, and semantic core vectors.
 
-#### 🚨 Key Applications & Use Cases
+####  Key Applications & Use Cases
 1. **Deaf & Hard-of-Hearing Accessibility:** Provides an ultra-simple, 16-state tactile interface for non-verbal communication that eliminates the steep learning curve of complex natural sign language alphabets.
 2. **Critical & Emergency Situations:**
    * **Zero-Noise Tactical Environments:** Silent signaling for search & rescue teams, military personnel, or security operators.
@@ -281,29 +281,29 @@ The 4-bit full isomorphism of **YOalphabet** naturally extends beyond visual gly
 
 ---
 
-### 🌐 Extended & High-Impact Application Domains
+###  Extended & High-Impact Application Domains
 
 Beyond standard embedded systems and microcontroller displays, the 4-bit full isomorphism and zero-overhead hardware mapping of **YOalphabet** enable critical deployment across specialized high-impact domains:
 
-#### 1. 📡 Deep Space & Low-Bandwidth Telemetry (SETI & Interplanetary VLF)
+#### 1.  Deep Space & Low-Bandwidth Telemetry (SETI & Interplanetary VLF)
 * **Extreme Data Compression:** In high-noise, long-distance communication (e.g., deep-space laser links or VLF channels), transmitting raw text is energy-prohibitive. A single 4-bit YOalphabet symbol simultaneously transmits a binary register, decimal index, IPA phonetic sound, and a core semantic category vector.
 * **Universal Calibration:** The $4 \times 4$ calibration matrix serves as an invariant geometric probe, readable by any visual sensor or automated system without prior linguistic context.
 
-#### 2. 🛡️ Air-Gapped SCADA & High-Security Industrial Control
+#### 2.  Air-Gapped SCADA & High-Security Industrial Control
 * **Buffer-Overflow & Injection Immunity:** Traditional text parsing in SCADA and industrial controllers introduces security vulnerabilities. YOconlang's strict SVO syntax and bounded 4-bit domain eliminate code-injection and buffer-overflow vectors entirely.
 * **Energy-Harvesting Sensors:** On passive RFID/NFC tags or ambient energy-powered IoT nodes (solar/vibration), zero-inference 4-bit register decoding operates within microjoule energy budgets.
 
-#### 3. 🧠 Brain-Computer Interfaces (BCI) & Emergency Medical Care
+#### 3.  Brain-Computer Interfaces (BCI) & Emergency Medical Care
 * **Direct EEG Pulse Mapping:** Discrete neural spikes and Brain-Computer Interface (BCI) output states map directly into 4-bit YOalphabet registers without energy-intensive NLP processing.
 * **Critical Medical Signaling:** Allows non-verbal or paralyzed patients (ICU, intubation, post-trauma) to express high-priority semantic needs using minimal motor activity or eye movements.
 
-#### 4. 🥽 Low-Power AR/VR & HUD Systems
+#### 4.  Low-Power AR/VR & HUD Systems
 * **Zero-Latency Edge Vision:** Micro-displays and smart glasses decode YOalphabet symbols instantly via basic pixel-edge checks without running heavy neural OCR pipelines, preserving battery life and reducing thermal overhead.
 
-#### 5. 🔍 Optical Watermarking & Anti-Counterfeiting
+#### 5.  Optical Watermarking & Anti-Counterfeiting
 * **Steganographic Micro-Marking:** 4-bit square frames can be subtly integrated into PCB layers, microchip packaging, or physical goods, enabling instant hardware authentication via a simple 4-point luminosity check.
 
-#### 6. 🎮 Interactive Sci-Fi Universes & Functional Gaming Lore
+#### 6.  Interactive Sci-Fi Universes & Functional Gaming Lore
 * **Deterministic In-Game Bytecode:** Serves as a fully functional, mathematically real language protocol for cyberpunk HUDs, sci-fi games, and worldbuilding—readable by both human players and in-game AI logic engines.
 
 ---
@@ -323,7 +323,7 @@ To extend the baseline **YOalphabet** (16 core glyphs) to the full 26-letter Ame
   <img src="YOalphabet_americanEN.jpeg" alt="YOalphabet 4x4 American Matrix" width="80%"/>
 </p>
 
-### 📊 Two-Register Mapping Matrix
+###  Two-Register Mapping Matrix
 
 | Donor Glyph | Register 1 (Base) | Register 2 (+ Internal Dot) | Pair Type | Phonetic / Graphic Rationale |
 | :---: | :---: | :---: | :---: | :--- |
@@ -346,7 +346,7 @@ To extend the baseline **YOalphabet** (16 core glyphs) to the full 26-letter Ame
 
 ---
 
-### 🖐️ Tactile & Braille Interface YOalphabet
+###  Tactile & Braille Interface YOalphabet
 
 The 4-bit full isomorphism of **YOalphabet** extends naturally beyond visual rendering and computer vision into a high-efficiency tactile writing system. **YOalphabet** is designed for refreshable Braille displays, micro-relief paper embossing, tactile packaging markers, and haptic feedback devices.
 
@@ -361,7 +361,7 @@ Unlike legacy 6-dot or 8-dot Braille systems that require arbitrary memorization
   <sub><b>Figure:</b> Standard 4-Dot Pure Binary Matrix (Left) vs. Self-Anchoring 5-Dot Matrix with Central Reference Point (Right).</sub>
 </p>
 
-#### 🔄 Architecture Comparison: 4-Dot vs. 5-Dot Matrix
+####  Architecture Comparison: 4-Dot vs. 5-Dot Matrix
 
 ##### 1. Pure 4-Dot Matrix 
 * **Structure:** Minimalist 4-point diamond layout (Top, Right, Bottom, Left).
@@ -419,7 +419,7 @@ The language utilizes strict morphological word templates:
 | **All 4-character combinations** | 65,536 | 3,025 | 62,511 | Only the noun class is occupied. |
 | **All 5-character combinations** | 1,048,576 | 0 | 1,048,576 | Reserve zone. |
 
-> 📂 **Implementation Note:** The complete, exhaustive listings and coordinate maps for the **VV** (System Markers), **CV** (Relational Particles), **VC** (Pronominal Quantifiers), and the **Numeric Blocks** have been extracted into standalone, production-ready specification files located directly in the root of this repository for clean modular access.
+>  **Implementation Note:** The complete, exhaustive listings and coordinate maps for the **VV** (System Markers), **CV** (Relational Particles), **VC** (Pronominal Quantifiers), and the **Numeric Blocks** have been extracted into standalone, production-ready specification files located directly in the root of this repository for clean modular access.
 
   
 
@@ -527,13 +527,13 @@ Both modes utilize **positional notation**: a digit’s value is determined stri
     and fixed first-syllable stress phonotactics.
 
 
-## 📄 Sentence 1: On Birth, Freedom, and Equality of All Human Beings
+##  Sentence 1: On Birth, Freedom, and Equality of All Human Beings
 
 * Original (American English): "All human beings are born free and equal in dignity and rights."
 * YOconlang Orthography: OS TO SIS MA LIS KE MA JOJ HA NONO KE HA HOHO.
 * IPA Phonetic Transcription: [ˈos ˈto ˈsis ˈma ˈlis ˈke ˈma ˈjoj ˈha ˈno.no ˈke ˈha ˈho.ho]
 
-## 🔍 Word-by-Word Breakdown:
+##  Word-by-Word Breakdown:
 
 * OS — [os] : Universality pronoun from the approved Block O. Semantics: "All people / All human beings". Functions as the syntactic Subject (S).
 * TO — [to] : Grammatical tense particle from Block T. Marks the past perfective tense (Preterite).
@@ -550,13 +550,13 @@ Both modes utilize **positional notation**: a digit’s value is determined stri
 * HOHO — [ˈho.ho] : Four-letter Noun structured as C₁V₁C₂V₂. Derived from the logical root HOH (to execute a pure algorithm) and the final functional vowel O (Substance). Semantics: "Abstract law / Legal right / Unalterable systemic norm".
 
 ------------------------------
-## 📄 Sentence 2: On Endowment with Reason and Conscience
+##  Sentence 2: On Endowment with Reason and Conscience
 
 * Original (American English): "They are endowed with reason and conscience"
 * YOconlang Orthography: OJ TO KEL HOHI KE NONO.
 * IPA Phonetic Transcription: [ˈoj ˈto ˈkel ˈho.hi ˈke ˈno.no]
 
-## 🔍 Word-by-Word Breakdown:
+##  Word-by-Word Breakdown:
 
 * OJ — [oj] : Collective universality pronoun from Block O. Semantics: "The entire society / They as a collective group / Human collective". Functions as the syntactic Subject (S) in the SVO structure.
 * TO — [to] : Past tense particle (Preterite). Verifies the historical fact of being endowed.
@@ -566,13 +566,13 @@ Both modes utilize **positional notation**: a digit’s value is determined stri
 * NONO — [ˈno.no] : Four-letter Noun structured as C₁V₁C₂V₂ (Root NON + Vowel O). Semantics within this specific syntactic position: "Internal moral peace of mind / Moral self-awareness / Conscience". Functions as the secondary direct Object (O₂).
 
 ------------------------------
-## 📄 Sentence 3: On the Obligation to Act in a Spirit of Brotherhood
+##  Sentence 3: On the Obligation to Act in a Spirit of Brotherhood
 
 * Original (American English): "and should act towards one another in a spirit of brotherhood."
 * YOconlang Orthography: KE NU BA BAB MO JA JOJO.
 * IPA Phonetic Transcription: [ˈke ˈnu ˈba ˈbab ˈmo ˈja ˈjo.jo]
 
-## 🔍 Word-by-Word Breakdown:
+##  Word-by-Word Breakdown:
 
 * KE — [ke] : Logical conjunction operator "AND", initiating a new coordinate clause in the speech stream.
 * NU — [nu] : Modal particle of absolute duty and rigid obligation from Block 6 (Psychology). Semantics: "Must / Should / Is obliged to" (modifies the subsequent action).
@@ -585,10 +585,10 @@ With MO, MO JA functions as an adverbial phrase meaning “collectively / for th
 * JOJO — [ˈjo.jo] : Four-letter Noun structured as C₁V₁C₂V₂. Derived from the root JOJ (preservation of an internal network of connections) and the final functional vowel O (Substance/Rest). Semantics: "An unbreakable, stable internal network of collective ties / Family / Community / Brotherhood".
 
 ------------------------------
-## 🎼 Complete Monolithic Phonetic Stream
+##  Complete Monolithic Phonetic Stream
 The complete unbroken stream of text is ready for phonetic compilation and synthesis:
 [ˈos ˈto ˈsis ˈma ˈlis ˈke ˈma ˈjoj ˈha ˈno.no ˈke ˈha ˈho.ho ˈoj ˈto ˈkel ˈho.hi ˈke ˈno.no ˈke ˈnu ˈba ˈbab ˈmo ˈja ˈjo.jo]
-## 🛠 Syntax & Phonotactic Compliance Notes:
+##  Syntax & Phonotactic Compliance Notes:
 
    1. All word order arrays are strictly restricted to the linear SVO framework.
    2. Phonetic reduction or vowel slurring is completely absent (0%).
@@ -596,44 +596,44 @@ The complete unbroken stream of text is ready for phonetic compilation and synth
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 🛠️ Potential Applications
+###  Potential Applications
 
 > Note: The applications below are proposed use cases, not validated deployments. Their feasibility and benefits require task-specific prototypes, testing, and comparison with existing solutions. YOalphabet provides the glyph and encoding layer; YOconlang provides an optional language layer.
 
-#### 🌐 1. Specialized Communication Channels & Low-Bandwidth Infrastructure
+####  1. Specialized Communication Channels & Low-Bandwidth Infrastructure
 * **Subsea & Deep Space Sub-channels:** Ideal for Very Low Frequency (VLF) acoustic modems or long-range deep-space nodes where transmission is capped at single bits per minute.
 * **Extreme Degraded Networks (LoRaWAN & Mesh):** Eliminates heavy string payloads. A single byte transmits two fully formed, phonetically rich semantic roots, bypassing the need for transport-layer text compression.
 * **Emergency Quantum & Laser Dispersal:** The 4-bit binary matrix provides a zero-overhead error-correction baseline for Free-Space Optical (FSO) or post-quantum cryptographic telemetry.
 
-#### 🧠 2. Human-Machine & Bio-Digital Interfaces (HCI / BCI)
+####  2. Human-Machine & Bio-Digital Interfaces (HCI / BCI)
 * **Inclusive Human-Hardware (Assistive Tech):** The high-contrast, self-balancing grid enables tactical and tactile character recognition for the visually impaired that is vastly superior to complex, non-isomorphic Braille layouts.
 * **Direct Neural Encoding (BCI / EEG):** The 4-bit register-level architecture mirrors discrete neural firing patterns, allowing brain-computer interfaces to read, parse, and synthesize text directly without resource-heavy NLP model translation.
 * **Augmented Reality (AR) Heads-Up Displays:** Optimized for low-resolution, high-glare smart glasses. The strict geometric contours ensure instantaneous edge-detection rendering by low-power wearable chips.
 
-#### 🔋 3. Data Green-Computing & Edge IoT Swarms
+####  3. Data Green-Computing & Edge IoT Swarms
 * **Hardware-Level Register Strings:** Direct execution on 8-bit or 16-bit microcontrollers within autonomous Machine-to-Machine (M2M) IoT swarms, fully bypassing application layers and reducing data center cooling and power footprints.
 * **Energy-Harvesting Edge Devices:** Operates efficiently on passive RFID/NFC or solar-powered sensors, executing semantic logic at the bare hardware level before the power cycle depletes.
 
-#### 🤖 4. Autonomous Systems & Resilient Infrastructure
+####  4. Autonomous Systems & Resilient Infrastructure
 * **Swarm Robotics & Kinetic Coordination:** Drone networks can exchange uncompressed, structural SVO command vectors (`Subject-Verb-Object`) in real-time using raw 4-bit physical registers for collision avoidance and target alignment.
 * **Air-Gapped Industrial Automation:** Provides an isolated, predictable, human-readable yet machine-executable instruction script for SCADA systems, preventing buffer overflow exploits and remote code execution vulnerabilities.
 
 
-## 🎯 Architectural Principles and Intended Advantages
+##  Architectural Principles and Intended Advantages
 
 > Note: The points below describe the architectural rationale and intended advantages of YOalphabet and YOconlang. They are design hypotheses, not demonstrated performance gains; practical benefits require implementation, testing, and comparison with existing approaches.
 
-* **💻 Full Isomorphism Chain** — Every data token is an unbreakable, bijective (one-to-one) link bridging raw hardware registers directly to cognitive semantic structures: `Binary Code ⟺ Decimal Index ⟺ Spatial Geometry ⟺ IPA Phoneme ⟺ MECE Ontological Core ⟺ Human-AI Interface`.
-* **📐 Zero Mapping Abstraction** — The visual structure is not drawn arbitrarily; it is mathematically generated by a strict deterministic formula based on spatial bit-register weights.
-* **📊 Strict MECE Compliance & Future Proofing** — The conceptual kernel and grammatical partitions are designed mathematically to be Mutually Exclusive and Collectively Exhaustive. This guarantees that no semantic collisions or overlapping definitions can occur, providing a hallucination-free foundation for LLMs and autonomous systems.
-* **🔢 Hardware-Level Alphanumerics** — Glyphs do not merely represent numbers—they *are* the numbers. The decimal value $D$ physically dictates and renders the contour geometry.
-* **🗣️ Line-Density Phonetic Classification** — The system acts as a built-in feature extractor: all vowels are mathematically restricted to exactly 2 lines, while consonants strictly require 3 or more lines.
-* **👁️ Edge Computer Vision Optimization** — Recognition pipelines bypass heavy Convolutional Neural Networks (CNNs). Low-power microcontrollers can parse the 4-bit byte instantly via raw pixel-intensity checks on 4 fixed coordinates.
-* **🤖 Direct LLM/AI Processing (No Embeddings)** — AI agents and large language models can ingest, parse, and compile YOconlang streams directly into 4-bit hardware registers, completely bypassing resource-heavy token-to-vector embeddings and vector database lookups.
-* **🏁 Rigid Spatial Typography Regulations** — The layout engine completely eliminates tracking and variable kerning, relying on a deterministic, isotropic matrix grid initiated by a mandatory 4×4 master calibration marker.
+* **  Full Isomorphism Chain** — Every data token is an unbreakable, bijective (one-to-one) link bridging raw hardware registers directly to cognitive semantic structures: `Binary Code ⟺ Decimal Index ⟺ Spatial Geometry ⟺ IPA Phoneme ⟺ MECE Ontological Core ⟺ Human-AI Interface`.
+* ** Zero Mapping Abstraction** — The visual structure is not drawn arbitrarily; it is mathematically generated by a strict deterministic formula based on spatial bit-register weights.
+* ** Strict MECE Compliance & Future Proofing** — The conceptual kernel and grammatical partitions are designed mathematically to be Mutually Exclusive and Collectively Exhaustive. This guarantees that no semantic collisions or overlapping definitions can occur, providing a hallucination-free foundation for LLMs and autonomous systems.
+* ** Hardware-Level Alphanumerics** — Glyphs do not merely represent numbers—they *are* the numbers. The decimal value $D$ physically dictates and renders the contour geometry.
+* ** Line-Density Phonetic Classification** — The system acts as a built-in feature extractor: all vowels are mathematically restricted to exactly 2 lines, while consonants strictly require 3 or more lines.
+* ** Edge Computer Vision Optimization** — Recognition pipelines bypass heavy Convolutional Neural Networks (CNNs). Low-power microcontrollers can parse the 4-bit byte instantly via raw pixel-intensity checks on 4 fixed coordinates.
+* ** Direct LLM/AI Processing (No Embeddings)** — AI agents and large language models can ingest, parse, and compile YOconlang streams directly into 4-bit hardware registers, completely bypassing resource-heavy token-to-vector embeddings and vector database lookups.
+* ** Rigid Spatial Typography Regulations** — The layout engine completely eliminates tracking and variable kerning, relying on a deterministic, isotropic matrix grid initiated by a mandatory 4×4 master calibration marker.
 ---
 
-## Potential Applications2
+## Potential Applications 2.0
 
 The following are research directions, not validated deployments:
 
@@ -651,7 +651,7 @@ Applications in assistive technology, industrial control, or medical communicati
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
 ---
-## 💎 Thank you for your support the YOalphabet&YOconlang development via cryptocurrency. Now 2026october14  0 $.
+#  Thank you for your support the YOalphabet&YOconlang development via cryptocurrency. Now 2026october14  0 $.
 
 * **USDT ( TRC-20):** `TFwggRZUB9BBNHwyXgZBGkd2EycSz9umGJ`
 * **USDT / USDC / ETH (ERC-20):** `0x1102BbE0c8aeF5D2e44059fb951671CfC2047255`
