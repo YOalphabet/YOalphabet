@@ -539,6 +539,14 @@ For 15, **ja** is used instead of **jo** to avoid duplicating the name of zero.
 Some hexadecimal digit names coincide with existing CV forms. Inside the numeral markers `OO … OO` or `O … O`, they are read as digit values, not as grammatical particles.
 
 ---
+<p align="center">
+  <img src="YOalphabet_numeral0F.jpg" width="45%"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="YOalphabet_numeral0Falt.jpg" width="45%"/>
+</p>
+
+
+---
 
 **Vowel-pair pronunciation mode:** Each four-bit glyph may be read as two vowels. The upper bit pair selects the first vowel and the lower bit pair selects the second vowel: `00=o`, `01=a`, `10=i`, and `11=u`. This produces the sixteen VV names `oo, oa, oi, ou, ao, aa, ai, au, io, ia, ii, iu, uo, ua, ui, uu`.
 
