@@ -517,14 +517,14 @@ Both modes utilize **positional notation**: a digit’s value is determined stri
 YOconlang extends this series with direct names for the hexadecimal digits 10–15.  
 Each name begins with the consonant sound of the corresponding YOalphabet glyph:
 
-| Value | YOalphabet glyph | Binary code | Name | IPA |
-|---:|---|---|---|---|
-| 10 | s | 1010 | **so** | [so] |
-| 11 | h | 1011 | **ha** | [ha] |
-| 12 | p | 1100 | **pe** | [pe] |
-| 13 | m | 1101 | **mi** | [mi] |
-| 14 | k | 1110 | **ku** | [ku] |
-| 15 | j | 1111 | **ja** | [ja] |
+| Value | Word Form | YOalphabet IPA |
+| :---: | :-------: | :---------: |
+| **10** | so | [s] |
+| **11** | ha | [h] |
+| **12** | pe | [p] |
+| **13** | mi | [m] |
+| **14** | ku | [k] |
+| **15** | ja | [j] |
 
 The complete hexadecimal digit series is:
 
