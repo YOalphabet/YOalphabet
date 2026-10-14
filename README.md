@@ -219,7 +219,7 @@ Graphically, each consists of exactly **2 lines** (including compensatory diagon
 Every document, digital interface, or isolated text asset within the YOalphabet must conform to a strict spatial, geometric, and calibration protocol to guarantee deterministic parsing by both human eyes and computer vision systems:
 
 ### 1. The 4x4 Identity Matrix (System Passport)
-On physical and digital media, the complete code table is strictly displayed as a monolithic 4x4 matrix, filling sequentially from left to right, top to bottom by increasing decimal index. 
+On physical and digital media, the complete code table is strictly displayed as a monolithic 4x4 matrix ( the logo is not a separate design—it is composed of the system’s complete set of glyphs ), filling sequentially from left to right, top to bottom by increasing decimal index. 
 * **Calibration Requirement:** This 4×4 master calibration marker must be permanently rendered in the top-left corner of every document or data block to serve as the system's identification and calibration passport. 
 * **Promotional Asset:** This standard matrix layout also serves as the official visual identity to promote the YOalphabet.
 
