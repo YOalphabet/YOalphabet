@@ -540,6 +540,17 @@ Some hexadecimal digit names coincide with existing CV forms. Inside the numeral
 
 ---
 
+**Letter names:** When YOalphabet glyphs are used as letters, vowel glyphs receive vowel-initial names: `oj` (o), `ak` (a), `em` (e), `up` (u), and `ih` (i). Consonant glyphs retain consonant-initial names: `ti` (t), `no` (n), `la` (l), `ve` (v), `bu` (b), `so` (s), `ha` (h), `pe` (p), `mi` (m), `ku` (k), and `ja` (j). Thus, a letter name always begins with the sound of the letter itself: vowels follow the V+C pattern, while consonants follow the C+V pattern.
+
+The complete letter-name series is:
+
+```text
+oj  ak  em  ti  up  no  la  ve  ih  bu  so  ha  pe  mi  ku  ja
+o   a   e   t   u   n   l   v   i   b   s   h   p   m   k   j
+
+```
+
+---
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
 ---
