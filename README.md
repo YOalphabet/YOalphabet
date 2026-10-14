@@ -63,21 +63,6 @@ These representations describe the same symbol from different perspectives. The 
 
 Handwritten and digital styles can vary while preserving the identity of each glyph.
 
-## Human-Facing and Machine-Facing Layers
-
-YOalphabet and YOconlang each have human-facing and machine-facing layers.
-
-### YOalphabet
-
-- For people: a geometric writing system that can be used as a neography, handwriting system, or phonetic script through defined language mappings. Users do not need to know the binary structure to read or write its symbols.
-- For machines: a finite set of glyphs with four-bit identifiers and defined geometric construction rules. These mappings provide a basis for encoding, rendering, and recognition tools.
-
-### YOconlang
-
-- For people: a constructed language with pronounceable words, fixed first-syllable stress, immutable roots, grammatical particles, and fixed subject–verb–object (SVO) syntax.
-- For machines: explicit word-form patterns, grammatical markers, and a semantic vocabulary matrix that can support parsing and structured representation.
-
-YOalphabet defines how symbols are represented. YOconlang defines how words and sentences express meaning.
 
 ## Encoding Is Not Understanding
 
