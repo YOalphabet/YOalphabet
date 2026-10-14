@@ -63,6 +63,41 @@ Beyond its 4-bit hardware topology, **YOalphabet & YOconlang** serve as a cultur
 
 ---
 
+## YOalphabet: One Glyph, Multiple Representations
+
+YOalphabet defines 16 core glyphs through a shared mapping:
+
+4-bit code ↔ decimal index (0–15) ↔ canonical geometry ↔ assigned IPA phoneme
+
+The binary code determines the canonical geometric structure. The decimal index identifies the glyph, while the IPA assignment specifies its pronunciation in the base phonetic mapping.
+
+These representations describe the same symbol from different perspectives. The geometric construction follows defined rules; the phonetic assignment is a convention of the system.
+
+Handwritten and digital styles can vary while preserving the identity of each glyph.
+
+## Human-Facing and Machine-Facing Layers
+
+YOalphabet and YOconlang each have human-facing and machine-facing layers.
+
+### YOalphabet
+
+- For people: a geometric writing system that can be used as a neography, handwriting system, or phonetic script through defined language mappings. Users do not need to know the binary structure to read or write its symbols.
+- For machines: a finite set of glyphs with four-bit identifiers and defined geometric construction rules. These mappings provide a basis for encoding, rendering, and recognition tools.
+
+### YOconlang
+
+- For people: a constructed language with pronounceable words, fixed first-syllable stress, immutable roots, grammatical particles, and fixed subject–verb–object (SVO) syntax.
+- For machines: explicit word-form patterns, grammatical markers, and a semantic vocabulary matrix that can support parsing and structured representation.
+
+YOalphabet defines how symbols are represented. YOconlang defines how words and sentences express meaning.
+
+## Encoding Is Not Understanding
+
+Four-bit glyph encoding specifies how symbols can be represented as data. It does not, by itself, provide visual recognition, grammatical parsing, or semantic understanding.
+
+Applications involving bandwidth reduction, low-power devices, degraded channels, or AI processing require task-specific implementations and reproducible comparisons with existing methods.
+---
+
 ## PART 1: YOalphabet Script Specification
 
 YOalphabet is a fully determined, generative writing system based on a 4-bit full isomorphism. 
