@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this specification, please cite it using these metadata."
+message: "If you use this specification, please cite it using these metadata."du
 title: "YOalphabet & YOconlang: 4-Bit Hardware-Isomorphic Script and Language"
 authors:
   - family-names: "Patoka"
@@ -7,10 +7,21 @@ authors:
     # orcid: "https://orcid.org/0009-0009-0599-9486"
 version: "1.0.1"
 date-released: 2026-10-12
-repository-code: "https://github.com/YOalphabet/YOalphabet.git"
+repository-code: "https://github.com/YOalphabet/YOalphabet"
+abstract: >-
+  YOalphabet is an open-source 4-bit visual encoding system.
+  It maps 16 base glyphs to binary values, decimal indices,
+  IPA phonemes, and geometric square forms. Each glyph uses
+  four outer edges as bit registers, making the underlying
+  4-bit value visible in the glyph geometry.
 keywords:
-  - "yoconlang"
-  - "4-bit-isomorphism"
-  - "hardware-font"
-  - "yoalphabet"
-notes: "Patent applications filed with UkrNOIVI for Useful Model and Industrial Design."
+  - "YOalphabet"
+  - "YOconlang"
+  - "4-bit encoding"
+  - "visual encoding"
+  - "geometric alphabet"
+  - "constructed writing system"
+  - "neography"
+  - "binary code"
+  - "IPA"
+  - "open-source"
