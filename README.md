@@ -376,7 +376,7 @@ Unlike legacy 6-dot or 8-dot Braille systems that require arbitrary memorization
 ---
 
 
-#### 4-Bit Socionics & MBTI Matrix Isomorphism
+### 4-Bit Socionics & MBTI Matrix Isomorphism
 Direct 1-to-1 mapping of the 16 Socionics types onto 4-bit YOalphabet registers.
 
 <p align="center">
@@ -384,19 +384,32 @@ Direct 1-to-1 mapping of the 16 Socionics types onto 4-bit YOalphabet registers.
 </p>
 
 | Bit Register | Value = `0` | Value = `1` |
-| :---: | :---: | :--- | :--- |
+| :---: | :--- | :--- |
 | **Bit 3** | **E** (Extraversion) | **I** (Introversion) |
-| **Bit 2** | **N** (Intuition)    | **S** (Sensing)      |
-| **Bit 1** | **F** ( Feeling)     | **T** ( Thinking)    |
-| **Bit 0** | **P** (Perceiving)   | **J** (Judging)      |
+| **Bit 2** | **N** (Intuition) | **S** (Sensing) |
+| **Bit 1** | **F** (Feeling) | **T** (Thinking) |
+| **Bit 0** | **P** (Perceiving) | **J** (Judging) |
+
 
 ---
-
+### The YOalphabet 64-Card Deck
+A physical 64-card deck expanding the 4-bit matrix across 4 distinct geometric suits (16 sequential ranks × 4 suits).
 
 <p align="center">
 <img src="YOalphabet_64cards.jpg" width="80%"/>
 </p>
 
+######  4 Geometric Color Suits
+| Suit | Color | Symbol | Geometric Theme |
+| :---: | :---: | :---: | :--- |
+| **Crosses** | Black  | ✖️ | Diagonal Crosses |
+| **Triangles** | Green  | ♻️ | Triangles |
+| **Squares** | Blue | 🟦 | Squares |
+| **Circles** | Red  | 🔴 | Circles |
+
+######  Structure & Ranks
+* **16 Sequential Ranks (#0–#15):** Direct 1-to-1 mapping to the 16 core 4-bit YOalphabet glyphs.
+* **64 Total Cards:** Complete matrix rendered across all 4 geometric suits.
 
 ---
 
