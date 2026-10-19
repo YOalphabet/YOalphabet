@@ -400,12 +400,12 @@ A physical 64-card deck expanding the 4-bit matrix across 4 distinct geometric s
 </p>
 
 ######  4 Geometric Color Suits
-| Suit | Color | Symbol | Geometric Theme |
-| :---: | :---: | :---: | :--- |
-| **Crosses** | Black  | ✖️ | Diagonal Crosses |
-| **Triangles** | Green  | ♻️ | Triangles |
-| **Squares** | Blue | 🟦 | Squares |
-| **Circles** | Red  | 🔴 | Circles |
+
+<p align="center">
+<img src="YOalphabet_cards4.jpg" width="80%"/>
+</p>
+
+Black Diagonal Crosses,  Green Triangles, Blue Squares, Red Circles 
 
 ######  Structure & Ranks
 * **16 Sequential Ranks (#0–#15):** Direct 1-to-1 mapping to the 16 core 4-bit YOalphabet glyphs.
@@ -745,7 +745,7 @@ Applications in assistive technology, industrial control, or medical communicati
 
 ---
 #  Thank you for your support the YOalphabet&YOconlang development via cryptocurrency. 
-#  Now 2026 october 19  ♦ 00 $.
+#  Now 2026 october 19    0 $.
 
 * **USDT ( TRC-20):** `TFwggRZUB9BBNHwyXgZBGkd2EycSz9umGJ`
 * **USDT / USDC / ETH (ERC-20):** `0x1102BbE0c8aeF5D2e44059fb951671CfC2047255`
