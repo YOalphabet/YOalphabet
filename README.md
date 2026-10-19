@@ -392,18 +392,17 @@ Direct 1-to-1 mapping of the 16 Socionics types onto 4-bit YOalphabet registers.
 
 
 ---
+
 ### The YOalphabet 64-Card Deck
 A physical 64-card deck expanding the 4-bit matrix across 4 distinct geometric suits (16 sequential ranks × 4 suits).
 
 <p align="center">
-<img src="YOalphabet_64cards.jpg" width="80%"/>
+  <img src="YOalphabet_64cards.jpg" width="45%"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="YOalphabet_card4.jpg" width="45%"/>
 </p>
 
 ######  4 Geometric Color Suits
-
-<p align="center">
-<img src="YOalphabet_cards4.jpg" width="80%"/>
-</p>
 
 Black Diagonal Crosses,  Green Triangles, Blue Squares, Red Circles 
 
