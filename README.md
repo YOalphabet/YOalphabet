@@ -376,25 +376,25 @@ Unlike legacy 6-dot or 8-dot Braille systems that require arbitrary memorization
 ---
 
 
-##### 4-Bit Socionics & MBTI Matrix Isomorphism
+#### 4-Bit Socionics & MBTI Matrix Isomorphism
 Direct 1-to-1 mapping of the 16 Socionics types onto 4-bit YOalphabet registers.
 
 <p align="center">
 <img src="YOalphabet_socionic.jpg" alt="YOalphabet Socionics Matrix" width="80%"/>
 </p>
 
-| Bit Register | Weight | Value = `0` | Value = `1` |
+| Bit Register | Value = `0` | Value = `1` |
 | :---: | :---: | :--- | :--- |
-| **Bit 3** | \\(2^3 = 8\\) | **E** (Extraversion) | **I** (Introversion) |
-| **Bit 2** | \\(2^2 = 4\\) | **N** (Intuition) | **S** (Sensing) |
-| **Bit 1** | \\(2^1 = 2\\) | **F** ( Feeling) | **T** ( Thinking) |
-| **Bit 0** | \\(2^0 = 1\\) | **P** (Perceiving) | **J** (Judging) |
+| **Bit 3** | **E** (Extraversion) | **I** (Introversion) |
+| **Bit 2** | **N** (Intuition)    | **S** (Sensing)      |
+| **Bit 1** | **F** ( Feeling)     | **T** ( Thinking)    |
+| **Bit 0** | **P** (Perceiving)   | **J** (Judging)      |
 
 ---
 
 
 <p align="center">
-<img src="YOalphabet_64cards" width="80%"/>
+<img src="YOalphabet_64cards.jpg" width="80%"/>
 </p>
 
 
