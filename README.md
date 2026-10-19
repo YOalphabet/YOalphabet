@@ -373,6 +373,22 @@ Unlike legacy 6-dot or 8-dot Braille systems that require arbitrary memorization
 * **Zero Symbol (`0000` / `[o]`):** Rendered with **only the center dot raised**.
 * **Tactile Ergonomics:** The central anchor acts as an instantaneous spatial reference. When sweeping fingertips across embossed paper, the reader immediately locates the cell center without needing external physical bounding boxes or grid lines.
 * **Best Used For:** Embossed paper, packaging, tactile signage, and blind reading in rimless environments.
+---
+
+
+##### 4-Bit Socionics & MBTI Matrix Isomorphism
+Direct 1-to-1 mapping of the 16 Socionics types onto 4-bit YOalphabet registers (\\(2^0, 2^1, 2^2, 2^3\\)).
+
+<p align="center">
+<img src="YOalphabet_socionic.jpg" alt="YOalphabet Socionics Matrix" width="80%"/>
+</p>
+
+* **Bit 3 (\\(2^3=8\\)):** **E** (Extraversion) = `0` | **I** (Introversion) = `1`
+* **Bit 2 (\\(2^2=4\\)):** **N** (Intuition) = `0` | **S** (Sensing) = `1`
+* **Bit 1 (\\(2^1=2\\)):** **F** (Feeling) = `0` | **T** (Thinking) = `1`
+* **Bit 0 (\\(2^0=1\\)):** **P** (Perceiving) = `0` | **J** (Judging) = `1`
+
+\\[\text{Type Index} = B_3 \cdot 8 + B_2 \cdot 4 + B_1 \cdot 2 + B_0 \cdot 1\\]
 
 ---
 
