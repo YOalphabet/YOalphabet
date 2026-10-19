@@ -549,6 +549,12 @@ Mode Markers Function: The markers distinguish numeral notation from ordinary le
 Both modes utilize **positional notation**: a digit’s value is determined strictly by its position in the sequence.
 
 ---
+
+<p align="center">
+<img src="YOalphabet_16digit.jpg" width="100%"/>
+</p>
+
+---
 ### Hexadecimal Digit Names (10–15)
 
 YOconlang extends this series with direct names for the hexadecimal digits 10–15.  
