@@ -308,40 +308,8 @@ The 4-bit full isomorphism of **YOalphabet** naturally extends beyond visual gly
 * **Silent signalling:** a 16-state hand code could be tried where voice is impractical, alongside existing standard signals.
 * **Sensors and VR/AR gloves:** a 4-bit finger state is easy to read in principle; practical accuracy is unknown.
 
-### Application domains not claimed
-
-Earlier drafts listed deep-space telemetry, SCADA and industrial control, brain-computer interfaces, low-power AR, anti-counterfeiting and in-game protocols as application domains. These are no longer claimed. A 4-bit symbol set does not by itself provide compression, error correction, security or neural decoding, and each of those fields already has established, tested encodings. Games, worldbuilding and education remain reasonable uses (see *Possible Directions* below).
-
----
-
-###  Extended & High-Impact Application Domains
-
-Beyond standard embedded systems and microcontroller displays, the 4-bit full isomorphism and zero-overhead hardware mapping of **YOalphabet** enable critical deployment across specialized high-impact domains:
-
-#### 1.  Deep Space & Low-Bandwidth Telemetry (SETI & Interplanetary VLF)
-* **Extreme Data Compression:** In high-noise, long-distance communication (e.g., deep-space laser links or VLF channels), transmitting raw text is energy-prohibitive. A single 4-bit YOalphabet symbol simultaneously transmits a binary register, decimal index, IPA phonetic sound, and a core semantic category vector.
-* **Universal Calibration:** The $4 \times 4$ calibration matrix serves as an invariant geometric probe, readable by any visual sensor or automated system without prior linguistic context.
-
-#### 2.  Air-Gapped SCADA & High-Security Industrial Control
-* **Buffer-Overflow & Injection Immunity:** Traditional text parsing in SCADA and industrial controllers introduces security vulnerabilities. YOconlang's strict SVO syntax and bounded 4-bit domain eliminate code-injection and buffer-overflow vectors entirely.
-* **Energy-Harvesting Sensors:** On passive RFID/NFC tags or ambient energy-powered IoT nodes (solar/vibration), zero-inference 4-bit register decoding operates within microjoule energy budgets.
-
-#### 3.  Brain-Computer Interfaces (BCI) & Emergency Medical Care
-* **Direct EEG Pulse Mapping:** Discrete neural spikes and Brain-Computer Interface (BCI) output states map directly into 4-bit YOalphabet registers without energy-intensive NLP processing.
-* **Critical Medical Signaling:** Allows non-verbal or paralyzed patients (ICU, intubation, post-trauma) to express high-priority semantic needs using minimal motor activity or eye movements.
-
-#### 4.  Low-Power AR/VR & HUD Systems
-* **Zero-Latency Edge Vision:** Micro-displays and smart glasses decode YOalphabet symbols instantly via basic pixel-edge checks without running heavy neural OCR pipelines, preserving battery life and reducing thermal overhead.
-
-#### 5.  Optical Watermarking & Anti-Counterfeiting
-* **Steganographic Micro-Marking:** 4-bit square frames can be subtly integrated into PCB layers, microchip packaging, or physical goods, enabling instant hardware authentication via a simple 4-point luminosity check.
-
-#### 6.  Interactive Sci-Fi Universes & Functional Gaming Lore
-* **Deterministic In-Game Bytecode:** Serves as a fully functional, mathematically real language protocol for cyberpunk HUDs, sci-fi games, and worldbuilding—readable by both human players and in-game AI logic engines.
-
 ---
 ## Adaptation of YOalphabet to the English Alphabet
-## Mapping the 26-Letter English Alphabet
 
 This extension retains the sixteen base glyph identifiers and adds a dot modifier to distinguish additional letters. The modifier carries information beyond the base four-bit identifier and must be represented explicitly in digital encoding.
 
@@ -349,8 +317,8 @@ This is an orthographic mapping of English letters, not a phonemic transcription
 
 To extend the baseline **YOalphabet** (16 core glyphs) to the full 26-letter American alphabet while preserving its compact 4-bit geometric architecture, a **two-register system** is implemented:
 
-* **Register 1 (Base):** The 16 original letters encoded by clean geometric glyphs. Accounts for **~82%** of letter frequency in standard English.
-* **Register 2 (Modified):** The 10 remaining letters encoded using Register 1 donor glyphs with an **internal diacritic dot** placed inside the bounding box. Accounts for **~18%** of letter occurrences in standard English.
+* **Register 1 (Base):** The 16 original letters encoded by clean geometric glyphs. Accounts for **~80%** of letter frequency in standard English.
+* **Register 2 (Modified):** The 10 remaining letters encoded using Register 1 donor glyphs with an **internal diacritic dot** placed inside the bounding box. Accounts for **~20%** of letter occurrences in standard English.
 
 <p align="center">
   <img src="YOalphabet_americanEN.jpeg" alt="YOalphabet 4x4 American Matrix" width="80%"/>
