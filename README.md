@@ -3,7 +3,7 @@
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
-# YOalphabet & YOconlang: 4-Bit Hardware-Isomorphic Script and Language.
+# YOalphabet & YOconlang: A 4-Bit Geometric Script and Constructed Language
 
 > **"A geometric script and logical constructed language, each with human-facing and machine-facing layers: expressive writing and structured meaning for people; 4-bit glyph encoding and formal language rules for software and AI."**
 
@@ -39,8 +39,8 @@ The specifications describe the systems and their rules. Performance claims abou
 
 ---
 
-###  Global Mission & Philosophy
-Beyond its 4-bit hardware topology, **YOalphabet & YOconlang** serve as a culturally neutral, zero-ambiguity communication protocol. Built on 16 universal IPA phonemes and a rigid MECE logic, the system eliminates linguistic dominance and context errors to unite humans and AI.
+###  Design Goals
+YOalphabet & YOconlang are design experiments: a script whose shapes are generated from a 4-bit code, and a language with a small phoneme inventory chosen from widely available sounds and a systematically organised root vocabulary. The goals are regularity and learnability. Neutrality, reduced ambiguity and any benefit for human–AI communication are goals to be tested, not established properties. Built on 16 universal IPA phonemes and a rigid MECE logic, the system eliminates linguistic dominance and context errors to unite humans and AI.
 
  **[Read the Full Manifesto](MANIFESTO.md)**
 
@@ -78,8 +78,8 @@ Applications involving bandwidth reduction, low-power devices, degraded channels
 ---
 ## PART 1: YOalphabet Script Specification
 
-YOalphabet is a fully determined, generative writing system based on a 4-bit full isomorphism. 
-Every glyph represents an unbreakable, one-to-one correspondence between a geometric symbol, a unique International Phonetic Alphabet (IPA) sound, a decimal number (0–15), and a 4-bit binary code.
+YOalphabet is a deterministic writing system generated from a 4-bit code.
+Every glyph is defined by a one-to-one assignment between a geometric symbol, a unique International Phonetic Alphabet (IPA) sound, a decimal number (0–15), and a 4-bit binary code.
 
 # **Binary Code ⟺ Decimal Index ⟺ Spatial Geometry ⟺ IPA Phoneme**
 
@@ -158,7 +158,7 @@ By inverting the internal diagonals of just three symbols (**#2**, **#5**, and *
 
 
 ---
-3. To finalize the alphabet, I selected **16 of the most common IPA sounds** across global languages:
+3. The 16 glyphs are assigned 16 phonemes chosen for broad cross-linguistic availability. This is a design choice; the set is not claimed to be the 16 most frequent sounds worldwide:
    
 * **Vowels:** `[o]`, `[a]`, `[e]`, `[u]`, `[i]`
 * **Consonants:** `[t]`, `[n]`, `[l]`, `[v]`, `[b]`, `[s]`, `[h]`, `[p]`, `[m]`, `[k]`, `[j]`
@@ -205,7 +205,7 @@ Graphically, each consists of exactly **2 lines** (including compensatory diagon
 ---
 ##  Spatial Layout Specification & The 4x4 Script Passport
 
-Every document, digital interface, or isolated text asset within the YOalphabet must conform to a strict spatial, geometric, and calibration protocol to guarantee deterministic parsing by both human eyes and computer vision systems:
+Every document, digital interface, or isolated text asset within the YOalphabet must conform to a strict spatial, geometric, and calibration protocol to support consistent reading by both people and software:
 
 ### 1. The 4x4 Identity Matrix (System Passport)
 On physical and digital media, the complete code table is strictly displayed as a monolithic 4x4 matrix ( the logo is not a separate design—it is composed of the system’s complete set of glyphs ), filling sequentially from left to right, top to bottom by increasing decimal index. 
@@ -288,7 +288,7 @@ The 4-bit geometric topology of **YOalphabet** scales seamlessly into discrete, 
 
 ---
 
-## Experimental Four-Bit Gesture Encoding & Emergency Tactile Interface YOalphabet
+## Experimental Four-Bit Gesture Encoding
 
 The 4-bit full isomorphism of **YOalphabet** naturally extends beyond visual glyphs and digital displays into a **physical 4-bit sign language**. By utilizing just **two fingers on each hand**, anyone can encode and transmit the entire 16-character alphabet in real time without voice, cameras, or digital hardware.
 
@@ -303,14 +303,14 @@ The 4-bit full isomorphism of **YOalphabet** naturally extends beyond visual gly
 * **Left Hand (Bits 2 & 3):** Controls the higher bits ($2^2 = 4$ and $2^3 = 8$).
 * **Combined State (0000 to 1111):** 4 binary finger positions map 1-to-1 directly to the 16 decimal indices (0–15), their corresponding IPA phonetic sounds, and semantic core vectors.
 
-####  Key Applications & Use Cases
-1. **Deaf & Hard-of-Hearing Accessibility:** Provides an ultra-simple, 16-state tactile interface for non-verbal communication that eliminates the steep learning curve of complex natural sign language alphabets.
-2. **Critical & Emergency Situations:**
-   * **Zero-Noise Tactical Environments:** Silent signaling for search & rescue teams, military personnel, or security operators.
-   * **Extreme Environments & Hazard Zones:** Communication through thick protective gloves, hazard suits, or behind reinforced glass where voice transmission is blocked.
-   * **Medical & Post-Trauma Care:** Allows patients unable to speak (ICU, intubation, paralysis) to output precise 4-bit words and semantic requests using minimal motor activity.
-3. **Low-Bandwidth Tactile Sensors:** Direct human-to-glove input for VR/AR controllers and assistive robotics.
+####  Possible use cases (hypotheses, untested)
+* **Accessibility:** a very small gesture vocabulary might help in some assistive settings. It would have to be evaluated with deaf, hard-of-hearing and motor-impaired users first, and it does not replace established sign languages or AAC systems.
+* **Silent signalling:** a 16-state hand code could be tried where voice is impractical, alongside existing standard signals.
+* **Sensors and VR/AR gloves:** a 4-bit finger state is easy to read in principle; practical accuracy is unknown.
 
+### Application domains not claimed
+
+Earlier drafts listed deep-space telemetry, SCADA and industrial control, brain-computer interfaces, low-power AR, anti-counterfeiting and in-game protocols as application domains. These are no longer claimed. A 4-bit symbol set does not by itself provide compression, error correction, security or neural decoding, and each of those fields already has established, tested encodings. Games, worldbuilding and education remain reasonable uses (see *Possible Directions* below).
 
 ---
 
@@ -361,14 +361,14 @@ To extend the baseline **YOalphabet** (16 core glyphs) to the full 26-letter Ame
 | Donor Glyph | Register 1 (Base) | Register 2 (+ Internal Dot) | Pair Type | Phonetic / Graphic Rationale |
 | :---: | :---: | :---: | :---: | :--- |
 | **[o]** | **O** | **X** | Graphic | Visual shape match (X-cross inside bounding box). |
-| **[a]** | **A** | **Q** | Phonetic | *QU* (/kw/) combination linked to open back vowel **A**. |
+| **[a]** | **A** | **Q** | Phonetic | Assigned by convention; no phonetic relation to **A**. |
 | **[e]** | **E** | | — | — |
 | **[t]** | **T** | **D** | Phonetic | Voiced pair for unvoiced stop /t/. |
 | **[u]** | **U** | **W** | Phonetic | Labialized pair: vowel /u/ transitions to semivowel /w/. |
 | **[n]** | **N** | | — | — |
 | **[l]** | **L** | **R** | Phonetic | Pair of liquid sonorants (/l/ and /r/). |
 | **[v]** | **V** | **F** | Phonetic | Unvoiced pair for voiced fricative /v/. |
-| **[i]** | **I** | **Y** | Phonetic | Vowel pair: Y reads as /i/ in most English syllables. |
+| **[i]** | **I** | **Y** | Phonetic | Y often, but not always, stands for /i/. |
 | **[b]** | **B** | | — | — |
 | **[s]** | **S** | **Z** | Phonetic | Voiced pair for unvoiced fricative /s/. |
 | **[h]** | **H** | **G** | Phonetic | Velar/glottal pair (shared place of articulation). |
@@ -409,8 +409,8 @@ Unlike legacy 6-dot or 8-dot Braille systems that require arbitrary memorization
 ---
 
 
-### 4-Bit Socionics & MBTI Matrix Isomorphism
-Direct 1-to-1 mapping of the 16 Socionics types onto 4-bit YOalphabet registers.
+### 4-Bit Socionics / MBTI Labelling
+A notational mapping of the 16 Socionics/MBTI-style type codes onto 4-bit registers. It is only a labelling convenience: these typologies have limited scientific validation, their letter conventions differ, and no claim is made about personality.
 
 <p align="center">
 <img src="YOalphabet_socionic.jpg" alt="YOalphabet Socionics Matrix" width="80%"/>
@@ -734,49 +734,23 @@ The complete unbroken stream of text is ready for phonetic compilation and synth
 ##  Syntax & Phonotactic Compliance Notes:
 
    1. All word order arrays are strictly restricted to the linear SVO framework.
-   2. Phonetic reduction or vowel slurring is completely absent (0%).
+   2. The rules specify no phonetic reduction or vowel slurring.
    3. Stress assignment is invariantly locked onto the first syllable of every single word unit.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+##  Design Rationale (Hypotheses to Test)
 
-###  Potential Applications
+> This section replaces earlier "advantages" and "applications" lists. Only the first two points are properties of the specification itself; the rest are hypotheses.
 
-> Note: The applications below are proposed use cases, not validated deployments. Their feasibility and benefits require task-specific prototypes, testing, and comparison with existing solutions. YOalphabet provides the glyph and encoding layer; YOconlang provides an optional language layer.
+* **Deterministic construction (checkable):** a glyph's shape follows from its four edge bits and the diagonal table, and its decimal index is the sum of the active edge weights.
+* **Line-density classification (checkable):** in the chosen assignment all five vowels have exactly 2 lines and all eleven consonants have 3 or 4. This is a property of the assignment, not a demonstrated phonetic or perceptual benefit.
+* **Simple decoding (hypothesis):** a clean glyph on a known grid could be decoded by sampling four edge positions. Robustness to rotation, blur, perspective and handwriting has not been tested.
+* **Regular language structure (hypothesis):** immutable roots, particles and fixed SVO order may be easy for software to parse. Benefits compared with existing languages have not been measured.
+* **Not claimed:** compression gains, security or buffer-overflow immunity, energy or hardware savings, replacing token embeddings in language models, or any use in medical, industrial, space or brain-computer-interface settings.
 
-####  1. Specialized Communication Channels & Low-Bandwidth Infrastructure
-* **Subsea & Deep Space Sub-channels:** Ideal for Very Low Frequency (VLF) acoustic modems or long-range deep-space nodes where transmission is capped at single bits per minute.
-* **Extreme Degraded Networks (LoRaWAN & Mesh):** Eliminates heavy string payloads. A single byte transmits two fully formed, phonetically rich semantic roots, bypassing the need for transport-layer text compression.
-* **Emergency Quantum & Laser Dispersal:** The 4-bit binary matrix provides a zero-overhead error-correction baseline for Free-Space Optical (FSO) or post-quantum cryptographic telemetry.
-
-####  2. Human-Machine & Bio-Digital Interfaces (HCI / BCI)
-* **Inclusive Human-Hardware (Assistive Tech):** The high-contrast, self-balancing grid enables tactical and tactile character recognition for the visually impaired that is vastly superior to complex, non-isomorphic Braille layouts.
-* **Direct Neural Encoding (BCI / EEG):** The 4-bit register-level architecture mirrors discrete neural firing patterns, allowing brain-computer interfaces to read, parse, and synthesize text directly without resource-heavy NLP model translation.
-* **Augmented Reality (AR) Heads-Up Displays:** Optimized for low-resolution, high-glare smart glasses. The strict geometric contours ensure instantaneous edge-detection rendering by low-power wearable chips.
-
-####  3. Data Green-Computing & Edge IoT Swarms
-* **Hardware-Level Register Strings:** Direct execution on 8-bit or 16-bit microcontrollers within autonomous Machine-to-Machine (M2M) IoT swarms, fully bypassing application layers and reducing data center cooling and power footprints.
-* **Energy-Harvesting Edge Devices:** Operates efficiently on passive RFID/NFC or solar-powered sensors, executing semantic logic at the bare hardware level before the power cycle depletes.
-
-####  4. Autonomous Systems & Resilient Infrastructure
-* **Swarm Robotics & Kinetic Coordination:** Drone networks can exchange uncompressed, structural SVO command vectors (`Subject-Verb-Object`) in real-time using raw 4-bit physical registers for collision avoidance and target alignment.
-* **Air-Gapped Industrial Automation:** Provides an isolated, predictable, human-readable yet machine-executable instruction script for SCADA systems, preventing buffer overflow exploits and remote code execution vulnerabilities.
-
-
-##  Architectural Principles and Intended Advantages
-
-> Note: The points below describe the architectural rationale and intended advantages of YOalphabet and YOconlang. They are design hypotheses, not demonstrated performance gains; practical benefits require implementation, testing, and comparison with existing approaches.
-
-* **  Full Isomorphism Chain** — Every data token is an unbreakable, bijective (one-to-one) link bridging raw hardware registers directly to cognitive semantic structures: `Binary Code ⟺ Decimal Index ⟺ Spatial Geometry ⟺ IPA Phoneme ⟺ MECE Ontological Core ⟺ Human-AI Interface`.
-* ** Zero Mapping Abstraction** — The visual structure is not drawn arbitrarily; it is mathematically generated by a strict deterministic formula based on spatial bit-register weights.
-* ** Strict MECE Compliance & Future Proofing** — The conceptual kernel and grammatical partitions are designed mathematically to be Mutually Exclusive and Collectively Exhaustive. This guarantees that no semantic collisions or overlapping definitions can occur, providing a hallucination-free foundation for LLMs and autonomous systems.
-* ** Hardware-Level Alphanumerics** — Glyphs do not merely represent numbers—they *are* the numbers. The decimal value $D$ physically dictates and renders the contour geometry.
-* ** Line-Density Phonetic Classification** — The system acts as a built-in feature extractor: all vowels are mathematically restricted to exactly 2 lines, while consonants strictly require 3 or more lines.
-* ** Edge Computer Vision Optimization** — Recognition pipelines bypass heavy Convolutional Neural Networks (CNNs). Low-power microcontrollers can parse the 4-bit byte instantly via raw pixel-intensity checks on 4 fixed coordinates.
-* ** Direct LLM/AI Processing (No Embeddings)** — AI agents and large language models can ingest, parse, and compile YOconlang streams directly into 4-bit hardware registers, completely bypassing resource-heavy token-to-vector embeddings and vector database lookups.
-* ** Rigid Spatial Typography Regulations** — The layout engine completely eliminates tracking and variable kerning, relying on a deterministic, isotropic matrix grid initiated by a mandatory 4×4 master calibration marker.
 ---
 
-## Potential Applications 2.0
+## Possible Directions
 
 The following are research directions, not validated deployments:
 
@@ -803,4 +777,4 @@ Applications in assistive technology, industrial control, or medical communicati
 * **TON / NOT (TON):** `UQAaXGP24eJgyfbdLC2j5R5lOicvSSPo8PGJIEnJvxjQxAsc`
 ---
 
-**License:** MIT License. Fork, experiment, and build the future of unified computing communication!
+**License:** MIT License. Forks and experiments are welcome.
