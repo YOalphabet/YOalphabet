@@ -452,7 +452,7 @@ It does not change the way the script is read, written, or understood as a writi
 ---
 
 <p align="center">
-  <img src="YOalphabet crashed alien.png" alt="YOalphabet Matrix" width="80%"/>
+  <img src="YOalphabet crashed alien.png" alt="YOalphabet Matrix" width="100%"/>
 </p>
 
 ---
@@ -791,7 +791,8 @@ Applications in assistive technology, industrial control, or medical communicati
 
 ---
 #  Thank you for your support the YOalphabet&YOconlang development via cryptocurrency. 
-#  Now 2026 october  0 $.
+#  Now 2026 october 20
+#  0 $.
 
 * **USDT ( TRC-20):** `TFwggRZUB9BBNHwyXgZBGkd2EycSz9umGJ`
 * **USDT / USDC / ETH (ERC-20):** `0x1102BbE0c8aeF5D2e44059fb951671CfC2047255`
