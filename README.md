@@ -44,10 +44,10 @@ The specifications describe the systems and their rules. Performance claims abou
 
 ---
 
-### 🕊️ Global Mission & Philosophy
+###  Global Mission & Philosophy
 Beyond its 4-bit hardware topology, **YOalphabet & YOconlang** serve as a culturally neutral, zero-ambiguity communication protocol. Built on 16 universal IPA phonemes and a rigid MECE logic, the system eliminates linguistic dominance and context errors to unite humans and AI.
 
-📖 **[Read the Full Manifesto](MANIFESTO.md)**
+ **[Read the Full Manifesto](MANIFESTO.md)**
 
 ---
 
@@ -409,6 +409,14 @@ Black Diagonal Crosses,  Green Triangles, Blue Squares, Red Circles
 ######  Structure & Ranks
 * **16 Sequential Ranks (#0–#15):** Direct 1-to-1 mapping to the 16 core 4-bit YOalphabet glyphs.
 * **64 Total Cards:** Complete matrix rendered across all 4 geometric suits.
+---
+
+### YOalphabet Machine Encoding
+
+Glyph level: Each YOalphabet glyph corresponds to one 4-bit value.
+Byte level: Two glyphs form one byte: first glyph: high nibble; second glyph: low nibble.
+Word level: Sixteen glyphs form one 64-bit value: 16 glyphs = 16 nibbles = 8 bytes = 64 bits.
+This encoding is optional. YOalphabet is primarily a geometric writing system; binary interpretation is intended for software, identifiers, displays, and machine-readable interfaces.
 
 ---
 
@@ -744,7 +752,7 @@ Applications in assistive technology, industrial control, or medical communicati
 
 ---
 #  Thank you for your support the YOalphabet&YOconlang development via cryptocurrency. 
-#  Now 2026 october 19    0 $.
+#  Now 2026 october  0 $.
 
 * **USDT ( TRC-20):** `TFwggRZUB9BBNHwyXgZBGkd2EycSz9umGJ`
 * **USDT / USDC / ETH (ERC-20):** `0x1102BbE0c8aeF5D2e44059fb951671CfC2047255`
