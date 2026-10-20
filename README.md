@@ -235,6 +235,30 @@ Developers and UI designers can re-render the script across diverse visual theme
 
 > **UI/UX Core Principle:** The aesthetic rendering is purely cosmetic. Whether displayed as a glowing neon HUD or a minimalist vector outline, the 4 outer edge registers ($2^0, 2^1, 2^2, 2^3$) maintain an exact, a defined mapping between glyph identifiers and rendered forms.
 
+---
+### Developing Handwritten Forms
+
+YOalphabet glyphs can be rendered in canonical geometric, rounded, handwritten, calligraphic, and rapid styles. Handwritten variants may soften corners, vary line weight, and connect strokes, but they must preserve the main contour, internal diagonal placement, and visual density of each glyph.
+
+In rapid handwritten forms, the balancing diagonal may be omitted in the four corner glyphs — 3, 6, 9, and 12 — when the outer contour alone remains clearly recognizable.
+
+An experimental goal is to write most glyphs in one continuous motion. In the current set, 15 of 16 glyphs can potentially be written without lifting the pen; the zero glyph `×` requires two strokes.
+
+Handwritten variation is intended to preserve glyph identity, but readability and machine recognition should be tested separately for each style.
+ 
+ #### What must remain stable
+
+Across all handwritten styles, the following should remain recognizable:
+
+- the number and placement of main structural lines;
+- the distinction between empty, low-density, medium-density, and high-density glyphs;
+- the difference between vowels and consonants;
+- the identity of each of the 16 glyphs.
+
+A handwritten form may look softer, slanted, or more organic, but it should not become a different glyph.
+
+---
+
 #####  Official Font Files
 The compiled font files (`.ttf`, `.otf`) are available directly in the root (`main`) folder of the repository for use in web applications, desktop publishing, and mobile interfaces.
 
