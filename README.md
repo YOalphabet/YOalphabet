@@ -451,9 +451,17 @@ It does not change the way the script is read, written, or understood as a writi
 
 ---
 
+<p align="center">
+  <img src="YOalphabet crashed alien.png" alt="YOalphabet Matrix" width="80%"/>
+</p>
+
+---
+
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
 ---
+
+
 ## PART 2: YOconlang CORE SPECIFICATION
 
 YOconlang uses immutable roots and external grammatical particles. Its vocabulary is organized through a domain–process–target matrix inspired by the MECE principle.
