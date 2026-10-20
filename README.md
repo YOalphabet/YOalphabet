@@ -228,10 +228,11 @@ While the underlying 4-bit hardware topology and mathematical matrix remain 100%
 Developers and UI designers can re-render the script across diverse visual themes—ranging from high-contrast HUDs and bioluminescent interfaces to retro-futuristic or cyberpunk styles—without breaking the deterministic machine readability.
 
 <p align="center">
-  <img src="YOalphabet_styles.png" alt="YOalphabet UI/UX Style Sample" width="80%"/>
-  <br>
-  <sub><b>Figure:</b> Example of 10 distinct UI/UX visual skins applied to the same invariant 4-bit matrix (Styles #31–#40).</sub>
+<img src="YOalphabet_UIUX.jpg" alt="YOalphabet Socionics Matrix" width="80%"/>
 </p>
+
+
+
 
 > **UI/UX Core Principle:** The aesthetic rendering is purely cosmetic. Whether displayed as a glowing neon HUD or a minimalist vector outline, the 4 outer edge registers ($2^0, 2^1, 2^2, 2^3$) maintain an exact, a defined mapping between glyph identifiers and rendered forms.
 
@@ -245,6 +246,10 @@ In rapid handwritten forms, the balancing diagonal may be omitted in the four co
 An experimental goal is to write most glyphs in one continuous motion. In the current set, 15 of 16 glyphs can potentially be written without lifting the pen; the zero glyph `×` requires two strokes.
 
 Handwritten variation is intended to preserve glyph identity, but readability and machine recognition should be tested separately for each style.
+
+<p align="center">
+  <img src="YOalphabet_styles.png" width="80%"/>
+</p>
  
  #### What must remain stable
 
