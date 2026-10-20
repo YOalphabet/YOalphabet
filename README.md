@@ -413,10 +413,12 @@ Black Diagonal Crosses,  Green Triangles, Blue Squares, Red Circles
 
 ### YOalphabet Machine Encoding
 
-Glyph level: Each YOalphabet glyph corresponds to one 4-bit value.
+YOalphabet can also be read as a compact visual encoding system
+Glyph level: Each YOalphabet glyph corresponds to one 4-bit value ( one glyph represents one nibble )
 Byte level: Two glyphs form one byte: first glyph: high nibble; second glyph: low nibble.
 Word level: Sixteen glyphs form one 64-bit value: 16 glyphs = 16 nibbles = 8 bytes = 64 bits.
 This encoding is optional. YOalphabet is primarily a geometric writing system; binary interpretation is intended for software, identifiers, displays, and machine-readable interfaces.
+It does not change the way the script is read, written, or understood as a writing system.
 
 ---
 
