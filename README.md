@@ -8,11 +8,6 @@
 > **"A geometric script and logical constructed language, each with human-facing and machine-facing layers: expressive writing and structured meaning for people; 4-bit glyph encoding and formal language rules for software and AI."**
 
 <p align="center">
-  <img src="YOalphabet_HumanAI_VisualBridge.png" alt="YOalphabet Matrix" width="80%"/>
-</p>
-
-
-<p align="center">
   <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>  
 </p>
 
@@ -72,6 +67,15 @@ Applications involving bandwidth reduction, low-power devices, degraded channels
 
 ---
 
+<p align="center">
+  <img src="YOalphabet_HumanAI_VisualBridge.png" alt="YOalphabet Matrix" width="80%"/>
+</p>
+
+---
+
+[![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
+
+---
 ## PART 1: YOalphabet Script Specification
 
 YOalphabet is a fully determined, generative writing system based on a 4-bit full isomorphism. 
