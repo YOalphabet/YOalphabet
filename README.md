@@ -5,7 +5,7 @@
 
 # YOalphabet: numbers make letters
 
-> **"A geometric script and logical constructed language, each with human-facing and machine-facing layers: expressive writing and structured meaning for people; 4-bit glyph encoding and formal language rules for software and AI."**
+**YOalphabet** is a geometric writing system (neography) built on a 4-bit binary code, with 16 glyphs for handwriting, fonts, displays and software.
 
 <p align="center">
   <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>  
@@ -15,7 +15,7 @@
 # YOalphabet & YOconlang — Geometric Writing System and Constructed Language
 
 YOalphabet is a geometric writing system with 16 core glyphs derived from a complete 4-bit code. It can be used as a neography, a phonetic script through defined language mappings, or a visual encoding system. Its glyphs support geometric, rounded, handwritten, and digital styles.
-
+YOconlang is a separate, experimental and unfinished constructed-language project that uses YOalphabet as one of its writing systems. YOalphabet does not depend on it.
 YOconlang is a logical constructed language with fixed subject–verb–object (SVO) syntax, immutable roots, grammatical particles, and a semantic matrix for organizing vocabulary. It can be written in Latin letters or YOalphabet. YOalphabet defines the symbols and their encoding; YOconlang defines the words, grammar, and linguistic meaning.
 
 ## Human-facing and machine-facing layers
@@ -71,7 +71,6 @@ Applications involving bandwidth reduction, low-power devices, degraded channels
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
----
 ## PART 1: YOalphabet Script Specification
 
 YOalphabet is a deterministic writing system generated from a 4-bit code.
@@ -429,6 +428,7 @@ It does not change the way the script is read, written, or understood as a writi
 
 ## PART 2: YOconlang CORE SPECIFICATION
 
+Experimental and unfinished; separate from YOalphabet.
 YOconlang uses immutable roots and external grammatical particles. Its vocabulary is organized through a domain–process–target matrix inspired by the MECE principle.
 
 The matrix is intended to make lexical relationships explicit and reduce uncontrolled overlap. Unique coordinates do not, by themselves, guarantee unique interpretations or complete coverage of human experience. Definitions and examples remain necessary.
