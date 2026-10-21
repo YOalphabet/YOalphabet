@@ -3,7 +3,7 @@
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
-# YOalphabet & YOconlang: A 4-Bit Geometric Script and Constructed Language
+# YOalphabet: numbers make letters
 
 > **"A geometric script and logical constructed language, each with human-facing and machine-facing layers: expressive writing and structured meaning for people; 4-bit glyph encoding and formal language rules for software and AI."**
 
