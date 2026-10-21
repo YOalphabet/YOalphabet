@@ -6,7 +6,7 @@ authors:
     given-names: "Yevhen"
     # orcid: "https://orcid.org/0009-0009-0599-9486"
 version: "1.0.2"
-date-released: "2026-10-22"
+date-released: "2026-10-21"
 repository-code: "https://github.com/YOalphabet/YOalphabet"
 abstract: "YOalphabet is an open-source 4-bit visual encoding system. It maps 16 base glyphs to binary values, decimal indices, IPA phonemes, and geometric square forms."
 keywords:
