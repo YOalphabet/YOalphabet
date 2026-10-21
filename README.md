@@ -5,14 +5,14 @@
 
 # YOalphabet: numbers make letters
 
-**YOalphabet** is a geometric writing system (neography) built on a 4-bit binary code, with 16 glyphs for handwriting, fonts, displays and software.
+# YOalphabet is a geometric writing system (neography) built on a 4-bit binary code, with 16 glyphs for handwriting, fonts, displays and software.
 
 <p align="center">
   <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>  
 </p>
 
 
-# YOalphabet & YOconlang — Geometric Writing System and Constructed Language
+## YOalphabet & YOconlang — Geometric Writing System and Constructed Language
 
 YOalphabet is a geometric writing system with 16 core glyphs derived from a complete 4-bit code. It can be used as a neography, a phonetic script through defined language mappings, or a visual encoding system. Its glyphs support geometric, rounded, handwritten, and digital styles.
 YOconlang is a separate, experimental and unfinished constructed-language project that uses YOalphabet as one of its writing systems. YOalphabet does not depend on it.
@@ -71,17 +71,17 @@ Applications involving bandwidth reduction, low-power devices, degraded channels
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
-## PART 1: YOalphabet Script Specification
+# PART 1: YOalphabet Script Specification
 
 YOalphabet is a deterministic writing system generated from a 4-bit code.
 Every glyph is defined by a one-to-one assignment between a geometric symbol, a unique International Phonetic Alphabet (IPA) sound, a decimal number (0–15), and a 4-bit binary code.
 
-# **Binary Code ⟺ Decimal Index ⟺ Spatial Geometry ⟺ IPA Phoneme**
+## **Binary Code ⟺ Decimal Index ⟺ Spatial Geometry ⟺ IPA Phoneme**
 
 Each character is inscribed within an invariant square bounding box consisting of two independent structural layers:
 
 ---
-1. **Outer Contour (Bit Registers):** The four external edges of the square act as geometric representations of bit positions. Rule: If a bit is "1", the line is drawn; if "0", it remains empty. They are activated strictly clockwise, starting from the right vertical line:
+###  Outer Contour (Bit Registers):The four external edges of the square act as geometric representations of bit positions. Rule: If a bit is "1", the line is drawn; if "0", it remains empty. They are activated strictly clockwise, starting from the right vertical line:
 
 <p align="center">
   <img src="YOalphabet_glif_edge.png" alt="4-Bit YOalphabet Register & Decimal Value Mapping" width="80%"/>
@@ -107,9 +107,7 @@ $$
   <img src="YOalphabet_digit.png" alt="YOalphabet Matrix" width="80%"/>
 </p>
 
-
----
-2. **Internal Filling (Visual Balance Diagonals):** Internal diagonals are used to balance the stroke density and provide a consistent distribution of line elements:
+### Internal Filling (Visual Balance Diagonals): Internal diagonals are used to balance the stroke density and provide a consistent distribution of line elements:
 
 | Density Class | Active Bits | Balancing Element | Target Total Density |
 | :--- | :---: | :--- | :--- |
@@ -151,9 +149,7 @@ By inverting the internal diagonals of just three symbols (**#2**, **#5**, and *
   <img src="YOalphabet_alt_diagonals.png" alt="YOalphabet Matrix" width="80%"/>
 </p>
 
-
----
-3. The 16 glyphs are assigned 16 phonemes chosen for broad cross-linguistic availability. This is a design choice; the set is not claimed to be the 16 most frequent sounds worldwide:
+### The 16 glyphs are assigned 16 phonemes chosen for broad cross-linguistic availability. This is a design choice; the set is not claimed to be the 16 most frequent sounds worldwide:
    
 * **Vowels:** `[o]`, `[a]`, `[e]`, `[u]`, `[i]`
 * **Consonants:** `[t]`, `[n]`, `[l]`, `[v]`, `[b]`, `[s]`, `[h]`, `[p]`, `[m]`, `[k]`, `[j]`
@@ -169,7 +165,8 @@ All 5 basic vowel sounds of the language (`[o]`, `[a]`, `[e]`, `[u]`, `[i]`) are
 Graphically, each consists of exactly **2 lines** (including compensatory diagonals) and features a diagonal running from the bottom-left corner.
 
 ---
-4. Final
+
+### Summary table and color matrix of all 16 glyphs
 
 
 | Dec | Bin | Contour | Internal | IPA |
@@ -426,7 +423,7 @@ It does not change the way the script is read, written, or understood as a writi
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
 
-## PART 2: YOconlang CORE SPECIFICATION
+# PART 2: YOconlang CORE SPECIFICATION
 
 Experimental and unfinished; separate from YOalphabet.
 YOconlang uses immutable roots and external grammatical particles. Its vocabulary is organized through a domain–process–target matrix inspired by the MECE principle.
