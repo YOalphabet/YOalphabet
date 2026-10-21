@@ -68,7 +68,7 @@ Applications involving bandwidth reduction, low-power devices, degraded channels
 ---
 
 <p align="center">
-  <img src="images/YOalphabet_HumanAI_VisualBridge.png" width="80%"/>
+  <img src="./images/YOalphabet_HumanAI_VisualBridge.png" width="80%"/>
 </p>
 
 ---
