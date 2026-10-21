@@ -65,13 +65,9 @@ Four-bit glyph encoding specifies how symbols can be represented as data. It doe
 
 Applications involving bandwidth reduction, low-power devices, degraded channels, or AI processing require task-specific implementations and reproducible comparisons with existing methods.
 
----
-
 <p align="center">
   <img src="images/401.png" width="90%"/>
 </p>
-
----
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
@@ -235,7 +231,13 @@ Developers and UI designers can re-render the script across diverse visual theme
 <img src="YOalphabet_UIUX.jpg" alt="YOalphabet Socionics Matrix" width="80%"/>
 </p>
 
+<p align="center">
+  <img src="images/501.jpg" width="90%"/>
+</p>
 
+<p align="center">
+  <img src="images/502.jpg" width="90%"/>
+</p>
 
 
 > **UI/UX Core Principle:** The aesthetic rendering is purely cosmetic. Whether displayed as a glowing neon HUD or a minimalist vector outline, the 4 outer edge registers ($2^0, 2^1, 2^2, 2^3$) maintain an exact, a defined mapping between glyph identifiers and rendered forms.
@@ -421,17 +423,12 @@ Word level: Sixteen glyphs form one 64-bit value: 16 glyphs = 16 nibbles = 8 byt
 This encoding is optional. YOalphabet is primarily a geometric writing system; binary interpretation is intended for software, identifiers, displays, and machine-readable interfaces.
 It does not change the way the script is read, written, or understood as a writing system.
 
----
-
 <p align="center">
-  <img src="/images/alien.png" width="100%"/>
+  <img src="images/402.png" width="90%"/>
 </p>
 
----
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
-
----
 
 
 ## PART 2: YOconlang CORE SPECIFICATION
@@ -666,10 +663,10 @@ o   a   e   t   u   n   l   v   i   b   s   h   p   m   k   j
 * HA — [ha] : Repeated procedural operator particle "Regarding / In relation to".
 * HOHO — [ˈho.ho] : Four-letter Noun structured as C₁V₁C₂V₂. Derived from the logical root HOH (to execute a pure algorithm) and the final functional vowel O (Substance). Semantics: "Abstract law / Legal right / Unalterable systemic norm".
 
----
+<p align="center">
+  <img src="images/403.png" width="90%"/>
+</p>
 
-
----
 ##  Design Rationale (Hypotheses to Test)
 
 > This section replaces earlier "advantages" and "applications" lists. Only the first two points are properties of the specification itself; the rest are hypotheses.
