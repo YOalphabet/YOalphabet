@@ -424,7 +424,7 @@ It does not change the way the script is read, written, or understood as a writi
 ---
 
 <p align="center">
-  <img src="YOalphabet/images/YOalphabet crashed alien.png" alt="YOalphabet Matrix" width="100%"/>
+  <img src="images/alien.png" width="100%"/>
 </p>
 
 ---
