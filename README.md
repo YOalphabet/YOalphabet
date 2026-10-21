@@ -228,15 +228,11 @@ While the underlying 4-bit hardware topology and mathematical matrix remain 100%
 Developers and UI designers can re-render the script across diverse visual themes—ranging from high-contrast HUDs and bioluminescent interfaces to retro-futuristic or cyberpunk styles—without breaking the deterministic machine readability.
 
 <p align="center">
-<img src="YOalphabet_UIUX.jpg" alt="YOalphabet Socionics Matrix" width="80%"/>
+  <img src="images/510.jpg" width="80%"/>
 </p>
 
 <p align="center">
-  <img src="images/501.jpg" width="90%"/>
-</p>
-
-<p align="center">
-  <img src="images/502.jpg" width="90%"/>
+  <img src="images/511.jpg" width="80%"/>
 </p>
 
 
