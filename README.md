@@ -80,8 +80,8 @@ Every glyph is defined by a one-to-one assignment between a geometric symbol, a 
 
 Each character is inscribed within an invariant square bounding box consisting of two independent structural layers:
 
----
-###  Outer Contour (Bit Registers):The four external edges of the square act as geometric representations of bit positions. Rule: If a bit is "1", the line is drawn; if "0", it remains empty. They are activated strictly clockwise, starting from the right vertical line:
+###  1. Outer Contour (Bit Registers):The four external edges of the square act as geometric representations of bit positions. 
+Rule: If a bit is "1", the line is drawn; if "0", it remains empty. They are activated strictly clockwise, starting from the right vertical line:
 
 <p align="center">
   <img src="YOalphabet_glif_edge.png" alt="4-Bit YOalphabet Register & Decimal Value Mapping" width="80%"/>
@@ -107,7 +107,7 @@ $$
   <img src="YOalphabet_digit.png" alt="YOalphabet Matrix" width="80%"/>
 </p>
 
-### Internal Filling (Visual Balance Diagonals): Internal diagonals are used to balance the stroke density and provide a consistent distribution of line elements:
+### 2. Internal Filling (Visual Balance Diagonals): Internal diagonals are used to balance the stroke density and provide a consistent distribution of line elements:
 
 | Density Class | Active Bits | Balancing Element | Target Total Density |
 | :--- | :---: | :--- | :--- |
@@ -124,7 +124,7 @@ The entire YOalphabet is constructed from 44 total lines: 32 outer square edges 
 
 ---
 
-####  Dual Geometric Profiles: Static vs. Rotational Symmetry
+###  Dual Geometric Profiles: Static vs. Rotational Symmetry
 
 By inverting the internal diagonals of just three symbols (**#2**, **#5**, and **#8**), we achieve complete 90° rotational symmetry and spatial isotropy across all bit configurations:
 
@@ -135,7 +135,7 @@ By inverting the internal diagonals of just three symbols (**#2**, **#5**, and *
 * **3-bit characters (#7, #11, #14, #13):** Containing zero internal diagonals, these 3-sided open-box glyphs inherently possess 100% rotational symmetry across all four spatial orientations.
 * **0-bit (#0) & 4-bit (#15):** Feature full 4-fold isotropic symmetry.
 
-##### Mode Comparison & Hardware Equivalences
+### Mode Comparison & Hardware Equivalences
 * **Canonical Mode:** Maximizes code simplicity for bare-metal hardware decoders, fixed memory maps, and embedded decoders.
 * **Rotational Mode:** Provides perfect spatial isotropy, 2D/3D vector rotation, kinetic transformations, and animation consistency.
 
