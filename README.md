@@ -475,12 +475,18 @@ The language utilizes strict morphological word templates:
 | **All 5-character combinations** | 1,048,576 | 0 | 1,048,576 | Reserve zone. |
 
 >  **Implementation Note:** The complete, exhaustive listings and coordinate maps for the **VV** (System Markers), **CV** (Relational Particles), **VC** (Pronominal Quantifiers), and the **Numeric Blocks** have been extracted into standalone, production-ready specification files located directly in the root of this repository for clean modular access.
-
   
-
-## Strict SVO Word Order and Linear Syntax
+### Strict SVO Word Order and Linear Syntax
 The language enforces a rigid, unalterable linear SVO (Subject — Verb — Object) word order. Any form of inversion, omission, or displacement of components is strictly forbidden. 
 Since the core roots are completely uninflected, grammatical and syntactic roles are determined solely by their fixed geometric position within the sentence flow.
+
+### Syntax & Phonotactic Compliance Notes:
+
+   1. All word order arrays are strictly restricted to the linear SVO framework.
+   2. The rules specify no phonetic reduction or vowel slurring.
+   3. Stress assignment is invariantly locked onto the first syllable of every single word unit.
+
+---
 
 ## The Semantic Core Matrix (The YOconlang Kernel)
 
@@ -660,50 +666,8 @@ o   a   e   t   u   n   l   v   i   b   s   h   p   m   k   j
 * HA — [ha] : Repeated procedural operator particle "Regarding / In relation to".
 * HOHO — [ˈho.ho] : Four-letter Noun structured as C₁V₁C₂V₂. Derived from the logical root HOH (to execute a pure algorithm) and the final functional vowel O (Substance). Semantics: "Abstract law / Legal right / Unalterable systemic norm".
 
-------------------------------
-##  Sentence 2: On Endowment with Reason and Conscience
+---
 
-* Original (American English): "They are endowed with reason and conscience"
-* YOconlang Orthography: OJ TO KEL HOHI KE NONO.
-* IPA Phonetic Transcription: [ˈoj ˈto ˈkel ˈho.hi ˈke ˈno.no]
-
-##  Word-by-Word Breakdown:
-
-* OJ — [oj] : Collective universality pronoun from Block O. Semantics: "The entire society / They as a collective group / Human collective". Functions as the syntactic Subject (S) in the SVO structure.
-* TO — [to] : Past tense particle (Preterite). Verifies the historical fact of being endowed.
-* KEL — [kel] : Immutable verbal root from Block 9 (Data & Memory). Core semantics: "To receive external texts / To import data archives / To absorb and capture information at the circuit input" (Mode E — Import/Input). Syntactically maps to "to receive / to absorb / to be endowed with".
-* HOHI — [ˈho.hi] : Four-letter Noun structured as C₁V₁C₂V₂. Derived from the root HOH (logic) and the final functional vowel I (Projection/Output). Semantics: "The processed outbound logical output of computations / Intellect / Reason". Functions as the primary direct Object (O₁).
-* KE — [ke] : Logical conjunction operator "AND".
-* NONO — [ˈno.no] : Four-letter Noun structured as C₁V₁C₂V₂ (Root NON + Vowel O). Semantics within this specific syntactic position: "Internal moral peace of mind / Moral self-awareness / Conscience". Functions as the secondary direct Object (O₂).
-
-------------------------------
-##  Sentence 3: On the Obligation to Act in a Spirit of Brotherhood
-
-* Original (American English): "and should act towards one another in a spirit of brotherhood."
-* YOconlang Orthography: KE NU BA BAB MO JA JOJO.
-* IPA Phonetic Transcription: [ˈke ˈnu ˈba ˈbab ˈmo ˈja ˈjo.jo]
-
-##  Word-by-Word Breakdown:
-
-* KE — [ke] : Logical conjunction operator "AND", initiating a new coordinate clause in the speech stream.
-* NU — [nu] : Modal particle of absolute duty and rigid obligation from Block 6 (Psychology). Semantics: "Must / Should / Is obliged to" (modifies the subsequent action).
-* BA — [ba] : Reciprocal voice particle from Block 4 (Energy & Forces). Directs the subsequent kinetic impulse of the verb symmetrically towards each participant ("mutually / towards one another").
-* BAB — [bab] : Immutable verbal root from Block 4 (Energy & Forces). Core semantics: "To modify a physical or systemic impulse / To direct a stream of force / To act / To exert influence" (Mode A — Action). NU BA BAB translates directly to "are obliged to mutually act".
-* MO — [mo] : Functional grammatical marker from Block 8 (Semiotics) that transforms the subsequent root into the Adverb class.
-* JA — [ja] : CV relational particle from Block 11 (Sociosphere).  
-Function: marks collective or reciprocal orientation of the following action.  
-With MO, MO JA functions as an adverbial phrase meaning “collectively / for the benefit of the group.”
-* JOJO — [ˈjo.jo] : Four-letter Noun structured as C₁V₁C₂V₂. Derived from the root JOJ (preservation of an internal network of connections) and the final functional vowel O (Substance/Rest). Semantics: "An unbreakable, stable internal network of collective ties / Family / Community / Brotherhood".
-
-------------------------------
-##  Complete Monolithic Phonetic Stream
-The complete unbroken stream of text is ready for phonetic compilation and synthesis:
-[ˈos ˈto ˈsis ˈma ˈlis ˈke ˈma ˈjoj ˈha ˈno.no ˈke ˈha ˈho.ho ˈoj ˈto ˈkel ˈho.hi ˈke ˈno.no ˈke ˈnu ˈba ˈbab ˈmo ˈja ˈjo.jo]
-##  Syntax & Phonotactic Compliance Notes:
-
-   1. All word order arrays are strictly restricted to the linear SVO framework.
-   2. The rules specify no phonetic reduction or vowel slurring.
-   3. Stress assignment is invariantly locked onto the first syllable of every single word unit.
 
 ---
 ##  Design Rationale (Hypotheses to Test)
