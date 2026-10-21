@@ -68,7 +68,7 @@ Applications involving bandwidth reduction, low-power devices, degraded channels
 ---
 
 <p align="center">
-  <img src="YOalphabet_HumanAI_VisualBridge.png" alt="YOalphabet Matrix" width="80%"/>
+  <img src="images/YOalphabet_HumanAI_VisualBridge.png" alt="YOalphabet Matrix" width="80%"/>
 </p>
 
 ---
@@ -424,7 +424,7 @@ It does not change the way the script is read, written, or understood as a writi
 ---
 
 <p align="center">
-  <img src="YOalphabet crashed alien.png" alt="YOalphabet Matrix" width="100%"/>
+  <img src="images/YOalphabet crashed alien.png" alt="YOalphabet Matrix" width="100%"/>
 </p>
 
 ---
