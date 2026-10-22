@@ -435,6 +435,7 @@ It does not change the way the script is read, written, or understood as a writi
   <img src="images/402.png" width="90%"/>
 </p>
 
+YOalphabet Converter: type 0-9 and A-Z, see the glyphs, and save them as a .jpg. Open [`1YOalphabet CONVERTER.html`](https://github.com/YOalphabet/YOalphabet/blob/main/1YOalphabet%20CONVERTER.html) in the repository; it can also be downloaded from there and used offline in any browser.
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
