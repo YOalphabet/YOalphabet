@@ -295,20 +295,10 @@ The converter implements the glyph construction rules from this specification. I
 The 4-bit geometric topology of **YOalphabet** scales seamlessly into discrete, low-resolution dot-matrix hardware without losing zero-overhead register mapping. Each 4-bit glyph is mapped onto a minimalist circle-grid (dot matrix), making it natively compatible with low-cost LED matrices, flip-dot displays, e-paper micro-arrays, and physical tactile pin actuators.
 
 <p align="center">
-  <img src="YOalphabet_33.jpg" alt="YOalphabet 4x4 Dot-Matrix Representation" width="80%"/>
-  <br>
-  <sub><b>Figure:</b> Discrete Circle-Grid / Dot-Matrix rendering of the 16 core YOalphabet glyphs (Indices #0–#15).</sub>
-</p>
-
-<p align="center">
-  <img src="YOalphabet_4dot.jpg" alt="YOalphabet 4-Dot Tactile Matrix" width="45%"/>
+  <img src="images/513.jpg" width="45%"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="YOalphabet_5dot.jpg" alt="YOalphabet 5-Dot Anchored Tactile Matrix" width="45%"/>
+  <img src="images/514.jpg" width="45%"/>
 </p>
-
-
-
-
 
 * **Hardware Parity:** Directly executable on $5 \times 5$ or $7 \times 7$ LED / flip-dot driver chips with zero pixel interpolation.
 * **Tactile Readability:** Provides an immediate physical bridge for micro-pin haptic displays and relief embossing.
