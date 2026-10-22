@@ -297,7 +297,7 @@ The 4-bit geometric topology of **YOalphabet** scales seamlessly into discrete, 
 <p align="center">
   <img src="images/514.jpg" width="45%"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/513.jpg" width="50%"/>
+  <img src="images/513.jpg" width="45%"/>
 </p>
 
 * **Hardware Parity:** Directly executable on $5 \times 5$ or $7 \times 7$ LED / flip-dot driver chips with zero pixel interpolation.
