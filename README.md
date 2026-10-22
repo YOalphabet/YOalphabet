@@ -268,9 +268,13 @@ The compiled font files (`.ttf`, `.otf`) are available directly in the root (`ma
 ---
 # YOalphabet Converter
 
+<p align="center">
+  <img src="images/404.png" width="90%"/>
+</p>
+
 A single-file HTML tool that turns keyboard text (0-9, A-Z) into YOalphabet glyphs and saves the result as a .jpg image. It works offline in any browser, with no installation.
 
-**[Open `1YOalphabet CONVERTER.html`](https://github.com/YOalphabet/YOalphabet/blob/main/1YOalphabet%20CONVERTER.html)** in the repository. The file can also be downloaded from there (click "Download raw file") and opened in your browser.
+**[Open `1YOalphabet CONVERTER.html`](https://github.com/YOalphabet/YOalphabet/blob/main/CONVERTER.html)** in the repository. The file can also be downloaded from there (click "Download raw file") and opened in your browser.
 
 - Keyboard palette: the 16 base glyphs (O…J) as a 4×4 matrix, the remaining letters (glyph + dot), and digits 0-9.
 - Canonical and Rotational diagonal profiles.
@@ -431,11 +435,16 @@ Word level: Sixteen glyphs form one 64-bit value: 16 glyphs = 16 nibbles = 8 byt
 This encoding is optional. YOalphabet is primarily a geometric writing system; binary interpretation is intended for software, identifiers, displays, and machine-readable interfaces.
 It does not change the way the script is read, written, or understood as a writing system.
 
+
+<p align="center">
+  <img src="images/404.png" width="90%"/>
+</p>
+
+# YOalphabet Converter: type 0-9 and A-Z, see the glyphs, and save them as a .jpg. Open [`1YOalphabet CONVERTER.html`](https://github.com/YOalphabet/YOalphabet/blob/main/CONVERTER.html) in the repository; it can also be downloaded from there and used offline in any browser.
+
 <p align="center">
   <img src="images/402.png" width="90%"/>
 </p>
-
-# YOalphabet Converter: type 0-9 and A-Z, see the glyphs, and save them as a .jpg. Open [`1YOalphabet CONVERTER.html`](https://github.com/YOalphabet/YOalphabet/blob/main/1YOalphabet%20CONVERTER.html) in the repository; it can also be downloaded from there and used offline in any browser.
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
