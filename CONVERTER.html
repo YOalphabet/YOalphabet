@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YOalphabet Converter</title>
+<style>
+  :root { --bg:#f6f6f4; --card:#fff; --ink:#1a1a1a; --mute:#666; --line:#d9d9d4; --accent:#1a1a1a; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; background:var(--bg); color:var(--ink); }
+  header { padding:20px 20px 4px; max-width:1000px; margin:0 auto; }
+  h1 { margin:0; font-size:22px; letter-spacing:.2px; }
+  header p { margin:4px 0 0; color:var(--mute); }
+  main { max-width:1000px; margin:0 auto; padding:16px 20px 40px; display:grid; gap:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px; }
+  .card h2 { margin:0 0 10px; font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:.6px; color:var(--mute); }
+  label { display:block; font-size:13px; color:var(--mute); margin:0 0 4px; }
+  textarea { width:100%; min-height:96px; resize:vertical; font:600 20px/1.4 ui-monospace, Menlo, Consolas, monospace; padding:10px; border:1px solid var(--line); border-radius:8px; text-transform:uppercase; }
+
+  /* output */
+  .stage { overflow:auto; background: conic-gradient(#eee 25%, #fafafa 0 50%, #eee 0 75%, #fafafa 0) 0 0/16px 16px; border:1px solid var(--line); border-radius:8px; padding:12px; text-align:center; }
+  #out { max-width:100%; height:auto; box-shadow:0 1px 6px rgba(0,0,0,.15); background:#fff; }
+  .stat { font-size:13px; color:var(--mute); margin-top:8px; }
+  .toolbar { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+  button.btn { font:inherit; cursor:pointer; padding:9px 14px; border-radius:8px; font-weight:600; border:1px solid var(--accent); }
+  button.primary { background:var(--accent); color:#fff; }
+  button.secondary { background:#fff; color:var(--accent); }
+  button.btn:hover { opacity:.88; }
+
+  /* keyboard palette */
+  .palette { display:flex; flex-wrap:wrap; gap:18px 28px; }
+  .group h3 { margin:0 0 6px; font-size:12px; font-weight:600; color:var(--mute); }
+  .keys { display:grid; gap:6px; }
+  .key { display:flex; flex-direction:column; align-items:center; gap:1px; width:52px; padding:4px 0 3px; background:#fff; border:1px solid var(--line); border-radius:8px; font:600 12px ui-monospace, Menlo, Consolas, monospace; color:var(--ink); cursor:pointer; }
+  .key:hover { background:#f0f0ec; }
+  .key:active { background:#e6e6e0; }
+  .key canvas { width:30px; height:30px; }
+
+  /* settings */
+  .settings { display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:10px 14px; }
+  input[type=number], select { width:100%; padding:6px 8px; border:1px solid var(--line); border-radius:6px; font:inherit; background:#fff; }
+  input[type=color] { width:100%; height:34px; padding:2px; border:1px solid var(--line); border-radius:6px; background:#fff; }
+  .check { display:flex; gap:8px; align-items:center; font-size:14px; color:var(--ink); margin:0; align-self:end; padding-bottom:6px; }
+  .check input { margin:0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>YOalphabet Converter</h1>
+  <p>Type 0–9 and A–Z, see the glyphs, and save the picture as a .jpg.</p>
+</header>
+
+<main>
+  <!-- 1. INPUT WINDOW -->
+  <section class="card">
+    <h2>Input</h2>
+    <label for="txt">Text (0–9, A–Z, space; Enter starts a new line)</label>
+    <textarea id="txt" spellcheck="false" autofocus>YO ALPHABET 2026</textarea>
+  </section>
+
+  <!-- 2. GLYPH WINDOW + 3. SAVE BUTTONS -->
+  <section class="card">
+    <h2>Glyphs</h2>
+    <div class="stage"><canvas id="out"></canvas></div>
+    <div class="stat" id="stat"></div>
+    <div class="toolbar">
+      <button class="btn primary" id="saveGlyphs" type="button">Save glyphs only (.jpg)</button>
+      <button class="btn secondary" id="saveBoth" type="button">Save input + glyphs (.jpg)</button>
+    </div>
+  </section>
+
+  <!-- 4. KEYBOARD -->
+  <section class="card">
+    <h2>Keyboard</h2>
+    <div class="palette" id="palette"></div>
+  </section>
+
+  <!-- 5. SETTINGS -->
+  <section class="card">
+    <h2>Settings</h2>
+    <div class="settings">
+      <div>
+        <label for="mode">Diagonals</label>
+        <select id="mode">
+          <option value="canon">Canonical</option>
+          <option value="rot">Rotational</option>
+        </select>
+      </div>
+      <div>
+        <label for="round">45° and 90° corners</label>
+        <select id="round">
+          <option value="round">Rounded</option>
+          <option value="square">Sharp</option>
+        </select>
+      </div>
+      <div>
+        <label for="cols">Characters per line</label>
+        <input type="number" id="cols" value="16" min="0" max="200">
+      </div>
+      <div>
+        <label for="size">Glyph size, px</label>
+        <input type="number" id="size" value="96" min="16" max="400">
+      </div>
+      <div>
+        <label for="sw">Line width, px</label>
+        <input type="number" id="sw" value="10" min="1" max="60">
+      </div>
+      <div>
+        <label for="gap">Spacing, px</label>
+        <input type="number" id="gap" value="24" min="0" max="200">
+      </div>
+      <div>
+        <label for="dot">Dot size (% of glyph)</label>
+        <input type="number" id="dot" value="18" min="5" max="40">
+      </div>
+      <div>
+        <label for="fg">Glyph color</label>
+        <input type="color" id="fg" value="#111111">
+      </div>
+      <div>
+        <label for="bg">Background</label>
+        <input type="color" id="bg" value="#ffffff">
+      </div>
+      <label class="check"><input type="checkbox" id="passport"> 4×4 passport</label>
+      <label class="check"><input type="checkbox" id="grid"> Show cell grid</label>
+    </div>
+  </section>
+</main>
+
+<script>
+(function(){
+  // ---- Glyph definitions (from the README) ----
+  // Edge bits: right=1, bottom=2, left=4, top=8.
+  // Internal diagonals, canonical table. 'X' = both diagonals.
+  var DIAG = ['X','/','/','/','/','\\','\\','','/','\\','\\','','/','','',''];
+  var ROT_FLIP = {2:1, 5:1, 8:1}; // rotational profile inverts #2, #5, #8
+
+  function diagFor(idx, rot){
+    var d = DIAG[idx];
+    if (rot && ROT_FLIP[idx]) d = (d === '/') ? '\\' : '/';
+    return d;
+  }
+
+  // Groups for the keyboard
+  var BASE   = 'OAETUNLVIBSHPMKJ'.split('');   // glyph index 0..15, plain glyphs (register 1)
+  var EXTRA  = 'CDFGQRWXYZ'.split('');         // register 2: donor glyph + dot
+  var DIGITS = '0123456789'.split('');         // glyph index 0..9
+
+  // char -> [glyph index, dot?]
+  var MAP = {};
+  BASE.forEach(function(ch, i){ MAP[ch] = [i, 0]; });
+  var DONOR = { X:0, Q:1, D:3, W:4, R:6, F:7, Y:8, Z:10, G:11, C:14 };
+  EXTRA.forEach(function(ch){ MAP[ch] = [DONOR[ch], 1]; });
+  DIGITS.forEach(function(ch, d){ MAP[ch] = [d, 0]; });
+
+  function drawGlyph(c, x, y, s, idx, dot, o){
+    c.save();
+    c.beginPath();
+    c.rect(x - o.sw, y - o.sw, s + 2*o.sw, s + 2*o.sw);
+    c.clip();
+    c.strokeStyle = o.fg;
+    c.lineWidth = o.sw;
+    // round caps/joins soften every 90° corner of the contour and every 45° diagonal junction
+    c.lineCap  = o.round ? 'round' : 'square';
+    c.lineJoin = o.round ? 'round' : 'miter';
+    var L = x, R = x + s, T = y, B = y + s;
+    c.beginPath();
+    if (idx & 1) { c.moveTo(R, T); c.lineTo(R, B); }
+    if (idx & 2) { c.moveTo(L, B); c.lineTo(R, B); }
+    if (idx & 4) { c.moveTo(L, T); c.lineTo(L, B); }
+    if (idx & 8) { c.moveTo(L, T); c.lineTo(R, T); }
+    var dg = diagFor(idx, o.rot);
+    if (dg === 'X' || dg === '/')  { c.moveTo(L, B); c.lineTo(R, T); }
+    if (dg === 'X' || dg === '\\') { c.moveTo(L, T); c.lineTo(R, B); }
+    c.stroke();
+    if (dot) {
+      var cx = x + s/2, cy = y + s/2, r = s * o.dotPct / 200;
+      c.fillStyle = o.bg;
+      c.beginPath(); c.arc(cx, cy, r + o.sw * 0.9, 0, Math.PI*2); c.fill();
+      c.fillStyle = o.fg;
+      c.beginPath(); c.arc(cx, cy, r, 0, Math.PI*2); c.fill();
+    }
+    c.restore();
+  }
+
+  // ---- Layout ----
+  // Returns rows: array of arrays; each cell is null (empty) or [idx, dot].
+  function layout(text, cols){
+    var rows = [], ignored = 0, count = 0;
+    var lines = text.toUpperCase().split(/\r?\n/);
+    lines.forEach(function(line){
+      var words = line.split(/ +/);
+      var row = [];
+      function newRow(){ rows.push(row); row = []; }
+      words.forEach(function(w){
+        var cells = [];
+        for (var i = 0; i < w.length; i++) {
+          var m = MAP[w[i]];
+          if (m) { cells.push(m); count++; } else { ignored++; }
+        }
+        if (!cells.length) return;
+        if (cols > 0) {
+          if (row.length && row.length + 1 + cells.length > cols) newRow();
+          while (cells.length > cols) { // very long word: split
+            if (row.length) newRow();
+            row = cells.splice(0, cols);
+            newRow();
+          }
+        }
+        if (row.length) row.push(null); // word space = one empty cell
+        row = row.concat(cells);
+      });
+      rows.push(row);
+    });
+    while (rows.length > 1 && rows[rows.length-1].length === 0) rows.pop();
+    return { rows: rows, ignored: ignored, count: count };
+  }
+
+  var $ = function(id){ return document.getElementById(id); };
+  var canvas = $('out'), ctx = canvas.getContext('2d');
+  var MAXD = 16000;
+
+  function num(id, lo, hi, def){
+    var v = parseInt($(id).value, 10);
+    if (isNaN(v)) v = def;
+    return Math.max(lo, Math.min(hi, v));
+  }
+
+  function opts(){
+    return {
+      sw: num('sw', 1, 60, 10),
+      gap: num('gap', 0, 200, 24),
+      dotPct: num('dot', 5, 40, 18),
+      fg: $('fg').value,
+      bg: $('bg').value,
+      rot: $('mode').value === 'rot',
+      round: $('round').value === 'round'
+    };
+  }
+
+  function render(){
+    var s = num('size', 16, 400, 96);
+    var o = opts();
+    var cols = num('cols', 0, 200, 16);
+    var res = layout($('txt').value, cols);
+    var rows = res.rows;
+    var withPass = $('passport').checked;
+    var pitch = s + o.gap;
+
+    var textCols = 0;
+    rows.forEach(function(r){ if (r.length > textCols) textCols = r.length; });
+    var hasText = res.count > 0;
+    if (!hasText) { textCols = 0; rows = []; }
+
+    var gridCols = Math.max(textCols, withPass ? 4 : 0, 1);
+    var gridRows = rows.length + (withPass ? (hasText ? 5 : 4) : 0);
+    if (gridRows < 1) gridRows = 1;
+
+    var margin = Math.max(o.gap, o.sw * 2);
+    var W = margin*2 + gridCols*s + (gridCols-1)*o.gap;
+    var H = margin*2 + gridRows*s + (gridRows-1)*o.gap;
+
+    if (W > MAXD || H > MAXD) {
+      $('stat').textContent = 'Image too large (' + W + '×' + H + '). Reduce the glyph size or spacing, or set a line wrap.';
+      return false;
+    }
+    canvas.width = W; canvas.height = H;
+    ctx.fillStyle = o.bg; ctx.fillRect(0, 0, W, H);
+
+    function cellXY(col, row){ return [margin + col*pitch, margin + row*pitch]; }
+    function box(col, row){
+      var p = cellXY(col, row);
+      ctx.save(); ctx.strokeStyle = 'rgba(120,120,120,.35)'; ctx.lineWidth = 1;
+      ctx.setLineDash([4,4]); ctx.strokeRect(p[0] - 0.5, p[1] - 0.5, s + 1, s + 1); ctx.restore();
+    }
+
+    var rowOffset = 0;
+    if (withPass) {
+      for (var i = 0; i < 16; i++) {
+        var pc = i % 4, pr = Math.floor(i / 4);
+        var p = cellXY(pc, pr);
+        drawGlyph(ctx, p[0], p[1], s, i, 0, o);
+        if ($('grid').checked) box(pc, pr);
+      }
+      rowOffset = hasText ? 5 : 4;
+    }
+    rows.forEach(function(r, ri){
+      r.forEach(function(cell, ci){
+        var p = cellXY(ci, ri + rowOffset);
+        if (cell) drawGlyph(ctx, p[0], p[1], s, cell[0], cell[1], o);
+        if ($('grid').checked) box(ci, ri + rowOffset);
+      });
+    });
+
+    $('stat').textContent = res.count + (res.count === 1 ? ' character' : ' characters') +
+      (res.ignored ? ', ' + res.ignored + ' skipped (not 0–9 / A–Z)' : '') +
+      ' · ' + W + '×' + H + ' px';
+    paintKeys();
+    return true;
+  }
+
+  // ---- Keyboard: O…J matrix, other letters, digits ----
+  var keyCanvases = [];
+  function makeGroup(title, chars, cols){
+    var g = document.createElement('div'); g.className = 'group';
+    var h = document.createElement('h3'); h.textContent = title; g.appendChild(h);
+    var grid = document.createElement('div'); grid.className = 'keys';
+    grid.style.gridTemplateColumns = 'repeat(' + cols + ', 52px)';
+    chars.forEach(function(ch){
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'key'; b.title = ch;
+      var cv = document.createElement('canvas'); cv.width = 60; cv.height = 60;
+      b.appendChild(cv);
+      b.appendChild(document.createTextNode(ch));
+      b.addEventListener('click', function(){
+        var t = $('txt'), a = t.selectionStart, e = t.selectionEnd;
+        t.value = t.value.slice(0, a) + ch + t.value.slice(e);
+        t.selectionStart = t.selectionEnd = a + 1;
+        t.focus(); render();
+      });
+      keyCanvases.push({ cv: cv, ch: ch });
+      grid.appendChild(b);
+    });
+    g.appendChild(grid);
+    return g;
+  }
+  var pal = $('palette');
+  pal.appendChild(makeGroup('O … J: the 16 base glyphs (4×4 matrix)', BASE, 4));
+  pal.appendChild(makeGroup('Other letters (glyph + dot)', EXTRA, 5));
+  pal.appendChild(makeGroup('Digits 0–9', DIGITS, 5));
+
+  function paintKeys(){
+    var rot = $('mode').value === 'rot', round = $('round').value === 'round';
+    keyCanvases.forEach(function(k){
+      var cc = k.cv.getContext('2d');
+      cc.clearRect(0, 0, 60, 60);
+      var m = MAP[k.ch];
+      drawGlyph(cc, 13, 13, 34, m[0], m[1], { sw: 5, fg: '#111', bg: '#fff', dotPct: 22, rot: rot, round: round });
+    });
+  }
+
+  // ---- Export ----
+  function saveCanvas(cv, name){
+    cv.toBlob(function(blob){
+      if (!blob) return;
+      var a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = name;
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function(){ URL.revokeObjectURL(a.href); }, 1000);
+    }, 'image/jpeg', 0.95);
+  }
+
+  // Input window + glyph window stacked in one picture
+  function composite(){
+    var o = opts();
+    var gl = canvas;
+    var pad = 28, labelH = 0, fs = 28, lh = 38, outLabelH = 0;
+    var W = Math.max(gl.width, 720);
+    var font = '600 ' + fs + 'px ui-monospace, Menlo, Consolas, monospace';
+    var tmp = document.createElement('canvas').getContext('2d');
+    tmp.font = font;
+    var maxW = W - pad*2, lines = [];
+    $('txt').value.toUpperCase().split(/\r?\n/).forEach(function(par){
+      var words = par.split(/ +/), cur = '';
+      words.forEach(function(w){
+        var test = cur ? cur + ' ' + w : w;
+        if (tmp.measureText(test).width <= maxW) { cur = test; return; }
+        if (cur) lines.push(cur);
+        cur = w;
+        while (tmp.measureText(cur).width > maxW && cur.length > 1) { // break very long word
+          var n = cur.length - 1;
+          while (n > 1 && tmp.measureText(cur.slice(0, n)).width > maxW) n--;
+          lines.push(cur.slice(0, n)); cur = cur.slice(n);
+        }
+      });
+      lines.push(cur);
+    });
+    while (lines.length > 1 && lines[lines.length-1] === '') lines.pop();
+
+    var inputH = pad + labelH + lines.length * lh + pad;
+    var H = inputH + outLabelH + gl.height;
+    if (W > MAXD || H > MAXD) return null;
+
+    var cv = document.createElement('canvas'); cv.width = W; cv.height = H;
+    var c = cv.getContext('2d');
+    c.fillStyle = o.bg; c.fillRect(0, 0, W, H);
+
+    c.textBaseline = 'alphabetic';
+    c.fillStyle = o.fg; c.font = font;
+    lines.forEach(function(ln, i){ c.fillText(ln, pad, pad + labelH + fs + i*lh - 6); });
+
+    c.strokeStyle = 'rgba(128,128,128,.45)'; c.lineWidth = 1;
+    c.beginPath(); c.moveTo(pad, inputH + 0.5); c.lineTo(W - pad, inputH + 0.5); c.stroke();
+
+    c.drawImage(gl, Math.round((W - gl.width) / 2), inputH + outLabelH);
+    return cv;
+  }
+
+  $('saveGlyphs').addEventListener('click', function(){
+    if (render()) saveCanvas(canvas, 'yoalphabet_glyphs.jpg');
+  });
+  $('saveBoth').addEventListener('click', function(){
+    if (!render()) return;
+    var cv = composite();
+    if (!cv) { $('stat').textContent = 'The combined image is too large. Reduce the glyph size.'; return; }
+    saveCanvas(cv, 'yoalphabet_input_glyphs.jpg');
+  });
+
+  ['txt','mode','round','cols','size','sw','gap','dot','fg','bg','passport','grid'].forEach(function(id){
+    var el = $(id);
+    el.addEventListener('input', render);
+    el.addEventListener('change', render);
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
