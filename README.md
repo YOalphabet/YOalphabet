@@ -315,6 +315,11 @@ The 4-bit full isomorphism of **YOalphabet** naturally extends beyond visual gly
   <sub><b>Figure:</b> 4-Bit Hand Gesture Mapping using 2 fingers per hand for tactile and non-verbal communication.</sub>
 </p>
 
+<p align="center">
+  <img src="images/512.jpg" width="80%"/>
+</p>
+
+
 ####  Binary Hand Mapping (2 Fingers per Hand = 1 Nibble)
 * **Right Hand (Bits 0 & 1):** Controls the lower bits ($2^0 = 1$ and $2^1 = 2$).
 * **Left Hand (Bits 2 & 3):** Controls the higher bits ($2^2 = 4$ and $2^3 = 8$).
