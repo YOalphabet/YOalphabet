@@ -300,6 +300,16 @@ The 4-bit geometric topology of **YOalphabet** scales seamlessly into discrete, 
   <sub><b>Figure:</b> Discrete Circle-Grid / Dot-Matrix rendering of the 16 core YOalphabet glyphs (Indices #0–#15).</sub>
 </p>
 
+<p align="center">
+  <img src="YOalphabet_4dot.jpg" alt="YOalphabet 4-Dot Tactile Matrix" width="45%"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="YOalphabet_5dot.jpg" alt="YOalphabet 5-Dot Anchored Tactile Matrix" width="45%"/>
+</p>
+
+
+
+
+
 * **Hardware Parity:** Directly executable on $5 \times 5$ or $7 \times 7$ LED / flip-dot driver chips with zero pixel interpolation.
 * **Tactile Readability:** Provides an immediate physical bridge for micro-pin haptic displays and relief embossing.
 
