@@ -191,7 +191,7 @@ Graphically, each consists of exactly **2 lines** (including compensatory diagon
 
    
 <p align="center">
-  <img src="YOalphabet_color.jpg" alt="YOalphabet" width="80%"/>
+  <img src="YOalphabet_color.jpg" alt="YOalphabet" width="100%"/>
 </p>
 
 ---
@@ -631,7 +631,7 @@ Some hexadecimal digit names coincide with existing CV forms. Inside the numeral
 
 ---
 <p align="center">
-  <img src="YOalphabet_numeral0F.jpg" width="45%"/>
+  <img src="YOalphabet_numeral0F.jpg" width="50%"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="YOalphabet_numeral0Falt.jpg" width="45%"/>
 </p>
