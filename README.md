@@ -436,18 +436,18 @@ This encoding is optional. YOalphabet is primarily a geometric writing system; b
 It does not change the way the script is read, written, or understood as a writing system.
 
 
+[![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
+
+
 <p align="center">
-  <img src="images/404.png" width="90%"/>
+  <img src="images/405.png" width="90%"/>
 </p>
 
-## YOalphabet Converter: type 0-9 and A-Z, see the glyphs, and save them as a .jpg. Open [`CONVERTER.html`](https://github.com/YOalphabet/YOalphabet/blob/main/CONVERTER.html) in the repository; it can also be downloaded from there and used offline in any browser.
+### YOalphabet Converter: type 0-9 and A-Z, see the glyphs, and save them as a .jpg. Open [`CONVERTER.html`](https://github.com/YOalphabet/YOalphabet/blob/main/CONVERTER.html) in the repository; it can also be downloaded from there and used offline in any browser.
 
 <p align="center">
   <img src="images/402.png" width="90%"/>
 </p>
-
-[![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
-
 
 # PART 2: YOconlang CORE SPECIFICATION
 
