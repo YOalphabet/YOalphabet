@@ -295,9 +295,9 @@ The converter implements the glyph construction rules from this specification. I
 The 4-bit geometric topology of **YOalphabet** scales seamlessly into discrete, low-resolution dot-matrix hardware without losing zero-overhead register mapping. Each 4-bit glyph is mapped onto a minimalist circle-grid (dot matrix), making it natively compatible with low-cost LED matrices, flip-dot displays, e-paper micro-arrays, and physical tactile pin actuators.
 
 <p align="center">
-  <img src="images/513.jpg" width="45%"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="images/514.jpg" width="45%"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images/513.jpg" width="50%"/>
 </p>
 
 * **Hardware Parity:** Directly executable on $5 \times 5$ or $7 \times 7$ LED / flip-dot driver chips with zero pixel interpolation.
