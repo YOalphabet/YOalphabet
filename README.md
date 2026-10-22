@@ -266,7 +266,23 @@ A handwritten form may look softer, slanted, or more organic, but it should not 
 The compiled font files (`.ttf`, `.otf`) are available directly in the root (`main`) folder of the repository for use in web applications, desktop publishing, and mobile interfaces.
 
 ---
+# YOalphabet Converter
 
+A single-file HTML tool that turns keyboard text (0-9, A-Z) into YOalphabet glyphs and saves the result as a .jpg image. It works offline in any browser, with no installation.
+
+**[Open `1YOalphabet CONVERTER.html`](https://github.com/YOalphabet/YOalphabet/blob/main/1YOalphabet%20CONVERTER.html)**, click "Download raw file", and open the downloaded file in your browser.
+
+- Keyboard palette: the 16 base glyphs (O…J) as a 4×4 matrix, the remaining letters (glyph + dot), and digits 0-9.
+- Canonical and Rotational diagonal profiles.
+- Rounded or sharp 45° and 90° corners.
+- Adjustable glyph size, line width, spacing, dot size, colors, and line wrap.
+- Optional 4×4 passport matrix and cell grid.
+- Export as .jpg: glyphs only, or input text + glyphs.
+
+The converter implements the glyph construction rules from this specification. It is a visualization and export tool; it does not perform recognition or parsing.
+
+
+---
 #####  Dot-Matrix & Circle-Grid Rendering (LED, Flip-Dot & Tactile Pin Arrays)
 
 The 4-bit geometric topology of **YOalphabet** scales seamlessly into discrete, low-resolution dot-matrix hardware without losing zero-overhead register mapping. Each 4-bit glyph is mapped onto a minimalist circle-grid (dot matrix), making it natively compatible with low-cost LED matrices, flip-dot displays, e-paper micro-arrays, and physical tactile pin actuators.
