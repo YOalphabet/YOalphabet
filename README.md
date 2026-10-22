@@ -310,12 +310,6 @@ The 4-bit geometric topology of **YOalphabet** scales seamlessly into discrete, 
 The 4-bit full isomorphism of **YOalphabet** naturally extends beyond visual glyphs and digital displays into a **physical 4-bit sign language**. By utilizing just **two fingers on each hand**, anyone can encode and transmit the entire 16-character alphabet in real time without voice, cameras, or digital hardware.
 
 <p align="center">
-  <img src="YOalphabet_sign.jpg" alt="YOalphabet 4-Bit Kinetic Sign Language" width="80%"/>
-  <br>
-  <sub><b>Figure:</b> 4-Bit Hand Gesture Mapping using 2 fingers per hand for tactile and non-verbal communication.</sub>
-</p>
-
-<p align="center">
   <img src="images/512.jpg" width="80%"/>
 </p>
 
