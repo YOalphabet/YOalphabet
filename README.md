@@ -636,6 +636,13 @@ Some hexadecimal digit names coincide with existing CV forms. Inside the numeral
   <img src="YOalphabet_numeral0Falt.jpg" width="45%"/>
 </p>
 
+<p align="center">
+  <img src="images/515.jpg" width="50%"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images/516.jpg" width="45%"/>
+</p>
+
+
 
 ---
 
