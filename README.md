@@ -20,7 +20,7 @@ YOalphabet is a script of 16 core glyphs. Each glyph lives in a square, and the 
 
 One symbol is therefore four things at once:
 
-4-bit code ↔ decimal index (0–15) ↔ geometric shape ↔ IPA phoneme
+### 4-bit code ↔ decimal index (0–15) ↔ geometric shape ↔ IPA phoneme
 
 The shape follows from the code by rule, and the code can be read back from the shape. The phonetic value is a convention of the system.
 
