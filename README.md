@@ -12,6 +12,50 @@
 </p>
 
 
+---
+
+# YOalphabet: numbers make letters
+
+**A geometric writing system where every glyph is a 4-bit number.**
+
+<p align="center">
+  <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>
+</p>
+
+**[Try the Converter](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)** · **[Fonts](#official-font-files)** · **[Specification](#part-1-yoalphabet-script-specification)**
+
+[![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
+
+## What it is
+
+YOalphabet is a script of 16 core glyphs. Each glyph lives in a square, and the four edges of that square are four bits. If a bit is 1, the edge is drawn; if it is 0, the edge stays empty. Internal diagonals fill the rest, so that every glyph has a fixed line density.
+
+One symbol is therefore four things at once:
+
+4-bit code ↔ decimal index (0–15) ↔ geometric shape ↔ IPA phoneme
+
+The shape follows from the code by rule, and the code can be read back from the shape. The phonetic value is a convention of the system.
+
+## At a glance
+
+- **16 glyphs, 44 lines:** 32 outer edges and 12 internal diagonals.
+- **16 sounds:** 5 vowels and 11 consonants, chosen for wide cross-linguistic availability.
+- **English adaptation:** 26 letters, using the 16 base glyphs plus a dot modifier.
+- **Two geometric profiles:** Canonical (simple decoding) and Rotational (90° symmetry).
+- **Many styles:** geometric, rounded, handwritten, calligraphic, digital.
+- **Beyond the page (experimental):** dot-matrix displays, tactile and Braille-like cells, a four-bit hand gesture code.
+
+## Quick questions
+
+- **Is YOalphabet a language?** No, it is a script. It ships with a base IPA mapping and an English adaptation, and it can be mapped to other languages.
+- **Do I need to know binary to use it?** No. You can read and write the glyphs as a visual script. The binary encoding is optional and meant for software, identifiers and displays.
+- **Does it recognize or parse text?** No. Encoding is not understanding: the specification defines glyphs and their encoding, not recognition, parsing or meaning. Claims about efficiency or robustness need separate, reproducible tests.
+- **Can I use it?** Yes. MIT License. Forks and experiments are welcome.
+
+
+---
+
+
 ## YOalphabet & YOconlang — Geometric Writing System and Constructed Language
 
 YOalphabet is a geometric writing system with 16 core glyphs derived from a complete 4-bit code. It can be used as a neography, a phonetic script through defined language mappings, or a visual encoding system. Its glyphs support geometric, rounded, handwritten, and digital styles.
