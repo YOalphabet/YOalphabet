@@ -16,9 +16,9 @@
 
 ## What it is
 
-YOalphabet is a script of 16 core glyphs. Each glyph lives in a square, and the four edges of that square are four bits. If a bit is 1, the edge is drawn; if it is 0, the edge stays empty. Internal diagonals fill the rest, so that every glyph has a fixed line density.
+YOalphabet is a script of 16 core glyphs. Each glyph lives in a square, and the four edges of that square are four bits. If a bit is 1, the edge is drawn; if it is 0, the edge stays empty. Internal diagonals complete each glyph, so that every glyph has a fixed line density.
 
-One symbol is therefore four things at once:
+One glyph is four things at once:
 
 ### 4-bit code ↔ decimal index (0–15) ↔ geometric shape ↔ IPA phoneme
 
