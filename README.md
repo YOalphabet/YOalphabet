@@ -11,9 +11,8 @@
   <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>
 </p>
 
-**[Try the Converter](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)** · **[Fonts](#official-font-files)** · **[Specification](#part-1-yoalphabet-script-specification)**
+# [Try the Converter](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)
 
-[![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
 ## What it is
 
@@ -44,8 +43,6 @@ The shape follows from the code by rule, and the code can be read back from the 
 <p align="center">
   <img src="images/401.png" width="90%"/>
 </p>
-
-[![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
 # PART 1: YOalphabet Script Specification
 
