@@ -5,18 +5,7 @@
 
 # YOalphabet: numbers make letters
 
-## YOalphabet is a geometric writing system where 4-bit numbers generate glyphs.
-
-<p align="center">
-  <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>  
-</p>
-
-
----
-
-# YOalphabet: numbers make letters
-
-**A geometric writing system where every glyph is a 4-bit number.**
+# A geometric writing system where every glyph is a 4-bit number.
 
 <p align="center">
   <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>
@@ -51,56 +40,6 @@ The shape follows from the code by rule, and the code can be read back from the 
 - **Do I need to know binary to use it?** No. You can read and write the glyphs as a visual script. The binary encoding is optional and meant for software, identifiers and displays.
 - **Does it recognize or parse text?** No. Encoding is not understanding: the specification defines glyphs and their encoding, not recognition, parsing or meaning. Claims about efficiency or robustness need separate, reproducible tests.
 - **Can I use it?** Yes. MIT License. Forks and experiments are welcome.
-
-
----
-
-
-## YOalphabet & YOconlang — Geometric Writing System and Constructed Language
-
-YOalphabet is a geometric writing system with 16 core glyphs derived from a complete 4-bit code. It can be used as a neography, a phonetic script through defined language mappings, or a visual encoding system. Its glyphs support geometric, rounded, handwritten, and digital styles.
-YOconlang is a separate, experimental and unfinished constructed-language project that uses YOalphabet as one of its writing systems. YOalphabet does not depend on it.
-YOconlang is a logical constructed language with fixed subject–verb–object (SVO) syntax, immutable roots, grammatical particles, and a semantic matrix for organizing vocabulary. It can be written in Latin letters or YOalphabet. YOalphabet defines the symbols and their encoding; YOconlang defines the words, grammar, and linguistic meaning.
-
-## Human-facing and machine-facing layers
-
-Both projects have human-facing and machine-facing layers. These layers describe how each project can be used, not a division between YOalphabet and YOconlang.
-
-- YOalphabet for people: visual glyphs, handwriting, calligraphy, and a distinctive script.
-- YOalphabet for machines: four-bit glyph identifiers and defined geometric construction rules.
-- YOconlang for people: pronounceable words, grammatical patterns, and a language for expression.
-- YOconlang for machines: explicit word forms, grammatical markers, and structured sentence rules.
-
-Users can explore the visual writing system without learning its binary structure, or study its encoding without adopting YOconlang. YOconlang is one language that uses YOalphabet, not a requirement for using the glyph system.
-
-## Explore the project
-
-- YOalphabet: glyph construction, binary mappings, phonetic assignments, and writing styles.
-- YOconlang: phonology, grammar, semantic categories, vocabulary, and sentence examples.
-- Research: potential applications in human–machine communication, visual recognition, and structured language processing.
-
-The specifications describe the systems and their rules. Performance claims about recognition, efficiency, or ambiguity require separate implementations and reproducible tests.
-
----
-
-## YOalphabet: One Glyph, Multiple Representations
-
-YOalphabet defines 16 core glyphs through a shared mapping:
-
-4-bit code ↔ decimal index (0–15) ↔ canonical geometry ↔ assigned IPA phoneme
-
-The binary code determines the canonical geometric structure. The decimal index identifies the glyph, while the IPA assignment specifies its pronunciation in the base phonetic mapping.
-
-These representations describe the same symbol from different perspectives. The geometric construction follows defined rules; the phonetic assignment is a convention of the system.
-
-Handwritten and digital styles can vary while preserving the identity of each glyph.
-
-
-## Encoding Is Not Understanding
-
-Four-bit glyph encoding specifies how symbols can be represented as data. It does not, by itself, provide visual recognition, grammatical parsing, or semantic understanding.
-
-Applications involving bandwidth reduction, low-power devices, degraded channels, or AI processing require task-specific implementations and reproducible comparisons with existing methods.
 
 <p align="center">
   <img src="images/401.png" width="90%"/>
