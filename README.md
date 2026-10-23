@@ -39,13 +39,6 @@ The specifications describe the systems and their rules. Performance claims abou
 
 ---
 
-###  Design Goals
-YOalphabet & YOconlang are design experiments: a script whose shapes are generated from a 4-bit code, and a language with a small phoneme inventory chosen from widely available sounds and a systematically organised root vocabulary. The goals are regularity and learnability. Neutrality, reduced ambiguity and any benefit for human–AI communication are goals to be tested, not established properties. Built on 16 universal IPA phonemes and a rigid MECE logic, the system eliminates linguistic dominance and context errors to unite humans and AI.
-
- **[Read the Full Manifesto](MANIFESTO.md)**
-
----
-
 ## YOalphabet: One Glyph, Multiple Representations
 
 YOalphabet defines 16 core glyphs through a shared mapping:
