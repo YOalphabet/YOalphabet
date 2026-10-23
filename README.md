@@ -5,7 +5,7 @@
 
 # YOalphabet: numbers make letters
 
-# YOalphabet: a geometric writing system where 4-bit numbers generate glyphs.
+** YOalphabet ** is a geometric writing system where 4-bit numbers generate glyphs.
 
 <p align="center">
   <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>  
