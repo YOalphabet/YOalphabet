@@ -3,6 +3,23 @@
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
+# YOalphabet: a geometric writing system where 4-bit numbers make letters
+
+**Numbers make letters.** 16 glyphs, each one a 4-bit number and an IPA sound. A script, not a language.
+
+<p align="center">
+  <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>
+</p>
+
+### [Try the Converter](https://yoalphabet.github.io/YOalphabet/CONVERTER.html) · [Play the Clicker](https://yoalphabet.github.io/YOalphabet/CLICKER.html)
+
+Type or paste text, see the glyphs, save them as a .jpg. Works offline in any browser.
+
+
+
+
+
+
 # YOalphabet: numbers make letters
 
 # A geometric writing system where every glyph is a 4-bit number.
@@ -431,7 +448,7 @@ It does not change the way the script is read, written, or understood as a writi
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
-# [Try the YOalphabet Converter Online: type or paste text, see the glyphs, and save them as a .jpg. Works offline in any browser.](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)
+### [Try the YOalphabet Converter Online: type or paste text, see the glyphs, and save them as a .jpg. Works offline in any browser.](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)
 
 
 <p align="center">
@@ -709,9 +726,9 @@ Applications in assistive technology, industrial control, or medical communicati
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
 ---
-#  Thank you for your support the YOalphabet&YOconlang development via cryptocurrency. 
-#  Now 2026 october 22
-#  0 $
+###  Thank you for your support the YOalphabet&YOconlang development via cryptocurrency. 
+###  Now 2026 october 22
+###  0 $
 
 * **USDT ( TRC-20):** `TFwggRZUB9BBNHwyXgZBGkd2EycSz9umGJ`
 * **USDT / USDC / ETH (ERC-20):** `0x1102BbE0c8aeF5D2e44059fb951671CfC2047255`
