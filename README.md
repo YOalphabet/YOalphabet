@@ -373,6 +373,13 @@ Unlike legacy 6-dot or 8-dot Braille systems that require arbitrary memorization
 * **Best Used For:** Embossed paper, packaging, tactile signage, and blind reading in rimless environments.
 ---
 
+## Play with it
+
+[![YOalphabet Clicker: assemble glyphs, hear vowels, collect cats](images/517.jpg)](https://yoalphabet.github.io/YOalphabet/CLICKER.html)
+
+**[Play the Clicker](https://yoalphabet.github.io/YOalphabet/CLICKER.html)**: tap the sides of the big glyph to flip its four bits. Match the highlighted glyph in the 4×4 matrix to score a point. Vowels (o a e u i) are voiced, and every point drops a random cat, sometimes a rare animal.
+
+---
 
 ### 4-Bit Socionics / MBTI Labelling
 A notational mapping of the 16 Socionics/MBTI-style type codes onto 4-bit registers. It is only a labelling convenience: these typologies have limited scientific validation, their letter conventions differ, and no claim is made about personality.
