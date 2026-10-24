@@ -11,7 +11,7 @@
   <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>
 </p>
 
-# [Try Online converter: type text, see the glyphs, and save them as a .jpg. Works offline in any browser.](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)
+# [Try Online Converter: type text, see the glyphs, and save them as a .jpg. Works offline in any browser.](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)
 
 
 ## What it is
@@ -414,6 +414,13 @@ It does not change the way the script is read, written, or understood as a writi
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
+---
+<p align="center">
+  <a href="https://yoalphabet.github.io/YOalphabet/CONVERTER.html">
+    <img src="images/404.png" alt="YOalphabet Converter" width="90%"/>
+  </a>
+</p>
+---
 
 <p align="center">
   <img src="images/405.png" width="90%"/>
