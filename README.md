@@ -11,7 +11,7 @@
   <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>
 </p>
 
-# [Try the Converter](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)
+# [Try Online converter: type text, see the glyphs, and save them as a .jpg. Works offline in any browser.](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)
 
 
 ## What it is
@@ -32,6 +32,7 @@ The shape follows from the code by rule, and the code can be read back from the 
 - **Two geometric profiles:** Canonical (simple decoding) and Rotational (90° symmetry).
 - **Many styles:** geometric, rounded, handwritten, calligraphic, digital.
 - **Beyond the page (experimental):** dot-matrix displays, tactile and Braille-like cells, a four-bit hand gesture code.
+- **Online converter:** type 0–9 and A–Z, see the glyphs, and save them as a .jpg. Works offline in any browser.
 
 ## Quick questions
 
