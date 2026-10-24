@@ -11,7 +11,7 @@
   <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>
 </p>
 
-# [Try Online Converter: type text, see the glyphs, and save them as a .jpg. Works offline in any browser.](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)
+# [Try the YOalphabet Converter Online: type text, see the glyphs, and save them as a .jpg. Works offline in any browser.](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)
 
 
 ## What it is
@@ -243,8 +243,11 @@ The compiled font files (`.ttf`, `.otf`) are available directly in the root (`ma
 # YOalphabet Converter
 
 <p align="center">
-  <img src="images/404.png" width="90%"/>
+  <a href="https://yoalphabet.github.io/YOalphabet/CONVERTER.html">
+    <img src="images/404.png" alt="YOalphabet Converter" width="90%"/>
+  </a>
 </p>
+
 
 A single-file HTML tool that turns keyboard text (0-9, A-Z) into YOalphabet glyphs and saves the result as a .jpg image. It works offline in any browser, with no installation.
 
@@ -414,25 +417,8 @@ It does not change the way the script is read, written, or understood as a writi
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
----
-<p align="center">
-  <a href="https://yoalphabet.github.io/YOalphabet/CONVERTER.html">
-    <img src="images/404.png" alt="YOalphabet Converter" width="90%"/>
-  </a>
-</p>
----
+# [Try the YOalphabet Converter Online: type text, see the glyphs, and save them as a .jpg. Works offline in any browser.](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)
 
-<p align="center">
-  <img src="images/405.png" width="90%"/>
-</p>
-
-### YOalphabet Converter: type 0-9 and A-Z, see the glyphs, and save them as a .jpg. 
-
-**[Try the YOalphabet Converter online](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)**
-
-Prefer to use it offline? [Download `CONVERTER.html`](https://github.com/YOalphabet/YOalphabet/blob/main/CONVERTER.html) from the repository (click "Download raw file") and open it in your browser.
-
----
 
 <p align="center">
   <img src="images/402.png" width="90%"/>
