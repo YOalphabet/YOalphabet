@@ -15,25 +15,6 @@
 
 Type or paste text, see the glyphs, save them as a .jpg. Works offline in any browser.
 
-
-
-
-
-
-# YOalphabet: numbers make letters
-
-# A geometric writing system where every glyph is a 4-bit number.
-
-<p align="center">
-  <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>
-</p>
-
-# [Try the YOalphabet Converter Online: type or paste text, see the glyphs, and save them as a .jpg. Works offline in any browser.](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)
-
-
-# [Try the YOalphabet Clicker Online.](https://yoalphabet.github.io/YOalphabet/CLICKER.html)
-
-
 ## What it is
 
 YOalphabet is a script of 16 core glyphs. Each glyph lives in a square, and the four edges of that square are four bits. If a bit is 1, the edge is drawn; if it is 0, the edge stays empty. Internal diagonals complete each glyph, so that every glyph has a fixed line density.
