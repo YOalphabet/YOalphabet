@@ -202,6 +202,10 @@ Developers and UI designers can re-render the script across diverse visual theme
 </p>
 
 <p align="center">
+  <img src="images/518.jpg" width="80%"/>
+</p>
+
+<p align="center">
   <img src="images/511.jpg" width="80%"/>
 </p>
 
@@ -502,6 +506,10 @@ All lexical meanings and roots are generated systematically through a 3-axis ort
 * J — Social sphere: Family, communities, social hierarchies, institutions, economy, network graphs.
 
 ## Axis 2: V₁ — Process Vector (Operational Mode)
+
+<p align="center">
+  <img src="images/630.gif" width="90%"/>
+</p>
 
 * O — Statics / Being: State of rest, parameter locking, preservation of status quo, immutability.
 * A — Action / Modification: Active change, generation of a new quality, assembly, creation, work.
