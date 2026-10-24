@@ -11,7 +11,7 @@
   <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>
 </p>
 
-# [Try the YOalphabet Converter Online: type text, see the glyphs, and save them as a .jpg. Works offline in any browser.](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)
+# [Try the YOalphabet Converter Online: type or paste text, see the glyphs, and save them as a .jpg. Works offline in any browser.](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)
 
 
 ## What it is
@@ -267,7 +267,7 @@ The converter implements the glyph construction rules from this specification. I
 
 
 ---
-#####  Dot-Matrix & Circle-Grid Rendering (LED, Flip-Dot & Tactile Pin Arrays)
+###  Dot-Matrix & Circle-Grid Rendering (LED, Flip-Dot & Tactile Pin Arrays)
 
 The 4-bit geometric topology of **YOalphabet** scales seamlessly into discrete, low-resolution dot-matrix hardware without losing zero-overhead register mapping. Each 4-bit glyph is mapped onto a minimalist circle-grid (dot matrix), making it natively compatible with low-cost LED matrices, flip-dot displays, e-paper micro-arrays, and physical tactile pin actuators.
 
@@ -417,7 +417,7 @@ It does not change the way the script is read, written, or understood as a writi
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
-# [Try the YOalphabet Converter Online: type text, see the glyphs, and save them as a .jpg. Works offline in any browser.](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)
+# [Try the YOalphabet Converter Online: type or paste text, see the glyphs, and save them as a .jpg. Works offline in any browser.](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)
 
 
 <p align="center">
