@@ -637,6 +637,27 @@ Some hexadecimal digit names coincide with existing CV forms. Inside the numeral
 
 ---
 
+### Scale Markers and Decimal Point
+
+Four more CV forms are reserved as number markers:
+
+| Form | Meaning |
+| :---: | :--- |
+| `sa` | decimal point (separates the integer and fractional parts) |
+| `se` | 10² (hundreds) |
+| `su` | 10³ (thousands) |
+| `si` | 10⁶ (millions) |
+
+There is no scale marker for 10¹: tens are written positionally (30 = `ti jo`). The form `so` is not a scale marker; it is the hexadecimal digit 10.
+
+Like the digit names, these forms coincide with ordinary CV particles. Inside the numeral markers `OO … OO` or `O … O`, they are read as number markers, not as grammatical particles.
+
+
+-++
+
+
+
+
 **Vowel-pair pronunciation mode:** Each four-bit glyph may be read as two vowels. The upper bit pair selects the first vowel and the lower bit pair selects the second vowel: `00=o`, `01=a`, `10=i`, `11=u`. This produces the sixteen VV names `oo, oa, oi, ou, ao, aa, ai, au, io, ia, ii, iu, uo, ua, ui, uu`.
 
 ---
