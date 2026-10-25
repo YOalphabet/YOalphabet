@@ -1,4 +1,4 @@
-no
+unino
 [![DOI](https://zenodo.org/badge/1331302673.svg)](https://doi.org/10.5281/zenodo.23205572)
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
@@ -541,6 +541,18 @@ All lexical meanings and roots are generated systematically through a 3-axis ort
 <p align="center">
   <img src="images/630.gif" width="90%"/>
 </p>
+
+-
+
+## STRUCTURE v₁: 🔴 THE PROCESS MODE
+
+*   **`o`** — Stasis / Existence: Absolute state of rest, maintaining the status quo, fixed parameters, invariance, stability, and baseline functioning.
+*   **`a`** — Action / Modification: Active modification, emergence of new properties, structural upgrades, asset assembly, construction, and creation.
+*   **`u`** — Counteraction / Destruction: Decline of quality, entropy, chaos induction, form annihilation, data erasure, decay, and disintegration.
+*   **`e`** — Import / Perception (Input): System's inbound stream, consumption of environment, absorption of resources, data read operations, and signal reception.
+*   **`i`** — Export / Expression (Output): System's outbound stream, energy radiation, resource offloading, data write operations, and transmission.
+
+---
 
 * O — Statics / Being: State of rest, parameter locking, preservation of status quo, immutability.
 * A — Action / Modification: Active change, generation of a new quality, assembly, creation, work.
