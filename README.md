@@ -733,8 +733,6 @@ The following are research directions, not validated deployments:
 Applications in assistive technology, industrial control, or medical communication require additional safety, usability, and reliability evaluation.
 
 ---
-
 If you would like to support the project, please contact the author: [X](https://x.com/YOalphabet)
 
-* 
 **License:** MIT License. Forks and experiments are welcome.
