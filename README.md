@@ -1,4 +1,4 @@
-
+no
 [![DOI](https://zenodo.org/badge/1331302673.svg)](https://doi.org/10.5281/zenodo.23205572)
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
@@ -496,6 +496,29 @@ Since the core roots are completely uninflected, grammatical and syntactic roles
 <p align="center">
   <img src="YOalphabet color cvc.jpg" alt="YOalphabet" width="80%"/>
 </p>
+
+## STRUCTURE c₁: THE SPHERE OF BEING
+
+### 1. 🟢 Physical World (Objective Reality)
+*   **`l`** — Space: Physical geometry, coordinates, three-dimensional volume, distance, location.
+*   **`t`** — Time: Chronological timeline, process duration, phases, moments, natural cycles.
+*   **`p`** — Matter: Inorganic substance, physical materials, fabricated objects, things, tools.
+*   **`b`** — Energy & Forces: Physical phenomena and vectors.
+
+### 2. ⚫ Organic World & Consciousness
+*   **`s`** — Biosphere & Life: Any carbon-based life, flora, fauna, tissues, cells, anatomy, and the physical body of a human.
+*   **`n`** — Psyche & Will: Interior subjectivity, conscious awareness, emotions, feelings, intent, desires, and the cognitive focus of attention.
+
+### 3. 🔵 Information Environment
+*   **`v`** — Primary Perception: Sensory inputs, raw incoming signals from receptors prior to their logical analysis.
+*   **`m`** — Language & Coding: Semiotics, data exchange interfaces, transmission of meaning — signs, symbols, words, syntax.
+*   **`k`** — Data & Memory: Static storage — fixed information, structured knowledge bases, archived files, logs, books.
+*   **`h`** — Computation & Algorithms: Dynamic processing — logical analysis, mathematical functions, executable programs.
+
+### 4. 🟠 Sociosphere
+*   **`j`** — Socium: Human networks, social graphs, hierarchies, communities, state institutions, macroeconomics, family structures.
+*   
+
 
 All lexical meanings and roots are generated systematically through a 3-axis orthogonal matrix based on the Core Kernel.
 
