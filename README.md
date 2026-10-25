@@ -497,6 +497,68 @@ Since the core roots are completely uninflected, grammatical and syntactic roles
   <img src="YOalphabet color cvc.jpg" alt="YOalphabet" width="80%"/>
 </p>
 
+All lexical meanings and roots are generated systematically through a 3-axis orthogonal matrix based on the Core Kernel.
+
+## Axis 1: C₁ — Domain of Origin (Source Environment)
+
+### 1. Physical World (Objective Reality)
+* `l` — Space / Physical Geometry: Coordinates, three-dimensional volume, distance, location.
+* `t` — Time / Chronology: Chronological scale, duration of processes, phases, natural cycles.
+* `p` — Inanimate Matter: Substances, inorganic materials, artificial objects, tools.
+* `b` — Energy and Forces: Physical phenomena, vectors, directional energy fields.
+
+### 2. Organic World & Mind
+* `s` — Biosphere and Life: Organic carbon life, flora, fauna, tissues, cells, human physical body.
+* `n` — Psyche and Will: Internal mental world, consciousness, emotions, intent, focus of attention.
+
+### 3. Information Environment
+* `v` — Primary Perception / Sensory: Raw incoming signals of sense organs before logical analysis.
+* `m` — Language and Coding / Semiotics: Interfaces and means of transmitting meaning — signs, tokens, words, syntax.
+* `k` — Data and Memory / Statics: Fixed archived information, datasets, blocks of knowledge, files.
+* `h` — Thinking and Algorithms / Dynamics: Data processing, logical analysis, computations, runtime code.
+
+### 4. Sociosphere
+* `j` — Social sphere: Family, communities, social hierarchies, institutions, economy, network graphs.
+
+## Axis 2: V₁ — Process Vector (Operational Mode)
+
+<p align="center">
+  <img src="images/630.gif" width="90%"/>
+</p>
+
+* `o` — Statics / Being: State of rest, parameter locking, preservation of status quo, immutability.
+* `a` — Action / Modification: Active change, generation of a new quality, assembly, creation, work.
+* `u` — Counteraction / Destruction: Quality degradation, entropy, structural breakdown, deletion.
+* `e` — Import / Perception (Input): Inbound system flow, absorption of external environment, data reading.
+* `i` — Export / Expression (Output): Outbound system flow, emission of energy, data writing, transmission.
+
+## Axis 3: C₂ — Target Node of Impact (Objective Destination)
+The C₂ consonant maps symmetrically to the exact type of destination entity or environment being impacted by the vector flow:
+
+### 1. Physical World (Objective Reality)
+* `l` — Location / Point: Final spatial target, physical landmark, memory coordinate address.
+* `t` — Term / Event: Fixed time interval, deadline, timestamp, chronological phase.
+* `p` — Object / Instrument: Inanimate material thing, tool, raw physical substance.
+* `b` — Element / Directed Force: Directional wave, physical impulse, pressure vector.
+
+### 2. Organic World & Mind
+* `s` — Bio-object / Organism: Living individual, biological structure, human body node.
+* `n` — Personality / Mental State: Individual consciousness, cognitive target, focus trigger, belief.
+
+### 3. Information Environment
+* `v` — Primary Sensation: Raw sensory stimulus, physical receptor excitation.
+* `m` — Word / Concept: Explicit linguistic token, entity name, interface identifier, label.
+* `k` — Message / Text: Connected block of information, letter, archived dataset, code line.
+* `h` — Rule / Algorithm: Explicit code, legal or moral norm, regulation, mathematical calculation.
+
+### 4. Sociosphere
+* `j` — Collective / Network Graph: Social group, community, structured network of human or system relations.
+
+
+---
+---
+
+
 ## STRUCTURE c₁: THE SPHERE OF BEING
 
 ### 1. 🟢 Physical World (Objective Reality)
@@ -538,11 +600,7 @@ All lexical meanings and roots are generated systematically through a 3-axis ort
 
 ## Axis 2: V₁ — Process Vector (Operational Mode)
 
-<p align="center">
-  <img src="images/630.gif" width="90%"/>
-</p>
 
--
 
 ## STRUCTURE v₁: 🔴 THE PROCESS MODE
 
@@ -604,7 +662,7 @@ The C₂ consonant maps symmetrically to the exact type of destination entity or
 * J — Collective / Network Graph: Social group, community, structured network of human or system relations.
 
 ---
-
+---
 
 ## Numeral System
 
