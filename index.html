@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YOalphabet: numbers make letters</title>
+<meta name="description" content="YOalphabet is a geometric writing system where every glyph is a 4-bit number. Try the converter, play the clicker, read the specification.">
+<link rel="canonical" href="https://yoalphabet.github.io/YOalphabet/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="YOalphabet: numbers make letters">
+<meta property="og:description" content="A geometric writing system where every glyph is a 4-bit number.">
+<meta property="og:url" content="https://yoalphabet.github.io/YOalphabet/">
+<meta property="og:image" content="https://yoalphabet.github.io/YOalphabet/images/303.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://yoalphabet.github.io/YOalphabet/images/303.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='white'/%3E%3Cpath d='M24 24L76 76M76 24L24 76' stroke='%23111' stroke-width='14' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+  :root { --bg:#ffffff; --ink:#111111; --mute:#666660; --line:#dcdcd6; --card:#f6f6f3; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111111; --ink:#f2f2ee; --mute:#9a9a94; --line:#33332f; --card:#1a1a18; }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  a { color:inherit; }
+  .wrap { max-width:1080px; margin:0 auto; padding:0 24px; }
+
+  .hero { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:56px; align-items:center; padding:56px 0 40px; }
+  .matrix { width:100%; max-width:440px; height:auto; display:block; margin:0 auto; color:var(--ink); }
+  h1 { margin:0; font-size:clamp(40px, 7vw, 72px); line-height:1.02; letter-spacing:-.02em; font-weight:800; }
+  .tag { margin:14px 0 0; font-size:clamp(20px, 3vw, 28px); font-weight:600; }
+  .lead { margin:14px 0 0; color:var(--mute); font-size:18px; max-width:30em; }
+  .cta { display:flex; flex-wrap:wrap; gap:10px; margin-top:28px; }
+  .btn { display:inline-block; padding:12px 20px; border-radius:12px; font-weight:650; text-decoration:none; border:2px solid var(--ink); }
+  .btn.primary { background:var(--ink); color:var(--bg); }
+  .btn:hover { opacity:.85; }
+
+  section { padding:28px 0; }
+  h2 { margin:0 0 12px; font-size:13px; font-weight:650; text-transform:uppercase; letter-spacing:.08em; color:var(--mute); }
+  .try { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:20px; }
+  .try input { width:100%; font:600 20px/1.3 ui-monospace, Menlo, Consolas, monospace; text-transform:uppercase; padding:12px 14px; border:1px solid var(--line); border-radius:10px; background:var(--bg); color:var(--ink); }
+  .row { display:flex; flex-wrap:wrap; gap:10px 8px; margin-top:18px; min-height:64px; }
+  .row svg, .row .sp { width:56px; height:56px; flex:none; }
+  .row svg { color:var(--ink); }
+  .hint { margin:12px 0 0; font-size:14px; color:var(--mute); }
+
+  .facts { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:14px; }
+  .fact { border:1px solid var(--line); border-radius:14px; padding:16px 18px; }
+  .fact b { display:block; font-size:22px; margin-bottom:2px; }
+  .fact span { color:var(--mute); font-size:15px; }
+
+  footer { padding:28px 0 56px; color:var(--mute); font-size:14px; display:flex; flex-wrap:wrap; gap:8px 20px; border-top:1px solid var(--line); margin-top:20px; }
+  footer a { color:var(--mute); }
+
+  @media (max-width: 760px) {
+    .hero { grid-template-columns:1fr; gap:32px; padding-top:32px; }
+    .matrix { max-width:320px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <svg id="matrix" class="matrix" role="img" aria-label="The 16 YOalphabet glyphs in a 4 by 4 matrix"></svg>
+    <div>
+      <h1>YOalphabet</h1>
+      <p class="tag">numbers make letters</p>
+      <p class="lead">A geometric writing system where every glyph is a 4-bit number. Four edges, four bits, sixteen sounds.</p>
+      <div class="cta">
+        <a class="btn primary" href="CONVERTER.html">Open the converter</a>
+        <a class="btn" href="CLICKER.html">Play the clicker</a>
+        <a class="btn" href="https://github.com/YOalphabet/YOalphabet">Specification on GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <h2>Try it</h2>
+    <div class="try">
+      <label for="t" style="display:block;font-size:14px;color:var(--mute);margin-bottom:6px">Type letters or digits</label>
+      <input id="t" type="text" value="YOALPHABET" maxlength="40" spellcheck="false" autocomplete="off">
+      <div class="row" id="row" aria-live="polite"></div>
+      <p class="hint">Letters O A E T U N L V I B S H P M K J are plain glyphs; the other letters are a glyph with a dot. For saving as .jpg, use the <a href="CONVERTER.html">converter</a>.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>At a glance</h2>
+    <div class="facts">
+      <div class="fact"><b>16 glyphs</b><span>One square, four edges, four bits.</span></div>
+      <div class="fact"><b>44 lines</b><span>32 outer edges and 12 internal diagonals.</span></div>
+      <div class="fact"><b>26 letters</b><span>English adaptation: 16 base glyphs plus a dot.</span></div>
+      <div class="fact"><b>MIT license</b><span>Forks and experiments are welcome.</span></div>
+    </div>
+  </section>
+
+  <footer>
+    <span>YOalphabet</span>
+    <a href="https://github.com/YOalphabet/YOalphabet">GitHub</a>
+    <a href="https://x.com/YOalphabet">X (Twitter)</a>
+    <a href="https://doi.org/10.5281/zenodo.23205572">DOI</a>
+  </footer>
+</div>
+
+<script>
+(function(){
+  // Edge bits: right=1, bottom=2, left=4, top=8. Canonical diagonal table.
+  var DIAG = ['X','/','/','/','/','\\','\\','','/','\\','\\','','/','','',''];
+  var MAP = {};
+  'OAETUNLVIBSHPMKJ'.split('').forEach(function(ch, i){ MAP[ch] = [i, 0]; });
+  var DONOR = { X:0, Q:1, D:3, W:4, R:6, F:7, Y:8, Z:10, G:11, C:14 };
+  Object.keys(DONOR).forEach(function(ch){ MAP[ch] = [DONOR[ch], 1]; });
+  '0123456789'.split('').forEach(function(ch, d){ MAP[ch] = [d, 0]; });
+
+  // Returns SVG markup for one glyph with its top-left at (x, y), size s, stroke sw.
+  function glyph(x, y, s, idx, dot, sw){
+    var L = x, R = x + s, T = y, B = y + s, d = '';
+    if (idx & 1) d += 'M' + R + ' ' + T + 'L' + R + ' ' + B;
+    if (idx & 2) d += 'M' + L + ' ' + B + 'L' + R + ' ' + B;
+    if (idx & 4) d += 'M' + L + ' ' + T + 'L' + L + ' ' + B;
+    if (idx & 8) d += 'M' + L + ' ' + T + 'L' + R + ' ' + T;
+    var dg = DIAG[idx];
+    if (dg === 'X' || dg === '/')  d += 'M' + L + ' ' + B + 'L' + R + ' ' + T;
+    if (dg === 'X' || dg === '\\') d += 'M' + L + ' ' + T + 'L' + R + ' ' + B;
+    var out = '<path d="' + d + '" fill="none" stroke="currentColor" stroke-width="' + sw +
+              '" stroke-linecap="round" stroke-linejoin="round"/>';
+    if (dot) {
+      var cx = x + s/2, cy = y + s/2, r = s * 0.11;
+      out += '<circle cx="' + cx + '" cy="' + cy + '" r="' + (r + sw*0.6) + '" fill="var(--bg)"/>' +
+             '<circle cx="' + cx + '" cy="' + cy + '" r="' + r + '" fill="currentColor"/>';
+    }
+    return out;
+  }
+
+  // 4x4 passport matrix
+  var s = 100, sw = 18, g = 34, size = 4*s + 3*g + sw, m = sw/2, html = '';
+  for (var i = 0; i < 16; i++) {
+    html += glyph(m + (i % 4)*(s + g), m + Math.floor(i/4)*(s + g), s, i, 0, sw);
+  }
+  var mx = document.getElementById('matrix');
+  mx.setAttribute('viewBox', '0 0 ' + size + ' ' + size);
+  mx.innerHTML = html;
+
+  // Live text row
+  var input = document.getElementById('t'), row = document.getElementById('row');
+  function render(){
+    var text = input.value.toUpperCase(), out = '';
+    for (var k = 0; k < text.length; k++) {
+      var ch = text.charAt(k);
+      if (ch === ' ') { out += '<div class="sp"></div>'; continue; }
+      var mp = MAP[ch];
+      if (!mp) continue;
+      out += '<svg viewBox="-12 -12 124 124" role="img" aria-label="' + ch + '">' +
+             glyph(0, 0, 100, mp[0], mp[1], 14) + '</svg>';
+    }
+    row.innerHTML = out;
+  }
+  input.addEventListener('input', render);
+  render();
+})();
+</script>
+</body>
+</html>
