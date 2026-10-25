@@ -445,8 +445,8 @@ The matrix is intended to make lexical relationships explicit and reduce uncontr
 
 ### Core Architecture and Word Immutability
 
-YOconlang is an a priori engineered language optimized for unambiguous, frictionless communication. A foundational axiom of the language is the absolute immutability of roots. There are no inflections, suffixes, declensions, or internal conjugations. Grammatical categories, temporal shifts, and modalities are expressed exclusively via external grammatical particles.
-The phonotactics are strictly anchored in the International Phonetic Alphabet (IPA), using 5 core vowels and 11 stable consonants to eliminate all articulatory barriers. Stress is fixed invariantly on the first syllable of every separate word.
+YOconlang is an a priori engineered language designed for unambiguous, frictionless communication. A foundational axiom of the language is the absolute immutability of roots. There are no inflections, suffixes, declensions, or internal conjugations. Grammatical categories, temporal shifts, and modalities are expressed exclusively via external grammatical particles.
+The phonotactics are strictly anchored in the International Phonetic Alphabet (IPA), using 5 core vowels and 11 stable consonants to reduce articulatory difficulty. Stress is fixed invariantly on the first syllable of every separate word.
 
 YOconlang is designed around the MECE principle (Mutually Exclusive, Collectively Exhaustive): every root occupies a unique coordinate in the semantic matrix, and the categories are chosen to minimise overlap and gaps. Coverage and ambiguity are design goals to be tested, not established properties.
 
@@ -461,7 +461,7 @@ The language utilizes strict morphological word templates:
 
 ### Current development status YOconlang
   
-| Pattern / Structure Type | Total P наossible | Occupied | Free | Comments and Status |
+| Pattern / Structure Type | Total Possible | Occupied | Free | Comments and Status |
 | :--- | :---: | :---: | :---: | :--- |
 | **VV** | 25 | 25 | 0 | System markers. |
 | **CV** | 55 | 55 | 0 | Relational markers and basic numbers. |
@@ -650,11 +650,7 @@ There is no scale marker for 10¹: tens are written positionally (30 = `ti jo`).
 
 Like the digit names, these forms coincide with ordinary CV particles. Inside the numeral markers `OO … OO` or `O … O`, they are read as number markers, not as grammatical particles.
 
-
--++
-
-
-
+---
 
 **Vowel-pair pronunciation mode:** Each four-bit glyph may be read as two vowels. The upper bit pair selects the first vowel and the lower bit pair selects the second vowel: `00=o`, `01=a`, `10=i`, `11=u`. This produces the sixteen VV names `oo, oa, oi, ou, ao, aa, ai, au, io, ia, ii, iu, uo, ua, ui, uu`.
 
