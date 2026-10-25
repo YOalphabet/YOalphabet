@@ -560,6 +560,34 @@ All lexical meanings and roots are generated systematically through a 3-axis ort
 * E — Import / Perception (Input): Inbound system flow, absorption of external environment, data reading.
 * I — Export / Expression (Output): Outbound system flow, emission of energy, data writing, transmission.
 
+
+---
+
+## STRUCTURE c₂: THE TARGET VECTOR (OBJECT OF IMPACT / GOAL)
+
+### 1. 🟢 Physical World Targets
+*   **`l`** — Target Location: Precise point of destination, spatial waypoint, geographic coordinate, and final geometric mesh.
+*   **`t`** — Target Event / Timestamp: Fixed time frame, target deadline, calendar date, or scheduled incident on the timeline.
+*   **`p`** — Target Object / Tool: Inanimate item, piece of equipment, physical asset, raw material, or targeted tangible substance.
+*   **`b`** — Target Force / Element: Directed physical impulse, kinetic impact, laser/heat beam, pressure vector, or targeted energy state.
+
+### 2. ⚫ Life & Consciousness Targets
+*   **`s`** — Target Organism: Living creature, biological host, cellular wall, anatomical tissue, or the physical body.
+*   **`n`** — Target Individuality / Mental State: Specific willful entity, their mindset, emotional trigger, cognitive state, or belief system.
+
+### 3. 🔵 Information Environment Targets
+*   **`v`** — Target Sensation: Specific raw sensory trigger, physical wavelength, acoustic frequency, or stimulant.
+*   **`m`** — Target Word / Token: Specific language token, string literal, entity name, symbol marker, label, or interface identifier.
+*   **`k`** — Target Message / Payload: Cohesive packet of information, text string, email body, database record, file chunk, or broadcasted idea.
+*   **`h`** — Target Evaluation / Calculation: Explicit calculation routine, mathematical solution, script segment, or automated routine.
+
+### 4. 🟠 Sociosphere Targets
+*   **`j`** — Target Collective / Node Network: Clan, demographic group, corporate entity, legal platform, or social graph cohort.
+*   
+
+
+
+
 ## Axis 3: C₂ — Target Node of Impact (Objective Destination)
 The C₂ consonant maps symmetrically to the exact type of destination entity or environment being impacted by the vector flow:
 
