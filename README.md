@@ -448,11 +448,9 @@ The matrix is intended to make lexical relationships explicit and reduce uncontr
 YOconlang is an a priori engineered language optimized for unambiguous, frictionless communication. A foundational axiom of the language is the absolute immutability of roots. There are no inflections, suffixes, declensions, or internal conjugations. Grammatical categories, temporal shifts, and modalities are expressed exclusively via external grammatical particles.
 The phonotactics are strictly anchored in the International Phonetic Alphabet (IPA), using 5 core vowels and 11 stable consonants to eliminate all articulatory barriers. Stress is fixed invariantly on the first syllable of every separate word.
 
-The entire semantic and structural architecture of YOconlang is engineered strictly in accordance with the **MECE (Mutually Exclusive, Collectively Exhaustive)** principle. Every root, grammatical category, and operational mode occupies a unique, non-overlapping coordinate in the semantic space, ensuring zero ambiguity, while the matrix completely covers the entire spectrum of objective and subjective reality without systemic gaps. All future lexical expansions and core developments will strictly maintain this MECE framework.
+YOconlang is designed around the MECE principle (Mutually Exclusive, Collectively Exhaustive): every root occupies a unique coordinate in the semantic matrix, and the categories are chosen to minimise overlap and gaps. Coverage and ambiguity are design goals to be tested, not established properties.
 
-<p align="center" style="font-size: 1.4em;">
-  <strong>Binary Code ⟺ Decimal Index ⟺ Spatial Geometry ⟺ IPA Phoneme ⟺ MECE Ontological Core ⟺ Human-AI Interface</strong>
-</p>
+**Status and stability.** YOconlang is experimental and pre-1.0. The construction principle is stable: a three-axis matrix (domain – process – target), fixed word templates, immutable uninflected roots, grammatical particles and strict SVO order. The specific categories on each axis, the particle blocks (VV, CV, VC), and individual roots and meanings are a working draft and may change between versions.
 
 The language utilizes strict morphological word templates:
 
@@ -463,7 +461,7 @@ The language utilizes strict morphological word templates:
 
 ### Current development status YOconlang
   
-| Pattern / Structure Type | Total Possible | Occupied | Free | Comments and Status |
+| Pattern / Structure Type | Total P наossible | Occupied | Free | Comments and Status |
 | :--- | :---: | :---: | :---: | :--- |
 | **VV** | 25 | 25 | 0 | System markers. |
 | **CV** | 55 | 55 | 0 | Relational markers and basic numbers. |
