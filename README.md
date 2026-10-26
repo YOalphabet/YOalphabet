@@ -58,10 +58,9 @@ Each character is inscribed within an invariant square bounding box consisting o
 ###  1. Outer Contour (Bit Registers):The four external edges of the square act as geometric representations of bit positions. 
 Rule: If a bit is "1", the line is drawn; if "0", it remains empty. They are activated strictly clockwise, starting from the right vertical line:
 
+
 <p align="center">
-  <img src="YOalphabet_glif_edge.png" alt="4-Bit YOalphabet Register & Decimal Value Mapping" width="80%"/>
-  <br>
-  <sub><b>Figure 1:</b> Standard 4-bit positional register mapping, color-coded edge vectors, and decimal value calculation formula.</sub>
+  <img src="images/406.png" width="90%"/>
 </p>
 
 
