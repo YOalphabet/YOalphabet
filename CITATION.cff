@@ -1,16 +1,16 @@
 cff-version: 1.2.0
 message: "If you use this specification, please cite it using these metadata."
-title: "YOalphabet: numbers make letters"
+title: "YOalphabet: a geometric writing system where 4-bit numbers make letters"
 authors:
   - family-names: "Patoka"
     given-names: "Yevhen"
     # orcid: "https://orcid.org/0009-0009-0599-9486"
-version: "1.0.3"
-date-released: 2026-10-22
+version: "1.1.0"
+date-released: 2026-10-26
 repository-code: "https://github.com/YOalphabet/YOalphabet.git"
 keywords:
   - "yoconlang"
-  - "4-bit-isomorphism"
-  - "hardware-font"
+  - "conlang"
+  - "neography"
   - "yoalphabet"
 notes: "."
