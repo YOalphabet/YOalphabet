@@ -352,12 +352,9 @@ The 4-bit full isomorphism of **YOalphabet** extends naturally beyond visual ren
 Unlike legacy 6-dot or 8-dot Braille systems that require arbitrary memorization of non-isomorphic patterns, **YOalphabet** maintains a direct 1-to-1 physical mapping between raised tactile points, binary hardware registers, and universal IPA phonetic sounds.
 
 <p align="center">
-  <img src="YOalphabet_4dot.jpg" alt="YOalphabet 4-Dot Tactile Matrix" width="45%"/>
+  <img src="images/521.jpg" width="45%"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="YOalphabet_5dot.jpg" alt="YOalphabet 5-Dot Anchored Tactile Matrix" width="45%"/>
-</p>
-<p align="center">
-  <sub><b>Figure:</b> Standard 4-Dot Pure Binary Matrix (Left) vs. Self-Anchoring 5-Dot Matrix with Central Reference Point (Right).</sub>
+  <img src="images/522.jpg" width="45%"/>
 </p>
 
 ####  Architecture Comparison: 4-Dot vs. 5-Dot Matrix
