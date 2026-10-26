@@ -183,11 +183,9 @@ The layout engine completely eliminates variable tracking and kerning, relying o
 * **Isotropic Word Spacing:** A space between words is represented by an empty geometric region exactly equal to the physical bounding box of a single character.
 * **Proportional Grid:** The inter-character spacing and inter-line leading must be perfectly identical, maintaining a rigid, predictable square grid across the entire canvas.
 
-
 <p align="center">
-  <img src="YOalphabetMatrix2.jpeg" alt="YOalphabet" width="80%"/>
+  <img src="images/527.jpeg" width="80%"/>
 </p>
-
 
 
 ###  UI/UX & Visual Style Adaptability (Skinning Example)
