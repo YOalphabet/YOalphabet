@@ -590,7 +590,7 @@ Both modes utilize **positional notation**: a digit’s value is determined stri
 ---
 
 <p align="center">
-<img src="YOalphabet_16digit.jpg" width="100%"/>
+  <img src="images/526.jpg" width="80%"/>
 </p>
 
 ---
