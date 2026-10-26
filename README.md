@@ -379,7 +379,7 @@ Unlike legacy 6-dot or 8-dot Braille systems that require arbitrary memorization
 A notational mapping of the 16 Socionics/MBTI-style type codes onto 4-bit registers. It is only a labelling convenience: these typologies have limited scientific validation, their letter conventions differ, and no claim is made about personality.
 
 <p align="center">
-<img src="YOalphabet_socionic.jpg" alt="YOalphabet Socionics Matrix" width="80%"/>
+  <img src="images/531.jpg" width="80%"/>
 </p>
 
 | Bit Register | Value = `0` | Value = `1` |
