@@ -117,10 +117,8 @@ By inverting the internal diagonals of just three symbols (**#2**, **#5**, and *
   
 * Both profiles remain **100% mathematically equivalent**—preserving the exact 44-line budget, 4-bit register mapping, and vowel/consonant line density.
 
-
-
 <p align="center">
-  <img src="YOalphabet_alt_diagonals.png" alt="YOalphabet Matrix" width="80%"/>
+  <img src="images/407.png" width="80%"/>
 </p>
 
 ### The 16 glyphs are assigned 16 phonemes chosen for broad cross-linguistic availability. This is a design choice; the set is not claimed to be the 16 most frequent sounds worldwide:
