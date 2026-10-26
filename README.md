@@ -315,7 +315,7 @@ To extend the baseline **YOalphabet** (16 core glyphs) to the full 26-letter Ame
 * **Register 2 (Modified):** The 10 remaining letters encoded using Register 1 donor glyphs with an **internal diacritic dot** placed inside the bounding box. Accounts for **~20%** of letter occurrences in standard English.
 
 <p align="center">
-  <img src="YOalphabet_americanEN.jpeg" alt="YOalphabet 4x4 American Matrix" width="80%"/>
+  <img src="images/530.jpeg" width="80%"/>
 </p>
 
 ###  Two-Register Mapping Matrix
