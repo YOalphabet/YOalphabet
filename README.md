@@ -665,8 +665,10 @@ o   a   e   t   u   n   l   v   i   b   s   h   p   m   k   j
 ---
 
 <p align="center">
-  <img src="YOalphabetText.jpg" alt="YOalphabet Matrix" width="90%"/>
+  <img src="images/528.jpg" width="90%"/>
 </p>
+
+
    YOconlang Translation Specification: Universal Declaration of Human Rights (Article 1) 
     This section provides a complete, granular, word-by-word morphemic breakdown and phonetical transcription 
     of the First Article of the Universal Declaration of Human Rights translated into YOconlang. 
