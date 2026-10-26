@@ -487,7 +487,7 @@ Since the core roots are completely uninflected, grammatical and syntactic roles
 ## The Semantic Core Matrix (The YOconlang Kernel)
 
 <p align="center">
-  <img src="YOalphabet color cvc.jpg" alt="YOalphabet" width="80%"/>
+  <img src="images/525.jpg" width="80%"/>
 </p>
 
 All lexical meanings and roots are generated systematically through a 3-axis orthogonal matrix based on the Core Kernel.
