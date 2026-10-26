@@ -552,9 +552,11 @@ The C₂ consonant maps symmetrically to the exact type of destination entity or
 ## Numeral System
 
 <p align="center">
-  <img src="YOalphabet_numeral09.jpg" alt="YOalphabet Matrix" width="80%"/>
+  <img src="images/529.jpg" width="80%"/>
 </p>
 
+
+    
 ### Digit Names
 
 The word forms follow a strict `CV` (Consonant-Vowel) pattern:
