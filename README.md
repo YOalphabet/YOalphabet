@@ -159,10 +159,8 @@ Graphically, each consists of exactly **2 lines** (including compensatory diagon
 | **14** | `1110` | Top + Left + Bottom | None | `[k]` |
 | **15** | `1111` | Top + Left + Bottom + Right | None | `[j]` |
 
-
-   
 <p align="center">
-  <img src="YOalphabet_color.jpg" alt="YOalphabet" width="100%"/>
+  <img src="images/532.jpg" width="100%"/>
 </p>
 
 ---
