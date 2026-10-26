@@ -8,7 +8,7 @@
 **Numbers make letters.** 16 glyphs, each one a 4-bit number and an IPA sound. A script, not a language.
 
 <p align="center">
-  <img src="YOalphabet_wave.gif" alt="YOalphabet Dynamic Wave" width="80%"/>
+  <img src="631.gif" width="80%"/>
 </p>
 
 ### [Try the Converter](https://yoalphabet.github.io/YOalphabet/CONVERTER.html) · [Play the Clicker](https://yoalphabet.github.io/YOalphabet/CLICKER.html)
