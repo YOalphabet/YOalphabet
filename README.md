@@ -131,8 +131,7 @@ By inverting the internal diagonals of just three symbols (**#2**, **#5**, and *
 By doing so, I ensured that the script remains **culturally and historically neutral**, making it selected as the project's base phonetic inventory.
 
 <p align="center">
-  <img src="YOalphabet_matrix_vowels_consonants.jpg" 
-    alt="YOalphabet IPA vowels & consonants" width="80%"/>
+  <img src="images/524.jpg" width="80%"/>
 </p>
 
 All 5 basic vowel sounds of the language (`[o]`, `[a]`, `[e]`, `[u]`, `[i]`) are encoded with **0 or 1 active bits**. 
