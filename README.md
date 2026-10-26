@@ -78,7 +78,7 @@ $$
 $$
 
 <p align="center">
-  <img src="YOalphabet_digit.png" alt="YOalphabet Matrix" width="80%"/>
+  <img src="images/410.png" width="90%"/>
 </p>
 
 ### 2. Internal Filling (Visual Balance Diagonals): Internal diagonals are used to balance the stroke density and provide a consistent distribution of line elements:
