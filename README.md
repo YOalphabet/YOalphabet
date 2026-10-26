@@ -430,7 +430,7 @@ It does not change the way the script is read, written, or understood as a writi
   <img src="images/402.png" width="90%"/>
 </p>
 
-# PART 2: YOconlang CORE SPECIFICATION
+# PART 2: YOconlang CORE SPECIFICATION 1.1.0
 
 Experimental and unfinished; separate from YOalphabet.
 YOconlang uses immutable roots and external grammatical particles. Its vocabulary is organized through a domain–process–target matrix inspired by the MECE principle.
