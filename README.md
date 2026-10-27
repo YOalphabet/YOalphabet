@@ -93,9 +93,10 @@ $$
 The entire YOalphabet is constructed from 44 total lines: 32 outer square edges and 12 internal diagonals.
 
 <p align="center">
-  <img src="images/408.png" width="70%"/>
+  <img src="images/533.jpg" width="45%"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images/408.png" width="45%"/>
 </p>
-
 
 ---
 
