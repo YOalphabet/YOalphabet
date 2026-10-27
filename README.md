@@ -244,6 +244,14 @@ Across all handwritten styles, the following should remain recognizable:
 A handwritten form may look softer, slanted, or more organic, but it should not become a different glyph.
 
 ---
+### Why the form is easy to make
+
+The base geometry is simple enough to produce with basic tools. These are design properties, not tested claims.
+
+- **Simple tools.** Glyphs can be marked on wood, stone, metal or fabric with a marker, chisel, charcoal or cutter.
+- **No templates.** The base glyphs use only straight lines and 45°/90° angles, so they can be drawn by hand without a compass or stencil.
+- **Many media.** The blocky, modular structure suits engraving, embossing, stenciling, dot-matrix displays and pixel art.
+---
 
 #####  Official Font Files
 The compiled font files (`.ttf`, `.otf`) are available directly in the root (`main`) folder of the repository for use in web applications, desktop publishing, and mobile interfaces.
