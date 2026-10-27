@@ -188,6 +188,12 @@ The layout engine completely eliminates variable tracking and kerning, relying o
 
 ###  UI/UX & Visual Style Adaptability (Skinning Example)
 
+**Design note:** only six glyphs need to be designed (0, 1, 3, 5, 7, 15). The other ten are their 90° rotations: 1 → 2, 4, 8; 3 → 6, 12, 9; 5 → 10; 7 → 14, 13, 11.
+
+<p align="center">
+  <img src="images/412.png" width="50%"/>
+</p>
+
 While the underlying 4-bit hardware topology and mathematical matrix remain 100% invariant, the visual layer of **YOalphabet** acts as an adaptable UI/UX skin. 
 
 Developers and UI designers can re-render the script across diverse visual themes—ranging from high-contrast HUDs and bioluminescent interfaces to retro-futuristic or cyberpunk styles—without breaking the deterministic machine readability.
