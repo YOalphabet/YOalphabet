@@ -111,6 +111,12 @@ By inverting the internal diagonals of just three symbols (**#2**, **#5**, and *
 * **3-bit characters (#7, #11, #14, #13):** Containing zero internal diagonals, these 3-sided open-box glyphs inherently possess 100% rotational symmetry across all four spatial orientations.
 * **0-bit (#0) & 4-bit (#15):** Feature full 4-fold isotropic symmetry.
 
+**Design note (Rotational profile):** only six glyphs need to be designed (0, 1, 3, 5, 7, 15). The other ten are their 90° rotations: 1 → 2, 4, 8; 3 → 6, 12, 9; 5 → 10; 7 → 14, 13, 11.
+
+<p align="center">
+  <img src="images/412.png" width="20%"/>
+</p>
+
 ### Mode Comparison & Hardware Equivalences
 * **Canonical Mode:** Maximizes code simplicity for bare-metal hardware decoders, fixed memory maps, and embedded decoders.
 * **Rotational Mode:** Provides perfect spatial isotropy, 2D/3D vector rotation, kinetic transformations, and animation consistency.
@@ -187,12 +193,6 @@ The layout engine completely eliminates variable tracking and kerning, relying o
 
 
 ###  UI/UX & Visual Style Adaptability (Skinning Example)
-
-**Design note:** only six glyphs need to be designed (0, 1, 3, 5, 7, 15). The other ten are their 90° rotations: 1 → 2, 4, 8; 3 → 6, 12, 9; 5 → 10; 7 → 14, 13, 11.
-
-<p align="center">
-  <img src="images/412.png" width="20%"/>
-</p>
 
 While the underlying 4-bit hardware topology and mathematical matrix remain 100% invariant, the visual layer of **YOalphabet** acts as an adaptable UI/UX skin. 
 
