@@ -95,7 +95,7 @@ The entire YOalphabet is constructed from 44 total lines: 32 outer square edges 
 <p align="center">
   <img src="images/533.jpg" width="45%"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="images/408.png" width="45%"/>
+  <img src="images/408.png" width="40%"/>
 </p>
 
 ---
@@ -191,7 +191,7 @@ The layout engine completely eliminates variable tracking and kerning, relying o
 **Design note:** only six glyphs need to be designed (0, 1, 3, 5, 7, 15). The other ten are their 90° rotations: 1 → 2, 4, 8; 3 → 6, 12, 9; 5 → 10; 7 → 14, 13, 11.
 
 <p align="center">
-  <img src="images/412.png" width="50%"/>
+  <img src="images/412.png" width="20%"/>
 </p>
 
 While the underlying 4-bit hardware topology and mathematical matrix remain 100% invariant, the visual layer of **YOalphabet** acts as an adaptable UI/UX skin. 
