@@ -109,19 +109,12 @@ Internal diagonal elements are derived deterministically from the 4-bit edge reg
 * **Backslash (`\`):** Active for zero (`0000`), or when both edge pairs contain exactly one active bit.
   $$D_{\backslash} = \overline{(B_3 \lor B_2 \lor B_1 \lor B_0)} \;\lor\; \bigl((B_0 \oplus B_1) \;\land\; (B_2 \oplus B_3)\bigr)$$
 
+##### python. Internal Diagonals Logic
 
-```python
-# Decoder / Hardware Logic
-D_slash = (not (b3 or b2)) or (not (b1 or b0))
-D_backslash = (not (b3 or b2 or b1 or b0)) or ((b0 ^ b1) and (b2 ^ b3))
+d_slash = (not (b3 or b2)) or (not (b1 or b0))
+d_backslash = (not (b3 or b2 or b1 or b0)) or ((b0 ^ b1) and (b2 ^ b3))
 
-
-
-
-# Decoder / Hardware Logic
-D_slash = NOT(B3 OR B2) OR NOT(B1 OR B0)
-D_backslash = NOT(B3 OR B2 OR B1 OR B0) OR ((B0 XOR B1) AND (B2 XOR B3))
-
+---
 
 ### Procedural Geometry (Zero-Lookup Logic)
 
@@ -134,7 +127,7 @@ $$D_{/} = \overline{(B_3 \lor B_2)} \;\lor\; \overline{(B_1 \lor B_0)}$$
 
 $$D_{\backslash} = \overline{(B_3 \lor B_2 \lor B_1 \lor B_0)} \;\lor\; \bigl((B_0 \oplus B_1) \;\land\; (B_2 \oplus B_3)\bigr)$$
 
-python
+##### python. Full generator function:
 
 def generate_glyph(value: int):
     # Extract 4-bit edge registers
@@ -147,7 +140,7 @@ def generate_glyph(value: int):
     
     return edges, d_slash, d_backslash
 
-
+    
 ---
 
 ###  Dual Geometric Profiles: Static vs. Rotational Symmetry
