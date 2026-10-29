@@ -121,6 +121,8 @@ d_backslash = (not (b3 or b2 or b1 or b0)) or ((b0 ^ b1) and (b2 ^ b3))
 
 ### Procedural Geometry (Zero-Lookup Logic)
 
+> **Engineering Advantage:** YOalphabet is not a static icon set, but a pure procedural algorithm. The geometry of all glyphs is evaluated on the fly directly from 4-bit integers with **zero lookup tables (Zero-Lookup)** and no embedded vector font assets. This makes the system ideal for hardware, microcontrollers, and resource-constrained displays.
+
 The geometry of all 16 glyphs is derived deterministically from a 4-bit integer (`0–15`) using pure Boolean operations — requiring no font assets, lookup tables, or exception rules:
 
 1. **Outer Contour (4 Edges):** Bit $B_n = 1$ enables edge $n$ (Right, Bottom, Left, Top).
