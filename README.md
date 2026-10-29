@@ -110,6 +110,7 @@ Internal diagonal elements are derived deterministically from the 4-bit edge reg
   $$D_{\backslash} = \overline{(B_3 \lor B_2 \lor B_1 \lor B_0)} \;\lor\; \bigl((B_0 \oplus B_1) \;\land\; (B_2 \oplus B_3)\bigr)$$
 
 python
+
 # Decoder / Hardware Logic
 D_slash = NOT(B3 OR B2) OR NOT(B1 OR B0)
 D_backslash = NOT(B3 OR B2 OR B1 OR B0) OR ((B0 XOR B1) AND (B2 XOR B3))
@@ -126,7 +127,8 @@ $$D_{/} = \overline{(B_3 \lor B_2)} \;\lor\; \overline{(B_1 \lor B_0)}$$
 
 $$D_{\backslash} = \overline{(B_3 \lor B_2 \lor B_1 \lor B_0)} \;\lor\; \bigl((B_0 \oplus B_1) \;\land\; (B_2 \oplus B_3)\bigr)$$
 
-```python
+python
+
 def generate_glyph(value: int):
     # Extract 4-bit edge registers
     b0, b1, b2, b3 = (value >> 0) & 1, (value >> 1) & 1, (value >> 2) & 1, (value >> 3) & 1
@@ -137,8 +139,7 @@ def generate_glyph(value: int):
     d_backslash = (not (b3 or b2 or b1 or b0)) or ((b0 ^ b1) and (b2 ^ b3))
     
     return edges, d_slash, d_backslash
-```
-```
+
 
 ---
 
