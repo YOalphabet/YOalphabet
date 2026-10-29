@@ -109,14 +109,11 @@ Internal diagonal elements are derived deterministically from the 4-bit edge reg
 * **Backslash (`\`):** Active for zero (`0000`), or when both edge pairs contain exactly one active bit.
   $$D_{\backslash} = \overline{(B_3 \lor B_2 \lor B_1 \lor B_0)} \;\lor\; \bigl((B_0 \oplus B_1) \;\land\; (B_2 \oplus B_3)\bigr)$$
 
-```python
+python
 # Decoder / Hardware Logic
 D_slash = NOT(B3 OR B2) OR NOT(B1 OR B0)
 D_backslash = NOT(B3 OR B2 OR B1 OR B0) OR ((B0 XOR B1) AND (B2 XOR B3))
-```
-```
 
----
 
 ### Procedural Geometry (Zero-Lookup Logic)
 
