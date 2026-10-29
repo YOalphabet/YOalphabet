@@ -1,4 +1,4 @@
-
+из
 [![DOI](https://zenodo.org/badge/1331302673.svg)](https://doi.org/10.5281/zenodo.23205572)
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
@@ -132,7 +132,10 @@ $$D_{/} = \overline{(B_3 \lor B_2)} \;\lor\; \overline{(B_1 \lor B_0)}$$
 
 $$D_{\backslash} = \overline{(B_3 \lor B_2 \lor B_1 \lor B_0)} \;\lor\; \bigl((B_0 \oplus B_1) \;\land\; (B_2 \oplus B_3)\bigr)$$
 
-##### python. Full generator function:
+> **Mathematical Elegance:** For the null value (`0000`), both \\(D_{/} = 1\\) and \\(D_{\backslash} = 1\\) evaluate to `TRUE` simultaneously, generating the central balancing cross (`X`) as a natural boundary condition of the Boolean matrix—without conditional branching or `if/else` checks.
+
+
+##### Reference Python Implementation
 
 ```python
 def generate_glyph(value: int):
