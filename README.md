@@ -111,8 +111,10 @@ Internal diagonal elements are derived deterministically from the 4-bit edge reg
 
 ##### python. Internal Diagonals Logic
 
+```python
 d_slash = (not (b3 or b2)) or (not (b1 or b0))
 d_backslash = (not (b3 or b2 or b1 or b0)) or ((b0 ^ b1) and (b2 ^ b3))
+```
 
 ---
 
