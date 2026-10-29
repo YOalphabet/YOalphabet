@@ -97,6 +97,51 @@ The entire YOalphabet is constructed from 44 total lines: 32 outer square edges 
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="images/408.png" width="40%"/>
 </p>
+---
+
+#### Boolean Logic for Internal Diagonals
+
+Internal diagonal elements are derived deterministically from the 4-bit edge registers ($B_3 B_2 B_1 B_0$):
+
+* **Forward Slash (`/`):** Active if either the top/left or bottom/right edge pair is empty.
+  $$D_{/} = \overline{(B_3 \lor B_2)} \;\lor\; \overline{(B_1 \lor B_0)}$$
+
+* **Backslash (`\`):** Active for zero (`0000`), or when both edge pairs contain exactly one active bit.
+  $$D_{\backslash} = \overline{(B_3 \lor B_2 \lor B_1 \lor B_0)} \;\lor\; \bigl((B_0 \oplus B_1) \;\land\; (B_2 \oplus B_3)\bigr)$$
+
+```python
+# Decoder / Hardware Logic
+D_slash = NOT(B3 OR B2) OR NOT(B1 OR B0)
+D_backslash = NOT(B3 OR B2 OR B1 OR B0) OR ((B0 XOR B1) AND (B2 XOR B3))
+```
+```
+
+---
+
+### Procedural Geometry (Zero-Lookup Logic)
+
+The geometry of all 16 glyphs is derived deterministically from a 4-bit integer (`0–15`) using pure Boolean operations — requiring no font assets, lookup tables, or exception rules:
+
+1. **Outer Contour (4 Edges):** Bit $B_n = 1$ enables edge $n$ (Right, Bottom, Left, Top).
+2. **Internal Diagonals ($D_{/}, D_{\backslash}$):** Evaluated directly from the 4-bit edge registers:
+
+$$D_{/} = \overline{(B_3 \lor B_2)} \;\lor\; \overline{(B_1 \lor B_0)}$$
+
+$$D_{\backslash} = \overline{(B_3 \lor B_2 \lor B_1 \lor B_0)} \;\lor\; \bigl((B_0 \oplus B_1) \;\land\; (B_2 \oplus B_3)\bigr)$$
+
+```python
+def generate_glyph(value: int):
+    # Extract 4-bit edge registers
+    b0, b1, b2, b3 = (value >> 0) & 1, (value >> 1) & 1, (value >> 2) & 1, (value >> 3) & 1
+    
+    # Evaluate geometry
+    edges = {'right': b0, 'bottom': b1, 'left': b2, 'top': b3}
+    d_slash = (not (b3 or b2)) or (not (b1 or b0))
+    d_backslash = (not (b3 or b2 or b1 or b0)) or ((b0 ^ b1) and (b2 ^ b3))
+    
+    return edges, d_slash, d_backslash
+```
+```
 
 ---
 
