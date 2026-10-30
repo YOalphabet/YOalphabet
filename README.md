@@ -48,7 +48,7 @@ The shape follows from the code by rule, and the code can be read back from the 
 
 # PART 1: YOalphabet Script Specification
 
-The whole glyph, outer edges and internal diagonals, is computed from four bits. The edges copy the bits directly; the diagonals follow from two Boolean formulas. No shape table is needed (Canonical profile).
+The whole glyph, outer edges and internal diagonals, is computed from four bits. The edges copy the bits directly; the diagonals follow from two Boolean formulas. No shape table is needed.
 YOalphabet is a deterministic writing system generated from a 4-bit code.
 Every glyph is defined by a one-to-one assignment between a geometric symbol, a unique International Phonetic Alphabet (IPA) sound, a decimal number (0–15), and a 4-bit binary code.
 
@@ -252,15 +252,7 @@ While the underlying 4-bit hardware topology and mathematical matrix remain 100%
 Developers and UI designers can re-render the script across diverse visual themes—ranging from high-contrast HUDs and bioluminescent interfaces to retro-futuristic or cyberpunk styles—without breaking the deterministic machine readability.
 
 <p align="center">
-  <img src="images/510.jpg" width="80%"/>
-</p>
-
-<p align="center">
-  <img src="images/518.jpg" width="80%"/>
-</p>
-
-<p align="center">
-  <img src="images/511.jpg" width="80%"/>
+  <img src="images/544.jpg" width="80%"/>
 </p>
 
 
@@ -279,10 +271,8 @@ Handwritten variation is intended to preserve glyph identity, but readability an
 
 
 <p align="center">
-  <img src="images/409.png" width="80%"/>
+  <img src="images/545.jpg" width="80%"/>
 </p>
-
-
 
  
  #### What must remain stable
