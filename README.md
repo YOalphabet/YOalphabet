@@ -11,7 +11,7 @@
   <img src="images/631.gif" width="80%"/>
 </p>
 
-### [Try the Converter](https://yoalphabet.github.io/YOalphabet/CONVERTER.html) · [Play the Clicker](https://yoalphabet.github.io/YOalphabet/CLICKER.html)
+## [Try the Converter](https://yoalphabet.github.io/YOalphabet/CONVERTER.html) · [Play the Clicker](https://yoalphabet.github.io/YOalphabet/CLICKER.html)
 
 Type or paste text, see the glyphs, save them as a .jpg. Works offline in any browser.
 
@@ -98,7 +98,9 @@ The entire YOalphabet is constructed from 44 total lines: 32 outer square edges 
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="images/408.png" width="40%"/>
 </p>
+
 ---
+
 
 #### Boolean Logic for Internal Diagonals
 
