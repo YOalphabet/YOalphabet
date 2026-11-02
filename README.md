@@ -133,8 +133,6 @@ $$D_{/} = \overline{(B_3 \lor B_2)} \;\lor\; \overline{(B_1 \lor B_0)}$$
 
 $$D_{\backslash} = \overline{(B_3 \lor B_2 \lor B_1 \lor B_0)} \;\lor\; \bigl((B_0 \oplus B_1) \;\land\; (B_2 \oplus B_3)\bigr)$$
 
-> **Mathematical Elegance:** For the null value (`0000`), both \\(D_{/} = 1\\) and \\(D_{\backslash} = 1\\) evaluate to `TRUE` simultaneously, generating the central balancing cross (`X`) as a natural boundary condition of the Boolean matrix—without conditional branching or `if/else` checks.
-
 
 ##### Reference Python Implementation
 
@@ -244,6 +242,34 @@ The layout engine completely eliminates variable tracking and kerning, relying o
   <img src="images/527.jpeg" width="80%"/>
 </p>
 
+---
+
+
+# YOalphabet Converter
+
+<p align="center">
+  <a href="https://yoalphabet.github.io/YOalphabet/CONVERTER.html">
+    <img src="images/404.png" alt="YOalphabet Converter" width="90%"/>
+  </a>
+</p>
+
+A single-file HTML tool that turns keyboard text (0-9, A-Z) into YOalphabet glyphs and saves the result as a .jpg image. It works offline in any browser, with no installation.
+
+**[Try the YOalphabet Converter online](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)**
+
+Prefer to use it offline? [Download `CONVERTER.html`](https://github.com/YOalphabet/YOalphabet/blob/main/CONVERTER.html) from the repository (click "Download raw file") and open it in your browser.
+
+
+- Keyboard palette: the 16 base glyphs (O…J) as a 4×4 matrix, the remaining letters (glyph + dot), and digits 0-9.
+- Canonical and Rotational diagonal profiles.
+- Rounded or sharp 45° and 90° corners.
+- Adjustable glyph size, line width, spacing, dot size, colors, and line wrap.
+- Optional 4×4 passport matrix and cell grid.
+- Export as .jpg: glyphs only, or input text + glyphs.
+
+The converter implements the glyph construction rules from this specification. It is a visualization and export tool; it does not perform recognition or parsing.
+
+---
 
 ###  UI/UX & Visual Style Adaptability (Skinning Example)
 
@@ -298,32 +324,6 @@ The base geometry is simple enough to produce with basic tools. These are design
 
 #####  Official Font Files
 The compiled font files (`.ttf`, `.otf`) are available directly in the root (`main`) folder of the repository for use in web applications, desktop publishing, and mobile interfaces.
-
----
-# YOalphabet Converter
-
-<p align="center">
-  <a href="https://yoalphabet.github.io/YOalphabet/CONVERTER.html">
-    <img src="images/404.png" alt="YOalphabet Converter" width="90%"/>
-  </a>
-</p>
-
-
-A single-file HTML tool that turns keyboard text (0-9, A-Z) into YOalphabet glyphs and saves the result as a .jpg image. It works offline in any browser, with no installation.
-
-**[Try the YOalphabet Converter online](https://yoalphabet.github.io/YOalphabet/CONVERTER.html)**
-
-Prefer to use it offline? [Download `CONVERTER.html`](https://github.com/YOalphabet/YOalphabet/blob/main/CONVERTER.html) from the repository (click "Download raw file") and open it in your browser.
-
-
-- Keyboard palette: the 16 base glyphs (O…J) as a 4×4 matrix, the remaining letters (glyph + dot), and digits 0-9.
-- Canonical and Rotational diagonal profiles.
-- Rounded or sharp 45° and 90° corners.
-- Adjustable glyph size, line width, spacing, dot size, colors, and line wrap.
-- Optional 4×4 passport matrix and cell grid.
-- Export as .jpg: glyphs only, or input text + glyphs.
-
-The converter implements the glyph construction rules from this specification. It is a visualization and export tool; it does not perform recognition or parsing.
 
 
 ---
