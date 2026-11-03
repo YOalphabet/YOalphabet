@@ -372,8 +372,8 @@ This is an orthographic mapping of English letters, not a phonemic transcription
 
 To extend the baseline **YOalphabet** (16 core glyphs) to the full 26-letter American alphabet while preserving its compact 4-bit geometric architecture, a **two-register system** is implemented:
 
-* **Register 1 (Base):** The 16 original letters encoded by clean geometric glyphs. Accounts for **~80%** of letter frequency in standard English.
-* **Register 2 (Modified):** The 10 remaining letters encoded using Register 1 donor glyphs with an **internal diacritic dot** placed inside the bounding box. Accounts for **~20%** of letter occurrences in standard English.
+* **Register 1 (Base):** The 16 original letters encoded by clean geometric glyphs. Accounts for **~78%** of letter frequency in standard English.
+* **Register 2 (Modified):** The 10 remaining letters encoded using Register 1 donor glyphs with an **internal diacritic dot** placed inside the bounding box. Accounts for **~22%** of letter occurrences in standard English.
 
 <p align="center">
   <img src="images/530.jpeg" width="80%"/>
