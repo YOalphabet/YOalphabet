@@ -246,6 +246,11 @@ The layout engine completely eliminates variable tracking and kerning, relying o
 
 ---
 
+## Punctuation (experimental draft)
+
+Punctuation signs are built from 12 elements of the same square: 8 half-sides (each side split at its midpoint) and 4 half-diagonals (center to corner); a full side or diagonal is two halves drawn together, which gives 4095 non-empty combinations. Keeping only figures that can be written in one continuous stroke (retracing a line is allowed), have at least 3 elements, and do not coincide with a letter glyph or its rotation leaves 435 distinct shapes up to rotation, and 61 of them are symmetric (a mirror axis or a 180° turn), about 207 if rotated variants count as separate signs. This is enough for a draft set of 64 signs, but with little margin, so a fully symmetric set needs either rotated variants or relaxed rules. The assignment of signs to actual punctuation marks is not made yet, and legibility has not been tested.
+
+---
 
 # YOalphabet Converter
 
