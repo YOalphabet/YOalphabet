@@ -3,9 +3,9 @@
 
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
-# YOalphabet: a geometric writing system where 4-bit numbers make letters
+# YOalphabet. A 4-Bit Geometric Writing System
 
-**Numbers make letters.** 16 glyphs, each one a 4-bit number and an IPA sound. A script, not a language.
+**Numbers make letters.** 16 glyphs. Each one is a 4-bit number, a geometric shape, and an IPA sound. A script, not a language.
 
 <p align="center">
   <img src="images/631.gif" width="80%"/>
