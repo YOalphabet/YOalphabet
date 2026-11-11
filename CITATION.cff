@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this specification, please cite it using these metadata."
-title: "YOalphabet: a geometric writing system where 4-bit numbers make letters"
+title: "YOalphabet. A 4-Bit Geometric Writing System"
 authors:
   - family-names: "Patoka"
     given-names: "Yevhen"
     # orcid: "https://orcid.org/0009-0009-0599-9486"
-version: "1.1.0"
-date-released: 2026-10-26
+version: "1.2.0"
+date-released: 2027-01-03
 repository-code: "https://github.com/YOalphabet/YOalphabet.git"
 keywords:
   - "yoconlang"
