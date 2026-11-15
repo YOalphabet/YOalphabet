@@ -1,3 +1,4 @@
+<a href="https://lounge.ai/@yoalphabet"><img src="https://lounge.ai/api/badge/yoalphabet" alt="YOalphabet on AI Lounge" height="28"></a>
 
 [![DOI](https://zenodo.org/badge/1331302673.svg)](https://doi.org/10.5281/zenodo.23205572)
 
