@@ -500,6 +500,10 @@ It does not change the way the script is read, written, or understood as a writi
   <img src="images/402.png" width="90%"/>
 </p>
 
+<p align="center">
+  <img src="images/546.jpg" width="100%"/>
+</p>
+
 # PART 2: YOconlang CORE SPECIFICATION 1.1.0
 
 Experimental and unfinished; separate from YOalphabet.
