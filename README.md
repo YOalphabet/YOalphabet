@@ -1,16 +1,14 @@
-<a href="https://lounge.ai/@yoalphabet"><img src="https://lounge.ai/api/badge/yoalphabet" alt="YOalphabet on AI Lounge" height="28"></a>
 
 [![DOI](https://zenodo.org/badge/1331302673.svg)](https://doi.org/10.5281/zenodo.23205572)
 
-[![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
 # YOalphabet. A 4-Bit Geometric Writing System
 
 ## Numbers make letters. 16 glyphs. Each one is a 4-bit number, a geometric shape, and an IPA sound. A script, not a language.
 
 <p align="center">
-  <img src="images/631.gif" width="80%"/>
-</p>
+  <img src="images/632.gif" width="100%"/>
+</p>то
 
 ## [Try the Converter](https://yoalphabet.github.io/YOalphabet/CONVERTER.html) · [Play the Clicker](https://yoalphabet.github.io/YOalphabet/CLICKER.html)
 
@@ -808,3 +806,13 @@ Applications in assistive technology, industrial control, or medical communicati
 If you would like to support the project, please contact the author: [X](https://x.com/YOalphabet)
 
 **License:** MIT License. Forks and experiments are welcome.
+
+<a href="https://lounge.ai/@yoalphabet"><img src="https://lounge.ai/api/badge/yoalphabet" alt="YOalphabet on AI Lounge" height="28"></a>
+
+[![DOI](https://zenodo.org/badge/1331302673.svg)](https://doi.org/10.5281/zenodo.23205572)
+
+[![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
+
+<p align="center">
+  <img src="images/631.gif" width="80%"/>
+</p>
