@@ -8,7 +8,7 @@
 
 <p align="center">
   <img src="images/632.gif" width="100%"/>
-</p>то
+</p>
 
 ## [Try the Converter](https://yoalphabet.github.io/YOalphabet/CONVERTER.html) · [Play the Clicker](https://yoalphabet.github.io/YOalphabet/CLICKER.html)
 
