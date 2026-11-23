@@ -4,7 +4,7 @@
 
 # YOalphabet. A 4-Bit Geometric Writing System
 
-## Numbers make letters. 16 glyphs. Each one is a 4-bit number, a geometric shape, and an IPA sound. A script, not a language.
+## Numbers make letters. A script of 4×4 glyphs computed from 4-bit numbers.
 
 <p align="center">
   <img src="images/632.gif" width="100%"/>
