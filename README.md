@@ -305,9 +305,12 @@ An experimental goal is to write most glyphs in one continuous motion. In the cu
 
 Handwritten variation is intended to preserve glyph identity, but readability and machine recognition should be tested separately for each style.
 
+<p align="center">
+  <img src="images/419.png" width="90%"/>
+</p>
 
 <p align="center">
-  <img src="images/545.jpg" width="80%"/>
+  <img src="images/545.jpg" width="90%"/>
 </p>
 
  
