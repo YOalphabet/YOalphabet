@@ -501,9 +501,6 @@ It does not change the way the script is read, written, or understood as a writi
   <img src="images/402.png" width="90%"/>
 </p>
 
-<p align="center">
-  <img src="images/546.jpg" width="100%"/>
-</p>
 
 # PART 2: YOconlang CORE SPECIFICATION 1.1.0
 
@@ -741,6 +738,27 @@ o   a   e   t   u   n   l   v   i   b   s   h   p   m   k   j
 [![X (Twitter) Follow](https://img.shields.io/badge/X%20(Twitter)-Follow%20%40YOalphabet-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOalphabet)
 
 ---
+
+<p align="center">
+  <img src="images/546.jpg" width="100%"/>
+</p>
+
+### Eight sentences decoded
+
+Position is the row and column of the first glyph, counted from the top-left cell of the 32×32 grid.
+
+| # | Position | YOconlang | Word by word | Meaning |
+| :-: | :-: | :--- | :--- | :--- |
+| 1 | row 1, col 28 | `im ta nan it` | `im` I · `ta` present · `nan` love · `it` you | I love you. |
+| 2 | row 9, col 19 | `in to vep an` | `in` he/she · `to` past · `vep` see · `an` this | He/she saw this. |
+| 3 | row 8, col 1 | `is te lel` | `is` we (without you) · `te` future · `lel` come | We will come. |
+| 4 | row 8, col 12 | `it ni lel` | `it` you · `ni` command · `lel` come | You, come! |
+| 5 | row 22, col 12 | `im ne kem an` | `im` I · `ne` can · `kem` read · `an` this | I can read this. |
+| 6 | row 25, col 20 | `uu us ta vep an` | `uu us` nobody · `ta` present · `vep` see · `an` this | Nobody sees this. |
+| 7 | row 10, col 26 | `im ta hoh ko im ta sas` | `im` I · `ta` present · `hoh` think · `ko` therefore · `im` I · `ta` present · `sas` live | I think, therefore I live. |
+| 8 | row 32, col 19 | `in tu sos` | `in` he/she · `tu` completed · `sos` sleep | He/she has slept. |
+
+
 
 <p align="center">
   <img src="images/528.jpg" width="90%"/>
