@@ -521,7 +521,6 @@ YOconlang is designed around the MECE principle (Mutually Exclusive, Collectivel
 The language utilizes strict morphological word templates:
 
 * Verbs, Adjectives, Adverbs: Rigid three-letter roots following the C₁VC₂ structure.
-* Nouns: Rigid four-letter roots following the C₁V₁C₂V₂ structure.
 * Pronouns and Structural Particles: Two-letter combinations following VC or CV templates.
 * System markers: two-vowel forms following the VV pattern.
 
