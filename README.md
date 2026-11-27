@@ -222,6 +222,12 @@ IPA `[j]` is the sound of *y* in English *yes*, not of *j* in *jam*. Shapes and 
 
 Small by design. YOalphabet has 16 sounds on purpose: 16 is exactly what four bits can encode, so every glyph is at once a sound, a number and a shape. It is not meant to replace any existing alphabet or to write every sound of every language. The trade-off is deliberate: words from other languages can only be approximated, and some distinctions are lost.
 
+**Type it as you hear it.** All 16 IPA symbols used by YOalphabet are plain Latin letters found on an English keyboard. No special characters or new layout are needed: type `o a e t u n l v i b s h p m k j`, and the [converter](https://yoalphabet.github.io/YOalphabet/CONVERTER.html) shows the 16 glyphs. Read the letters as IPA, not as English spelling.
+
+<p align="center">
+  <img src="images/413.png" alt="English keyboard with the 16 YOalphabet keys highlighted, each showing its glyph" width="90%"/>
+</p>
+
 
 ---
 
