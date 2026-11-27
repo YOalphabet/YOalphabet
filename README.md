@@ -182,6 +182,44 @@ By inverting the internal diagonals of just three symbols (**#2**, **#5**, and *
 </p>
 
 ### The 16 glyphs are assigned 16 phonemes chosen for broad cross-linguistic availability. This is a design choice; the set is not claimed to be the 16 most frequent sounds worldwide:
+
+### One Glyph, One Sound (IPA)
+
+Used as letters, each of the 16 glyphs of YOalphabet stands for exactly one sound, written here in the [International Phonetic Alphabet (IPA)](https://www.internationalphoneticassociation.org/content/ipa-chart), and each of these 16 sounds has exactly one glyph.
+
+**1 glyph = 1 sound. 1 sound = 1 glyph.**
+
+This means:
+
+- a glyph is read the same way in every position;
+- a sound is always written with the same glyph;
+- glyphs do not combine into new sounds (no digraphs);
+- there are no silent glyphs.
+
+**Vowels (5)**
+
+| IPA | `[o]` | `[a]` | `[e]` | `[u]` | `[i]` |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Glyph #** | 0 | 1 | 2 | 4 | 8 |
+
+**Consonants (11)**
+
+| IPA | `[t]` | `[n]` | `[l]` | `[v]` | `[b]` | `[s]` | `[h]` | `[p]` | `[m]` | `[k]` | `[j]` |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Glyph #** | 3 | 5 | 6 | 7 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
+
+IPA `[j]` is the sound of *y* in English *yes*, not of *j* in *jam*. Shapes and binary codes are in the [summary table](#summary-table-and-color-matrix-of-all-16-glyphs) below.
+
+<p align="center">
+  <img src="images/524.jpg" width="80%"/>
+</p>
+
+**The sound class can be read from the bits.** A glyph is a vowel exactly when no more than one edge bit is set (#0, #1, #2, #4, #8); all other glyphs are consonants. Every vowel is drawn with 2 lines and has a diagonal starting at the bottom-left corner. Every consonant is drawn with 3 or 4 lines.
+
+**Why these sounds.** The 16 phonemes were chosen for broad cross-linguistic availability. This is a design choice; the set is not claimed to be the 16 most frequent sounds worldwide. The aim is a culturally and historically neutral base inventory, one that does not depend on the spelling rules of any single language.
+
+---
+
    
 * **Vowels:** `[o]`, `[a]`, `[e]`, `[u]`, `[i]`
 * **Consonants:** `[t]`, `[n]`, `[l]`, `[v]`, `[b]`, `[s]`, `[h]`, `[p]`, `[m]`, `[k]`, `[j]`
