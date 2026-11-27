@@ -548,6 +548,8 @@ The matrix is intended to make lexical relationships explicit and reduce uncontr
 YOconlang is an a priori engineered language designed for unambiguous, frictionless communication. A foundational axiom of the language is the absolute immutability of roots. There are no inflections, suffixes, declensions, or internal conjugations. Grammatical categories, temporal shifts, and modalities are expressed exclusively via external grammatical particles.
 The phonotactics are strictly anchored in the International Phonetic Alphabet (IPA), using 5 core vowels and 11 stable consonants to reduce articulatory difficulty. Stress is fixed invariantly on the first syllable of every separate word.
 
+Spelling is transcription. YOconlang is written with 16 Latin letters, each read as the IPA sound of the same shape: a e i o u b h j k l m n p s t v. Stress falls on the first syllable of every word, so no separate IPA line is needed. Note that j is read as y in yes, and vowels are not read as in English spelling.
+
 YOconlang is designed around the MECE principle (Mutually Exclusive, Collectively Exhaustive): every root occupies a unique coordinate in the semantic matrix, and the categories are chosen to minimise overlap and gaps. Coverage and ambiguity are design goals to be tested, not established properties.
 
 **Status and stability.** YOconlang is experimental and pre-1.0. The construction principle is stable: a three-axis matrix (domain – process – target), fixed word templates, immutable uninflected roots, grammatical particles and strict SVO order. The specific categories on each axis, the particle blocks (VV, CV, VC), and individual roots and meanings are a working draft and may change between versions.
