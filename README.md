@@ -181,7 +181,7 @@ By inverting the internal diagonals of just three symbols (**#2**, **#5**, and *
   <img src="images/407.png" width="80%"/>
 </p>
 
-### The 16 glyphs are assigned 16 phonemes chosen for broad cross-linguistic availability. This is a design choice; the set is not claimed to be the 16 most frequent sounds worldwide:
+---
 
 ### One Glyph, One Sound (IPA)
 
@@ -218,20 +218,8 @@ IPA `[j]` is the sound of *y* in English *yes*, not of *j* in *jam*. Shapes and 
 
 **Why these sounds.** The 16 phonemes were chosen for broad cross-linguistic availability. This is a design choice; the set is not claimed to be the 16 most frequent sounds worldwide. The aim is a culturally and historically neutral base inventory, one that does not depend on the spelling rules of any single language.
 
----
+Small by design. YOalphabet has 16 sounds on purpose: 16 is exactly what four bits can encode, so every glyph is at once a sound, a number and a shape. It is not meant to replace any existing alphabet or to write every sound of every language. The trade-off is deliberate: words from other languages can only be approximated, and some distinctions are lost.
 
-   
-* **Vowels:** `[o]`, `[a]`, `[e]`, `[u]`, `[i]`
-* **Consonants:** `[t]`, `[n]`, `[l]`, `[v]`, `[b]`, `[s]`, `[h]`, `[p]`, `[m]`, `[k]`, `[j]`
-
-By doing so, I ensured that the script remains **culturally and historically neutral**, making it selected as the project's base phonetic inventory.
-
-<p align="center">
-  <img src="images/524.jpg" width="80%"/>
-</p>
-
-All 5 basic vowel sounds of the language (`[o]`, `[a]`, `[e]`, `[u]`, `[i]`) are encoded with **0 or 1 active bits**. 
-Graphically, each consists of exactly **2 lines** (including compensatory diagonals) and features a diagonal running from the bottom-left corner.
 
 ---
 
