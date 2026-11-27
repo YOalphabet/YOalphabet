@@ -51,6 +51,8 @@ The whole glyph, outer edges and internal diagonals, is computed from four bits.
 YOalphabet is a deterministic writing system generated from a 4-bit code.
 Every glyph is defined by a one-to-one assignment between a geometric symbol, a unique International Phonetic Alphabet (IPA) sound, a decimal number (0–15), and a 4-bit binary code.
 
+**Normative Stability & Fixed Core:** The core of YOalphabet is strictly locked at 16 glyphs, defined by a four-bit rule. The specification will not add a seventeenth core glyph or alter the reference shapes. Handwritten and styled forms may vary, but the canonical reference shape can always be rebuilt algorithmically from the 4-bit code. Stability of the written inventory is a structural guarantee; maintaining uniformity in spoken YOconlang over time relies on shared standards, active teaching, and communication.
+
 ## **Binary Code ⟺ Decimal Index ⟺ Spatial Geometry ⟺ IPA Phoneme**
 
 Each character is inscribed within an invariant square bounding box consisting of two independent structural layers:
