@@ -27,7 +27,7 @@ The shape follows from the code by rule, and the code can be read back from the 
 ## At a glance
 
 - **16 glyphs, 44 lines:** 32 outer edges and 12 internal diagonals.
-- **16 sounds:** 5 vowels and 11 consonants, chosen for wide cross-linguistic availability.
+- **16 sounds, one per glyph:** 5 vowels and 11 consonants, written in IPA and chosen for wide cross-linguistic availability.
 - **English adaptation:** 26 letters, using the 16 base glyphs plus a dot modifier.
 - **Two geometric profiles:** Canonical (simple decoding) and Rotational (90° symmetry).
 - **Many styles:** geometric, rounded, handwritten, calligraphic, digital.
